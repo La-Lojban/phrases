@@ -1486,7 +1486,7 @@ Who do you talk to?	do ma tavla
 What have you been doing this week?	do ma zukte ca lo pu zi jeftu
 What have you done this week?	do ma zukte ca lo pu zi jeftu
 What's your location? Over.	do ma zvati mu'o
-What have you been doing all this time!	do ma u a nai zukte ze'a lo bi'u nai barda temci
+What have you been doing all this time!	do ma ua nai zukte ze'a lo bi'u nai barda temci
 You're a nerd.	do mabla zei certu zei xalbo
 You are my mother.	do mamta mi
 You have been chosen.	do me la se cuxna
@@ -1574,7 +1574,7 @@ You need sleep.	i do nitcu le nu do sipna
 How many hours of sleep do you need?	do nitcu lo ka sipna ze'a lo cacra be li xo
 You need a keycard to open the door.	do nitcu lo kardckiku lo nu kalri zei gasnu
 You need this.	do nitcu ti
-Do you really need to ask the question to know the answer?	do nitcu xu i a cu'i lo ka preti zei cusku ku lo ka co'a djuno
+Do you really need to ask the question to know the answer?	do nitcu xu ia cu'i lo ka preti zei cusku ku lo ka co'a djuno
 Are you a girl or a boy?	do nixli gi'i nanla
 You have never been to Okinawa, have you?	do no roi zvati la okinauan vau je'u pei
 You never understand anything.	i ro da zo'u do no roi jimpe da
@@ -1622,7 +1622,7 @@ What was the music you were listening to?	do pu tirna ma poi zgike
 You were busy.	do pu to'e cando
 What did you do last night?	do pu zukte ma ca lo lamji nicte
 What did you do at that moment?	do pu zukte ma ca sai ra
-You should have told him the truth.	do pu i ancu lo ka djuno zei gasnu fi lo jetnu
+You should have told him the truth.	do pu iancu lo ka djuno zei gasnu fi lo jetnu
 You've been spotted.	do pu'i se zgana
 You're not a teenager yet.	do pu'o verntineidja
 You sowed the grain a little while ago; when else do you sow it?	do pu zi je cu'e sombo lo gurni
@@ -1725,7 +1725,7 @@ Sit down, please,' he said.	i fe lu e'o do zutse li'u fa ra pu cusku
 You were at home yesterday, weren't you?	do zvati le zdani ca lo purci zei lamji zei djedi vau je'u pei
 Where are you?	do zvati ma
 How did you get here?	i ta'i ma do ti co'a ku zvati
-You should learn how to use your dictionary.	do i ancu lo ka cilre lo du'u ma kau tadji lo ka pilno lo do valsi zei liste
+You should learn how to use your dictionary.	do iancu lo ka cilre lo du'u ma kau tadji lo ka pilno lo do valsi zei liste
 At least you didn't steal anything.	do'a nai do no da zekri lebna
 It's generous of you to teach me some additional things.	do'a dai do mi ctuca lo se jmina
 In footnotes, book titles and journal names are written in italics.	do'e lo'e paprlolnoi lo cukta cmene e lo karni cmene cu sa'ovlapoi
@@ -6952,7 +6952,7 @@ I am very sensitive to the cold.	mi mutce ganse lo ka lenku
 I'm very happy now.	mi mutce gleki
 I'm very glad to see you.	mi mutce gleki lo nu mi viska do
 I have an intense 'burning' pain in my eyes.	mi mutce ke jelca pe'a cortu lo kanla
-I'm very happy you'll be visiting Tokyo next month.	mi mutce lo ka gleki lo nu do vitke la to ki i os ca lo balvi zei lamji masti
+I'm very happy you'll be visiting Tokyo next month.	mi mutce lo ka gleki lo nu do vitke la tokiios ca lo balvi zei lamji masti
 I like it very much.	mi mutce lo ka nelci
 I highly doubt that.	mi mutce lo ka senpi
 I'm terrible at languages.	mi mutce lo ka to'e certu lo ka bangu cilre
@@ -8798,8 +8798,8 @@ I think you're very cute.	pe'i do mutce melbi
 I think you are mistaken.	pe'i do na drani
 I think you like Tom.	pe'i do nelci la tom
 I'm afraid you misunderstood me.	pe'i do pu jimpe zei srera fi lo se cusku be mi
-You should give up drinking.	pe'i do i ancu lo ka co'u ta'e pinxe lo xalka
-You should give up drinking and smoking.	pe'i do i ancu lo ka pinxe lo xalka gi'e sigja danmo zei vasxu vau co'u ta'e
+You should give up drinking.	pe'i do iancu lo ka co'u ta'e pinxe lo xalka
+You should give up drinking and smoking.	pe'i do iancu lo ka pinxe lo xalka gi'e sigja danmo zei vasxu vau co'u ta'e
 I think that it's too big.	pe'i dukse barda
 I think this is too expensive.	pe'i dukse kargu
 I think it could happen.	pe'i ka'e fasnu
@@ -10381,7 +10381,7 @@ Do you know where she lives?	xu do djuno fi lo se xabju be ra
 Do you know where Jim and Nancy are?	xu do djuno lo du'u la djim je la nansis cu zvati ma kau
 Did you know that Mary killed Tom?	xu do djuno lo du'u la meris cu catra la tom
 Do you know that conversation is one of the greatest pleasures in life?	xu do djuno lo du'u lo nu zei casnu cu zmadu pluka ma'i lo nu zei jmive
-Do you know who Rie Miyazawa is?	xu do djuno lo du'u lu ris mi i a za u as li'u cmene ma kau
+Do you know who Rie Miyazawa is?	xu do djuno lo du'u lu ris miiazauas li'u cmene ma kau
 Do you know what's causing the problem?	xu do djuno lo du'u ma gasnu lo nabmi
 Do you know how to use a dictionary?	xu do djuno lo du'u ma kau tadji lo ka pilno su'o valsi zei liste
 Do you know how to dive?	xu do djuno lo du'u ma kau tadji lo ka sfubu
@@ -10888,5 +10888,5 @@ Where can I find him?	zvati ma
 Where is he?	i le bi'u nai nakni ca zvati ma
 Where is the fire extinguisher?	i ma se zvati le tutci be lo dicra be lo nu fagri
 There it is.	i zvati tu
-Do you believe war will start?	i a pei ba co'a jamna
-Oh, there's a butterfly!	u a su'o toldi cu zvati
+Do you believe war will start?	ia pei ba co'a jamna
+Oh, there's a butterfly!	ua su'o toldi cu zvati
