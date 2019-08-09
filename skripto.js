@@ -15,7 +15,7 @@ doc.getInfo((err, info) => {
   };
   (async () => {
     const limit = 10000;
-    for (let offset = 0; offset < 90000; offset += limit) {
+    for (let offset = 0; offset < 190000; offset += limit) {
       await new Promise(resolve => {
         sheet.getRows(
           {
