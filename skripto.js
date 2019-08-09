@@ -9,17 +9,45 @@ const doc = new GoogleSpreadsheet(
 let sheet;
 doc.getInfo((err, info) => {
   sheet = info.worksheets[0];
-
-  sheet.getRows(
-    {
-      //   offset: 0,
-      //   limit: 1
-    },
-    (err, rows) => {
-      console.log(`${rows.length} rows in the file. Begin processing ...`);
-      processRows(rows);
+  let output = {
+    en2jb: [],
+    jb2en: []
+  };
+  (async () => {
+    const limit = 10000;
+    for (let i = 0; i < 90000; i += limit) {
+      await new Promise(resolve => {
+        sheet.getRows(
+          {
+            offset: i,
+            limit
+          },
+          (err, rows) => {
+            console.log(
+              `Reading ${
+                rows.length
+              } rows from the corpus, offset ${i}. Begin processing ...`
+            );
+            const { jb2en, en2jb } = processRows(rows);
+            output.jb2en = output.jb2en.concat(jb2en);
+            output.en2jb = output.en2jb.concat(en2jb);
+            resolve();
+          }
+        );
+      });
     }
-  );
+    console.log(`writing to output...`);
+    output.jb2en = output.jb2en
+      .map(i => `${i.source}\t${i.target}`)
+      .join("\n")
+      .replace(/[\r\n]{2,}/g, "\n");
+    output.en2jb = output.en2jb
+      .map(i => `${i.source}\t${i.target}`)
+      .join("\n")
+      .replace(/[\r\n]{2,}/g, "\n");
+    fs.writeFileSync("./jb2en.tsv", output.jb2en);
+    fs.writeFileSync("./en2jb.tsv", output.en2jb);
+  })();
 });
 
 function processRows(rows) {
@@ -27,43 +55,86 @@ function processRows(rows) {
   for (const r of rows) {
     let j;
     const tags = r.ilmenstags + r.glekistags + r.uakcisoptionalnewtags;
-    if (tags.indexOf("B") === -1) {
-      j = {
-        source: r.tatoebaenglish,
-        target:
-          r.glekisalternativeproposal ||
-          r.ilmensalternativeproposal ||
-          r.uakcisrevision ||
-          r.jelcaproposal ||
-          r.tatoebalojban
-      };
-      try {
-        j.target = lojban.zeizei(
-          j.target.replace(/ĭ/g, "i").replace(/ŭ/g, "u")
-        );
-      } catch (error) {
-        console.log(error);
-      }
+    j = {
+      source: r.tatoebaenglish || "",
+      target:
+        r.glekisalternativeproposal ||
+        r.ilmensalternativeproposal ||
+        r.uakcisrevision ||
+        r.jelcaproposal ||
+        r.tatoebalojban ||
+        ""
+    };
+
+    if (tags.indexOf("B") >= 0 && j.target === r.tatoebalojban) continue;
+
+    try {
+      j.target = lojban.zeizei(j.target.replace(/ĭ/g, "i").replace(/ŭ/g, "u"));
+    } catch (error) {
+      console.log(error);
     }
-    if (j && j.target !== "" && j.target.indexOf("zoi") === -1) {
-      j.target = j.target
-        .replace(/\./g, "")
-        .replace(/ {2,}/g, " ")
-        .trim();
-      n.push(j);
+
+    j.target = (j.target || "")
+      .replace(/'/g, "h")
+      .replace(/\./g, "")
+      .replace(/^i\b/g, "")
+      .replace(/ {2,}/g, " ")
+      .replace(/[\r\n]/g, "")
+      .trim();
+    j.source = j.source
+      .replace(/ {2,}/g, " ")
+      .replace(/[\r\n]/g, "")
+      .replace(/’/g, "'")
+      .trim();
+    if (
+      j.source !== "" &&
+      j.target !== "" &&
+      j.target.search(/\bzoi\b/) === -1
+    ) {
+      n = duplicator({ n, j });
     }
   }
-  console.log(n.length);
-  let tsv = n
-    .map(r => {
-      return `${r.source}\t${r.target}`;
-    })
-    .join("\n");
-  fs.writeFileSync("./ej.tsv", tsv);
-  tsv = n
-    .map(r => {
-      return `${r.target}\t${r.source}`;
-    })
-    .join("\n");
-  fs.writeFileSync("./je.tsv", tsv);
+
+  const en2jb = n.map(r => {
+    return { source: r.source, target: r.target };
+  });
+  const jb2en = n.map(r => {
+    return { source: r.target, target: r.source };
+  });
+  return { jb2en, en2jb };
+}
+
+function duplicator({ n, j }) {
+  j.target = j.target
+    .replace(/\bmeris\b/g, "maris")
+    .replace(/\ble\b/g, "lo")
+    .replace(/\blei\b/g, "loi");
+  n.push(j);
+  if (j.source.search(/\bTom\b/) >= 0) {
+    j2 = JSON.parse(JSON.stringify(j));
+    j2.source = j2.source.replace(/\bTom\b/g, "Alice");
+    j2.target = j2.target.replace(/\btom\b/g, "alis");
+    j2.target = j2.target.replace(/\btam\b/g, "alis");
+    n = n.concat(j2);
+
+    j2 = JSON.parse(JSON.stringify(j));
+    j2.source = j2.source.replace(/\bTom\b/g, "Mary");
+    j2.target = j2.target.replace(/\btom\b/g, "maris");
+    j2.target = j2.target.replace(/\btam\b/g, "maris");
+    n = n.concat(j2);
+  }
+  if (j.source.search(/\bapples?\b/) >= 0) {
+    j2 = JSON.parse(JSON.stringify(j));
+    j2.source = j2.source.replace(/\bapple\b/g, "pear");
+    j2.source = j2.source.replace(/\bapples\b/g, "pears");
+    j2.target = j2.target.replace(/\bplise\b/g, "perli");
+    n = n.concat(j2);
+  }
+  if (j.source.search(/\bOsaka\b/) >= 0) {
+    j2 = JSON.parse(JSON.stringify(j));
+    j2.source = j2.source.replace(/\bOsaka\b/g, "New York");
+    j2.target = j2.target.replace(/\bosakan\b/g, "nuiork");
+    n = n.concat(j2);
+  }
+  return n;
 }
