@@ -15,18 +15,18 @@ doc.getInfo((err, info) => {
   };
   (async () => {
     const limit = 10000;
-    for (let i = 0; i < 90000; i += limit) {
+    for (let offset = 0; offset < 90000; offset += limit) {
       await new Promise(resolve => {
         sheet.getRows(
           {
-            offset: i,
+            offset,
             limit
           },
           (err, rows) => {
             console.log(
               `Reading ${
                 rows.length
-              } rows from the corpus, offset ${i}. Begin processing ...`
+              } rows from the corpus, offset ${offset}. Begin processing ...`
             );
             const { jb2en, en2jb } = processRows(rows);
             output.jb2en = output.jb2en.concat(jb2en);
@@ -107,6 +107,7 @@ function processRows(rows) {
 function duplicator({ n, j }) {
   j.target = j.target
     .replace(/\bmeris\b/g, "maris")
+    .replace(/\btokion\b/g, "tokios")
     .replace(/\ble\b/g, "lo")
     .replace(/\blei\b/g, "loi");
   n.push(j);
@@ -134,6 +135,12 @@ function duplicator({ n, j }) {
     j2 = JSON.parse(JSON.stringify(j));
     j2.source = j2.source.replace(/\bOsaka\b/g, "New York");
     j2.target = j2.target.replace(/\bosakan\b/g, "nuiork");
+    n = n.concat(j2);
+  }
+  if (j.source.search(/\bTokio\b/) >= 0) {
+    j2 = JSON.parse(JSON.stringify(j));
+    j2.source = j2.source.replace(/\bTokio\b/g, "New York");
+    j2.target = j2.target.replace(/\btokios\b/g, "nuiork");
     n = n.concat(j2);
   }
   return n;
