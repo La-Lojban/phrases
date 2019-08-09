@@ -25,7 +25,7 @@ doc.getInfo((err, info) => {
           (err, rows) => {
             console.log(
               `Reading ${
-                rows.length
+              rows.length
               } rows from the corpus, offset ${offset}. Begin processing ...`
             );
             const { jb2en, en2jb } = processRows(rows);
@@ -69,12 +69,14 @@ function processRows(rows) {
     if (tags.indexOf("B") >= 0 && j.target === r.tatoebalojban) continue;
 
     try {
-      j.target = lojban.zeizei(j.target.replace(/ĭ/g, "i").replace(/ŭ/g, "u"));
+      j.target = lojban.ilmentufa_off(lojban.zeizei(j.target.replace(/ĭ/g, "i")
+        .replace(/ŭ/g, "u")), 'T').kampu;
     } catch (error) {
       console.log(error);
     }
 
     j.target = (j.target || "")
+      .toLowerCase().replace(/[^a-z ,'\.]/g, '')
       .replace(/'/g, "h")
       .replace(/\./g, "")
       .replace(/^i\b/g, "")
