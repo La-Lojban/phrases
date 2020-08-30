@@ -63,7 +63,8 @@ function processRows(rows) {
         r.uakcisrevision ||
         r.jelcaproposal ||
         r.tatoebalojban ||
-        ""
+        "",
+      tags: r.glekistags || r.ilmenstags || r.uakcisoptionalnewtags
     };
 
     if (tags.indexOf("B") >= 0 && j.target === r.tatoebalojban) continue;
@@ -98,10 +99,10 @@ function processRows(rows) {
   }
 
   const en2jb = n.map(r => {
-    return { source: r.source, target: r.target };
+    return { source: r.source, target: r.target, tags: r.tags };
   });
   const jb2en = n.map(r => {
-    return { source: r.target, target: r.source };
+    return { source: r.target, target: r.source, tags: r.tags };
   });
   return { jb2en, en2jb };
 }
