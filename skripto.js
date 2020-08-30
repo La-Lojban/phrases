@@ -1,7 +1,7 @@
 const fs = require("fs");
 const path = require("path-extra");
 const lojban = require("lojban");
-const GoogleSpreadsheet = require("google-spreadsheet");
+const {GoogleSpreadsheet} = require("google-spreadsheet");
 
 const doc = new GoogleSpreadsheet(
   "1Md0pojdcO3EVf3LQPHXFB7uOThNvTWszkWd5T4YhvKs"
