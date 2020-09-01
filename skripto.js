@@ -1,76 +1,125 @@
+require('dotenv').config()
 const fs = require("fs");
-const path = require("path-extra");
+const path = require("path");
 const lojban = require("lojban");
-const {GoogleSpreadsheet} = require("google-spreadsheet");
+const { GoogleSpreadsheet } = require("google-spreadsheet");
 
 const doc = new GoogleSpreadsheet(
   "1Md0pojdcO3EVf3LQPHXFB7uOThNvTWszkWd5T4YhvKs"
 );
-let sheet;
-doc.getInfo((err, info) => {
-  sheet = info.worksheets[0];
+doc.useApiKey(process.env.KEY);
+(async () => {
+  await doc.loadInfo();
+  const sheet = doc.sheetsByIndex[0];
+
   let output = {
     en2jb: [],
     jb2en: []
   };
-  (async () => {
-    const limit = 10000;
-    for (let offset = 0; offset < 190000; offset += limit) {
-      await new Promise(resolve => {
-        sheet.getRows(
-          {
-            offset,
-            limit
-          },
-          (err, rows) => {
-            console.log(
-              `Reading ${
-              rows.length
-              } rows from the corpus, offset ${offset}. Begin processing ...`
-            );
-            const { jb2en, en2jb } = processRows(rows);
-            output.jb2en = output.jb2en.concat(jb2en);
-            output.en2jb = output.en2jb.concat(en2jb);
-            resolve();
-          }
-        );
-      });
-    }
-    console.log(`writing to output...`);
-    output.jb2en = output.jb2en
-      .map(i => `${i.source}\t${i.target}`)
-      .join("\n")
-      .replace(/[\r\n]{2,}/g, "\n");
-    output.en2jb = output.en2jb
-      .map(i => `${i.source}\t${i.target}`)
-      .join("\n")
-      .replace(/[\r\n]{2,}/g, "\n");
-    fs.writeFileSync("./jb2en.tsv", output.jb2en);
-    fs.writeFileSync("./en2jb.tsv", output.en2jb);
-  })();
-});
 
+  const limit = 10000;
+  for (let offset = 0; offset < 190000; offset += limit) {
+    try {
+      const rows = await sheet.getRows(
+        {
+          offset,
+          limit
+        })
+      const { jb2en, en2jb } = processRows(rows);
+      output.jb2en = output.jb2en.concat(jb2en);
+      output.en2jb = output.en2jb.concat(en2jb);
+    } catch (error) {
+      continue
+    }
+  }
+
+  console.log(`writing to output...`);
+  createDexieCacheFile(output.jb2en)
+  output.jb2en = output.jb2en
+    .map(i => `${i.source}\t${i.target}\t${i.tags.join(" ")}`)
+    .join("\n")
+    .replace(/[\r\n]{2,}/g, "\n");
+  output.en2jb = output.en2jb
+    .map(i => `${i.source}\t${i.target}\t${i.tags}`)
+    .join("\n")
+    .replace(/[\r\n]{2,}/g, "\n");
+  fs.writeFileSync("./dist/jb2en.tsv", output.jb2en);
+  fs.writeFileSync("./dist/en2jb.tsv", output.en2jb);
+
+})()
+
+function createDexieCacheFile(arr) {
+  const a = arr.map(i => {
+    let cache = `${i.source};${i.source.replace(/h/g, "'")};${i.source_opt};${(i.source_opt || '').replace(/h/g, "'")};${i.target.replace(/[\.,!?\/\\]/g, '')};`
+    const cache1 = cache
+      .toLowerCase()
+      .replace(/ /g, ';')
+      .split(';')
+      .map((i) => i.trim())
+      .filter((i) => i !== '')
+    let cache2 = cache
+      .toLowerCase()
+      .replace(
+        /[ \u2000-\u206F\u2E00-\u2E7F\\!"#$%&()*+,\-.\/:<=>?@\[\]^`{|}~：？。，《》「」『』－（）]/g,
+        ';'
+      )
+      .split(';')
+      .map((i) => i.trim())
+      .filter((i) => i !== '')
+    cache = cache1.concat(cache2)
+    cache = [...new Set(cache)]
+    const outRow = { w: i.source, bangu: 'muplis', d: i.target, cache }
+    if (i.tags.length > 0) outRow.s = i.tags
+    return outRow
+  })
+  const outp = {
+    "formatName": "dexie",
+    "formatVersion": 1,
+    "data": {
+      "databaseName": "sorcu1",
+      "databaseVersion": 1,
+      "tables": [
+        {
+          "name": "valsi",
+          "schema": "++id, bangu, w, d, n, t, g, *r, *cache",
+          "rowCount": a.length
+        }
+      ],
+      "data": [{
+        "tableName": "valsi",
+        "inbound": true,
+        "rows": a
+      }]
+    }
+  }
+
+  fs.writeFileSync(
+    path.join(__dirname, 'dist', 'parsed-muplis.blob.json'),
+    JSON.stringify(outp)
+  )
+}
 function processRows(rows) {
   let n = [];
   for (const r of rows) {
+    if (r._rowNumber % 100 === 0) console.log(`processing row ${r._rowNumber}`)
     let j;
-    const tags = r.ilmenstags + r.glekistags + r.uakcisoptionalnewtags;
+    const tags = (r["Ilmen's tags"] || '') + (r["gleki's tags"] || '') + (r["uakci's optional new tags"] || '');
     j = {
-      source: r.tatoebaenglish || "",
+      source: r['Tatoeba: English'] || "",
       target:
-        r.glekisalternativeproposal ||
-        r.ilmensalternativeproposal ||
-        r.uakcisrevision ||
-        r.jelcaproposal ||
-        r.tatoebalojban ||
+        r['gleki\'s alternative proposal'] ||
+        r['Ilmen\'s alternative proposal'] ||
+        r['uakci\'s revision'] ||
+        r['jelca proposal'] ||
+        r['Tatoeba: Lojban'] ||
         "",
-      tags: r.glekistags || r.ilmenstags || r.uakcisoptionalnewtags
+      tags: r["gleki's tags"] || r["Ilmen's tags"] || r["uakci's optional new tags"] || ''
     };
 
-    if (tags.indexOf("B") >= 0 && j.target === r.tatoebalojban) continue;
+    if ((tags.indexOf("B") >= 0 && j.target === r['Tatoeba: Lojban']) || (r['Tatoeba: Lojban'] || '') === '' || (r['Tatoeba: English'] || '') === '') continue;
 
     try {
-      j.target = lojban.ilmentufa_off(lojban.zeizei(j.target.replace(/ĭ/g, "i")
+      j.target_opt = lojban.ilmentufa_off(lojban.zeizei(j.target.replace(/ĭ/g, "i")
         .replace(/ŭ/g, "u")), 'T').kampu;
     } catch (error) {
       console.log(error);
@@ -78,7 +127,15 @@ function processRows(rows) {
 
     j.target = (j.target || "")
       .toLowerCase().replace(/[^a-z ,'\.]/g, '')
-      .replace(/'/g, "h")
+      .replace(/h/g, "'")
+      .replace(/\./g, "")
+      .replace(/^i\b/g, "")
+      .replace(/ {2,}/g, " ")
+      .replace(/[\r\n]/g, "")
+      .trim();
+    j.target_opt = (j.target_opt || "")
+      .toLowerCase().replace(/[^a-z ,'\.]/g, '')
+      .replace(/h/g, "'")
       .replace(/\./g, "")
       .replace(/^i\b/g, "")
       .replace(/ {2,}/g, " ")
@@ -89,6 +146,7 @@ function processRows(rows) {
       .replace(/[\r\n]/g, "")
       .replace(/’/g, "'")
       .trim();
+    if (j.target_opt.indexOf("syntaxerror") >= 0) delete j.target_opt
     if (
       j.source !== "" &&
       j.target !== "" &&
@@ -99,10 +157,30 @@ function processRows(rows) {
   }
 
   const en2jb = n.map(r => {
-    return { source: r.source, target: r.target, tags: r.tags };
+    const outRow = { source: r.source, target: r.target, tags: r.tags }
+    return outRow;
   });
   const jb2en = n.map(r => {
-    return { source: r.target, target: r.source, tags: r.tags };
+    // Or this is what la Ilmen uses: G (good), G− (a little good, not so good), G+ (very good), A (acceptable), B[−+] ([a little / very] bad), N (neologism, containing an undocumented Lojban word), E (experimental grammar), P (non-conventional punctuation), C - CLL style, X - xorlo. W - play on words and thus poorly translatable to/from Lojban
+    r.tags = r.tags.replace(/ /g, '').split(/[A-Z][\+\-]?/).filter(i => i !== '').map(i => {
+      i = i
+        .replace(/^G\-$/, '👍')
+        .replace(/^G$/, '👍👍')
+        .replace(/^G\+$/, '👍👍👍')
+        .replace(/^A$/, '😐')
+        .replace(/^B-$/, '👎')
+        .replace(/^B$/, '👎👎')
+        .replace(/^B\+$/, '👎👎👎')
+        .replace(/^N$/, '👒')
+        .replace(/^E$/, '🧪')
+        .replace(/^P$/, '🎗')
+        .replace(/^C$/, '📕')
+        .replace(/^X$/, 'xorlo')
+        .replace(/^W$/, 'trokadilo')
+      return i
+    })
+    const outRow = { source: r.target, source_opt: r.target_opt, target: r.source, tags: r.tags }
+    return outRow;
   });
   return { jb2en, en2jb };
 }
