@@ -1,0 +1,27 @@
+{
+  "name": "phrases",
+  "version": "1.0.0",
+  "description": "a preprocessed corpus of lojban sentences for machine translation exercises",
+  "main": "skripto.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fs": "^0.0.1-security",
+    "google-spreadsheet": "^3.0.13",
+    "lojban": "^1.1.10",
+    "path-extra": "^4.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/La-Lojban/phrases.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/La-Lojban/phrases/issues"
+  },
+  "homepage": "https://github.com/La-Lojban/phrases#readme"
+}
