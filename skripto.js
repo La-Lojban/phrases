@@ -72,31 +72,7 @@ function createDexieCacheFile(arr) {
     if (i.tags.length > 0) outRow.s = i.tags
     return outRow
   })
-  const outp = {
-    "formatName": "dexie",
-    "formatVersion": 1,
-    "data": {
-      "databaseName": "sorcu1",
-      "databaseVersion": 1,
-      "tables": [
-        {
-          "name": "valsi",
-          "schema": "++id, bangu, w, d, n, t, g, *r, *cache",
-          "rowCount": a.length
-        }
-      ],
-      "data": [{
-        "tableName": "valsi",
-        "inbound": true,
-        "rows": a
-      }]
-    }
-  }
-
-  fs.writeFileSync(
-    path.join(__dirname, 'dist', 'parsed-muplis.blob.json'),
-    JSON.stringify(outp)
-  )
+  splitOutput(a)
 }
 function processRows(rows) {
   let n = [];
@@ -225,4 +201,60 @@ function duplicator({ n, j }) {
     n = n.concat(j2);
   }
   return n;
+}
+
+function splitToChunks(array, parts) {
+  let result = [];
+  for (let i = parts; i > 0; i--) {
+    result.push(array.splice(0, Math.ceil(array.length / i)));
+  }
+  return result;
+}
+
+function splitOutput(arr) {
+  const tegerna = 'muplis'
+  const { compress } = require('compress-json')
+  const hash = require('object-hash')(arr)
+
+  splitToChunks(arr, 10).forEach((chunk, index) => {
+    const outp = {
+      formatName: 'dexie',
+      formatVersion: 1,
+      data: {
+        databaseName: 'sorcu1',
+        databaseVersion: 1,
+        tables: [
+          {
+            name: 'valsi',
+            schema: '++id, bangu, w, d, n, t, *s, g, *r, *cache, [r+bangu]',
+            rowCount: chunk.length,
+          },
+        ],
+        data: [
+          {
+            tableName: 'valsi',
+            inbound: true,
+            rows: chunk,
+          },
+        ],
+      },
+    }
+    let dir = '/livla/build/sutysisku/data'
+    dir = fs.existsSync(dir) ? dir : './dist'
+    let t = path.join(
+      dir,
+      `parsed-${tegerna}-${index}.blob.json`
+    )
+    fs.writeFileSync(t, JSON.stringify(outp))
+    fs.writeFileSync(t + ".z", JSON.stringify(compress(outp)))
+  })
+  const versio = '/livla/build/sutysisku/data/versio.json'
+  let jsonTimes = {}
+  try {
+    jsonTimes = JSON.parse(fs.readFileSync(versio, { encoding: 'utf8' }))
+  } catch (error) { }
+  jsonTimes[tegerna] = hash
+  try {
+    fs.writeFileSync(versio, JSON.stringify(jsonTimes))
+  } catch (error) { }
 }
