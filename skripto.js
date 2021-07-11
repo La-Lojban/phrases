@@ -3,6 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const lojban = require("lojban");
 const { GoogleSpreadsheet } = require("google-spreadsheet");
+const { stringify } = require('querystring');
 
 const doc = new GoogleSpreadsheet(
   "1Md0pojdcO3EVf3LQPHXFB7uOThNvTWszkWd5T4YhvKs"
@@ -72,31 +73,7 @@ function createDexieCacheFile(arr) {
     if (i.tags.length > 0) outRow.s = i.tags
     return outRow
   })
-  const outp = {
-    "formatName": "dexie",
-    "formatVersion": 1,
-    "data": {
-      "databaseName": "sorcu1",
-      "databaseVersion": 1,
-      "tables": [
-        {
-          "name": "valsi",
-          "schema": "++id, bangu, w, d, n, t, g, *r, *cache",
-          "rowCount": a.length
-        }
-      ],
-      "data": [{
-        "tableName": "valsi",
-        "inbound": true,
-        "rows": a
-      }]
-    }
-  }
-
-  fs.writeFileSync(
-    path.join(__dirname, 'dist', 'parsed-muplis.blob.json'),
-    JSON.stringify(outp)
-  )
+  splitOutput(a)
 }
 function processRows(rows) {
   let n = [];
@@ -122,8 +99,11 @@ function processRows(rows) {
       j.target_opt = lojban.ilmentufa_off(lojban.zeizei(j.target.replace(/ĭ/g, "i")
         .replace(/ŭ/g, "u")), 'T').kampu;
     } catch (error) {
-      console.log(error);
+      continue;
     }
+    if (j.target_opt.indexOf("syntaxerror") >= 0) continue
+
+    if (j.target_opt == "()") continue
 
     j.target = (j.target || "")
       .toLowerCase().replace(/[^a-z ,'\.]/g, '')
@@ -146,7 +126,6 @@ function processRows(rows) {
       .replace(/[\r\n]/g, "")
       .replace(/’/g, "'")
       .trim();
-    if (j.target_opt.indexOf("syntaxerror") >= 0) delete j.target_opt
     if (
       j.source !== "" &&
       j.target !== "" &&
@@ -156,11 +135,12 @@ function processRows(rows) {
     }
   }
 
-  const en2jb = n.map(r => {
+  let en2jb = n.map(r => {
     const outRow = { source: r.source, target: r.target, tags: r.tags }
     return outRow;
   });
-  const jb2en = n.map(r => {
+  en2jb = [...new Set(en2jb.map(el => JSON.stringify(el)))].map(el => JSON.parse(el))
+  let jb2en = n.map(r => {
     // Or this is what la Ilmen uses: G (good), G− (a little good, not so good), G+ (very good), A (acceptable), B[−+] ([a little / very] bad), N (neologism, containing an undocumented Lojban word), E (experimental grammar), P (non-conventional punctuation), C - CLL style, X - xorlo. W - play on words and thus poorly translatable to/from Lojban
     r.tags = r.tags.replace(/ /g, '').split(/[A-Z][\+\-]?/).filter(i => i !== '').map(i => {
       i = i
@@ -182,6 +162,8 @@ function processRows(rows) {
     const outRow = { source: r.target, source_opt: r.target_opt, target: r.source, tags: r.tags }
     return outRow;
   });
+  jb2en = [...new Set(jb2en.map(el => JSON.stringify(el)))].map(el => JSON.parse(el))
+
   return { jb2en, en2jb };
 }
 
@@ -225,4 +207,63 @@ function duplicator({ n, j }) {
     n = n.concat(j2);
   }
   return n;
+}
+
+function splitToChunks(array, parts) {
+  let result = [];
+  for (let i = parts; i > 0; i--) {
+    result.push(array.splice(0, Math.ceil(array.length / i)));
+  }
+  return result;
+}
+
+function splitOutput(arr) {
+  const tegerna = 'muplis'
+  const { compress } = require('compress-json')
+  const hash = require('object-hash')(arr)
+
+  splitToChunks(arr, 5).forEach((chunk, index) => {
+    const outp = {
+      formatName: 'dexie',
+      formatVersion: 1,
+      data: {
+        databaseName: 'sorcu1',
+        databaseVersion: 1,
+        tables: [
+          {
+            name: 'valsi',
+            schema: '++id, bangu, w, y, d, n, t, *s, g, *r, *cache, [r+bangu]',
+            rowCount: chunk.length,
+          },
+        ],
+        data: [
+          {
+            tableName: 'valsi',
+            inbound: true,
+            rows: chunk,
+          },
+        ],
+      },
+    }
+    let dir = '/livla/build/sutysisku/data'
+    dir = fs.existsSync(dir) ? dir : './dist'
+    let t = path.join(
+      dir,
+      `parsed-${tegerna}-${index}.blobz.json`
+    )
+    fs.writeFileSync(path.join(
+      dir,
+      `parsed-${tegerna}-${index}.json`
+    ), JSON.stringify(outp))
+    fs.writeFileSync(t, JSON.stringify(compress(outp)))
+  })
+  const versio = '/livla/build/sutysisku/data/versio.json'
+  let jsonTimes = {}
+  try {
+    jsonTimes = JSON.parse(fs.readFileSync(versio, { encoding: 'utf8' }))
+  } catch (error) { }
+  jsonTimes[tegerna] = hash
+  try {
+    fs.writeFileSync(versio, JSON.stringify(jsonTimes))
+  } catch (error) { }
 }
