@@ -69,7 +69,7 @@ I'll do that without fail.	aie'e	?
 We can't put a young boy in prison.	ainai pifygau lo nanla	A
 Do you come?	aipei do klama	G+
 Are you sure you want to go to Germany?	xu do birti lo du'u do djica lo nu do klama la doitclan	B
-I'd love to go there one day.	au iu mi ba klama ta ca da	?
+I'd love to go there one day.	au mi ba klama ru iu ca da	?
 I don't really care who wins.	na mutce lo ka vajni mi ku fa lo du'u ma kau jinga	A
 I want a boat that will take me far away from here.	au da bloti gi'e se pilno mi lo ka mi fu ce'u klama fi lo zvada'o be ti	G
 I'd like some plum jam.	au flaume pesxu	G
@@ -255,7 +255,6 @@ I think we should reduce the price.	pe'i mi'o iancu lo ka gau ce'u jdika lo ka k
 Let's go by bus.	e'u klama fu lo basfa	GD
 Let's go by bus.	e'u klama fu lo sorprekarce	G
 Please press the left mouse button to continue.	e'u do catke lo zunle batke pe lo pevysmacu ja'e lo bavla'i ve pruce	A
-Find multilingual sentence equivalents at Tatoeba.org.	ko sisku lo ka smudu'i simxu gi'e vrici lo ka jufra fi ma kau ku ku lo se sorcu be la'o ky tatoebaorg ky	BN
 Please make yourself comfortable.	e'o do gasnu lo sarcu be lo nu do kufra	A?
 Please throw me the ball.	e'u ko renro lo bolci mi	G
 Please say hello to your family.	e'u ko rinsa lo do lanzu	G−
@@ -435,7 +434,6 @@ You know, money is just paper, and that is a real car.	je'u lo jdini cu pelji a'
 Of course, I haven't seen all marijuana users. But marijuana use causes temporary stupidity. Everyone knows that.	li'a mi na viska ro marna pilno i ku'i lo zasni nu bebna cu se rinka lo nu pilno lo marna i ro prenu cu djuno la'e di'u	G
 The ball hit her in the eye.	lo bolci pu janli pa kanla be lo bi'u nai fetsi	A
 My brother is not satisfied with his new car.	lo bruna be mi na se mansa lo selpo'e be puzico'aku karce	G−N
-The little fridge is dirty.	lo cmlau lekmi'i na jinsa	A
 I see that you have a Greek name.	lo cmene be do cu za'a xelso	G
 A week has seven days.	lo'e jeftu cu djedi li ze	G-
 That which is evil is soon learned.	lo marde toldra cu crebi'o jai frili	B+N
@@ -667,7 +665,6 @@ Mmm, hot chocolate!	oi nai glare cakla	G
 Yum, this food is delicious!	oi nai ro'o lo cidja cu kukte	G
 Ouch!	oi ro'o	G
 Ow!	oi ro'o	
-I am mildly annoyed about just spending a while controlling my mother's computer with VNC, then with ssh.	oi ru'e mi pu zi ze'a jitro lo skami pe lo pe mi mamta sepi'o la'o gy vnc gy ce'o la'o gy ss' gy	
 Agh. I waited for a long time for the receipt of a present from my mother. However, it's very problematic.	oi sai mi pu ze'u denpa lo nu mi te benji lo se dunda lo pe mi mamta i ku'i mutce nabmi	
 Oh no! I just spent so much money!	oi so'i da zi jdima fi mi	
 Her mouth hurt a lot.	ta mutce lo ka cortu lo moklu	B
@@ -795,11 +792,8 @@ I'm so sorry for your loss.	uu mi kecti do lonu do cirko
 Are you all right?	uuoipei	
 You look terrible. What happened?	uucai do se xlali simlu ki'u ma	
 In other words, you're a fool.	va'i do bebna	GP
-Err...	y	GP
 Uhhh, Shoulsen quickly exceeded. You win. Yay you!	y la clsn cu sutra zmadu i do jinga ui dai	
-Watch out! There are five hungry Soviet cows in the garden!	'	
 Twelve people have walked on the moon.	prenu pu'i cadzu lo lunra	G
-Esperanto, an official language of the European Union, finally!	lo sperybau zo'u se ke catni zanru bangu bu'u la orpno gunma vau uo sai	A
 To err is human, to forgive divine.	jo'au gadganzu lo'i remna cu srera ije lo'i cesyvu'e cu fraxu	
 Come sing with me.	a'ei do sanga ka'ai mi	
 I'm exhausted.	a'enai	G
@@ -1072,7 +1066,6 @@ When do they play soccer?	ca ma lo za'u ra kelci lo fudbolo
 When are we eating? I'm hungry!	ca ma ma'a citka i mi xagji	
 When do we arrive?	ca ma mi'o darca	
 When will we arrive at Barcelona?	ca ma mi'o klamu'o la byrsylon	
-When did he go to Europe?	ca ma ra pu klama la europas	
 When will you return?	ca ma ro do se'ixru	
 When did the error occur?	ca ma se srera	
 When do you think he'll be back?	ca ma sei do jinvi ra ba mo'u volve	
@@ -1255,7 +1248,6 @@ Hello Mary, I'm Tom.	coi mari,as mi'e tam	G
 Hello Mary, I'm Alice.	coi mari,as mi'e alis	G
 Hello Mary, I'm Mary.	coi mari,as mi'e maris	G
 Hello and bye! I'm Nonong.	coico'o i mi'e nonon	G
-Hey cat, how are you? Are you sitting in the house? There are two cats.	coi lo mlatu do mo i xu do ca' ozutse bu'u lo dinju i re da mlatu	B-
 That hurts.	cortu	
 My back hurts.	cortu lo bekpi be mi	
 It hurts so much.	cortu sai	
@@ -1289,7 +1281,6 @@ Could someone tell me why Tom is angry?	da e'o ciksi lo nu mu'i makau la tom ca 
 Could someone tell me why Alice is angry?	da e'o ciksi lo nu mu'i makau la alis ca fengu	
 Could someone tell me why Mary is angry?	da e'o ciksi lo nu mu'i makau la maris ca fengu	
 There's a table.	da jubme	
-Lojbanistan borders Esperantujo.	da korbi la lojbangug la esperantu,ion	
 There is a church near my house.	da malsi vi lo zdani be mi	
 There is some work to do.	da me lo se gunka noi ei zukte	
 There's something important I need to tell you.	da me lo vajni noi ei mi cusku fi do	
@@ -1383,7 +1374,6 @@ There was snow on the island of Lulus on January 14, 2012.	de'i li pi'e pi'e sni
 This is a weird sentence.	dei cizra jufra	
 This is a random sentence.	dei cunso jufra	
 This sentence is fine.	dei drani	
-This is a random sentence from Tatoeba.	dei fadni jufra ra'i la tatoebas	
 This sentence is grammatically correct.	dei gendra	
 This sentence is true.	dei jetnu	
 This is a sentence.	dei jufra	
@@ -1922,7 +1912,6 @@ You made someone eat food.	do zukte lo nu citka lo cidja
 What do you do?	do zukte ma	A
 Sit down, please,' he said.	fe lu e'o do zutse li'u fa ra pu cusku	A
 You were at home yesterday, weren't you?	do zvati lo zdani ca lo prulamdei vau je'upei	
-How often do you go abroad?	pa roi ma do klama lo drata gugde	B
 Where are you?	do zvati ma	G
 How did you get here?	ta'i ma do ti co'a ku zvati	A
 You should learn how to use your dictionary.	do ancu lo ka cilre lo du'u ma kau tadji lo ka pilno lo do vlaste	
@@ -2083,7 +2072,6 @@ Please be polite.	e'o do clite	G
 Please ask Tom not to shout.	e'o ko cpedu fi la tom fe lo nu nalki'asku	
 Please ask Alice not to shout.	e'o ko cpedu fi la alis fe lo nu nalki'asku	
 Please ask Mary not to shout.	e'o ko cpedu fi la maris fe lo nu nalki'asku	
-Please show me how to use the headset.	e'o ko ctuca mi lo nu pilno la'o gy 'eadset gy	
 Please allow me to go.	e'o ko curmi lo nu mi klama	
 Please let me go.	e'o ko curmi lo nu mi klama	
 Please choose one person.	e'o ko cuxna pa lo prenu	
@@ -2347,7 +2335,6 @@ I will get the machine running.	gau mi lo minji ba akti
 I was having fun.	gau mi mi pu ca'o se zdile	
 No, I'm not mad at you, I'm just disappointed.	ge nai mi do fengu gi sa'u mi nalfaudri	
 Although he is very old, he is strong.	ge ra mutce laldo gi ku'i tsali	
-So that's Tatoeba.	ge'e me latatoebas	
 Oh! Really?	ge'e xu jetnu	G
 Oh, really?	ge'e xu jetnu	G
 I will go if you go.	gijanai do klama gi mi ba klama	
@@ -3368,7 +3355,6 @@ She's not a member.	ko'a na cmima
 He doesn't want it.	ko'a na djica	
 He cannot write his own name.	ko'a na kakne lo nu ciska lo ko'a cmene	
 He doesn't have the ability to do the work properly.	ko'a na kakne lo nu drani gunka	
-He could not return to his home in the New York area.	ko'a na kakne lo nu xruti lo ko'a zdani be vi la nu,iork	
 He can't stay long.	ko'a na kakne lo nu ze'u stali	
 She didn't want to get involved.	ko'a na pu djica lonu ce'u se cuntu	
 He's not very good at remembering names.	ko'a na xamgu lo ka morji fi lo cmene	
@@ -3547,7 +3533,6 @@ He's stupid and dishonest.	ko'a tolmencre je nalstace
 He forgot that he bought her a present.	ko'a tolmo'i lo du'u ko'a terve'u lo seldu'a befi ko'e	
 She is a short story writer.	ko'a tordu lisri ckufi'i	
 She tried to kill herself last night.	ko'a troci lonu vo'a vo'a catra kei ti'u prula'i nicte	
-He is a prestigious and influential member of the Democratic Party.	ko'a vajni cmima la'o gy democratic party gy	
 It's very important to us.	ko'a vajni mi	
 He sells fruit.	ko'a vecnu lo grute	
 She sells flowers.	ko'a vecnu lo xrula	
@@ -3609,20 +3594,17 @@ It's delicious.	kukte
 Yum yum!	kukte	
 He has a square jaw.	kurfa xedja ko'a	
 Jupiter is the largest planet in the Solar System.	la djupitr cu barda traji fo lo'i plini be ne'i levi tarci'e	
-Naoko is a fast runner.	la na,okon cu sutra bajra	
 Alice didn't walk to the market.	la alis cu nae cadzu klama lo zarci	
 There really was an Alice, but Wonderland is a figment of the imagination.	la alis je'a zasti i ku'i la selmacygu'e ku xanri po'o	
 Alice is my mother.	la alis mi mamta	
 Alice sleeps in her room.	la alis sipna lo ri kumfa	
 The Alps are in the center of Europe.	la alps midju lo rontu'a	
 The capital city of the Netherlands is Amsterdam.	la amsterdam raltca lo gugdenulu	
-Anyi and Asun are two brothers.	la an,iis joi la asun cu bruna remei	
 Ann is a little girl.	la an cmalu nixli	
 Bill often goes to the park.	la bil klama lo panka fi'o cafne	
 Bill took his little brother to the zoo.	la bil pu xlura lo citmau bruna be vo'a tu'a lo mivdalmuzga	
 Boston is the city I will be moving to.	la bostyn cu tcadu fi'o ba muvdu mi	
 Bush tells the truth.	la buc cu xusra lo jetnu	
-Shinji ate nine coconuts.	la cindji citka so lo rutrkoko	
 Daniel is the only child of Jacob.	la daniyl cu du lo pa bersa be la djeikyb	
 David is at home.	la deivid zvati lo zdani be vo'a	
 Jack has no goals for his life.	la djak na se mivmu'i	
@@ -4019,7 +4001,6 @@ Tom hates everybody.	la tam xebni ro do
 Alice hates everybody.	la alis xebni ro do	
 Mary hates everybody.	la maris xebni ro do	
 Tamy discovered a mistake in the sentence structure.	la tamis facki lo cfila be lo jufra	
-Tatoeba was down yesterday.	la tatoebas cu spofu ca lo prulamdei	
 Chen is a teacher.	la tcyn ctuca	
 Chen is not a university student.	la tcyn na balcu'e tadni	
 Chen is not a businessperson.	la tcyn na cu'upre	
@@ -4096,9 +4077,6 @@ Mary asked for help.	la maris cu cpedu lo te sidju
 Tom speaks without thinking.	la tom cu cusku fau lo nu na pensi	
 Alice speaks without thinking.	la alis cu cusku fau lo nu na pensi	
 Mary speaks without thinking.	la maris cu cusku fau lo nu na pensi	
-Tom said you wanted to see me.	la tom cu cusku lo sedu'u do mi pendji	
-Alice said you wanted to see me.	la alis cu cusku lo sedu'u do mi pendji	
-Mary said you wanted to see me.	la maris cu cusku lo sedu'u do mi pendji	
 Tom would like some coffee.	la tom cu djica tu'a lo ckafi	
 Alice would like some coffee.	la alis cu djica tu'a lo ckafi	
 Mary would like some coffee.	la maris cu djica tu'a lo ckafi	
@@ -4356,11 +4334,7 @@ Alice complains all the time.	la alis ta'e pante	G
 Mary complains all the time.	la maris ta'e pante	G
 Thomas likes Anna, but Anna doesn't like Thomas.	la tomas cu prami la anas i ku'i je la anas na prami la tomas	
 Tony lives in Kobe.	la tonis cu xabju la kobes	G
-The czar was the ruler of Russia.	la tsar pu me lo jatna be la rosi,ias	
-The tsar was the ruler of Russia.	la tsar pu me lo jatna be la rosi,ias	
 Juan doesn't know that Maria is his daughter.	la uan na djuno lo du'u la marias cu tixnu vo'a	
-Wang Lao Ji isn't beer. It's tea.	la uanlaosdzis birje na je tcati	
-Wang Lao Ji isn't beer. It's tea.	la uanlaosdzis na'e birje i lo go'i ku tcati	
 Uri Avnery visited Yassir Arafat for the first time in 1982.	la urisavneris pu paroi vitke la iasirarafat ca lo pasobiremoi be lo nanca	
 Fred saw the plane flying over Zurich.	la fred pu viska lo vinji fa xi xo'e noi vofli ga'u la tsurix	
 Fred saw the mountains flying over Zurich.	la fred pu viska lo za'u cmana faxixo'e noi vofli ga'u la tsurix	
@@ -4412,7 +4386,6 @@ Where is Jim?	la jim cu zvati ma	G+
 Jiro wants to drink Coke.	la jiros djica lo ka pinxe loi me la kokakolas	
 John and I are old friends.	la djan ce mi ze'u simxu lo ka pendo	B
 Judy is kind to everyone.	la judis ta'e xendo ro prenu	G-
-Juliet talked to Romeo on the balcony, who was outside.	la juliet bu'u lo balni cu tavla la noi bartu romeon	
 Cain was not his brother's keeper.	la kain na kurji lo bruna be ky	
 Carl is the tallest man alive.	la karl cu clarai lo ro jmive nanmu	
 Carla is the one freshman who aced every course in which she enrolled.	la karlas cu du lo ropa cfatadni poi ke'a serai snada ro te ckule be fi ke'a	
@@ -4437,7 +4410,6 @@ Lucy is from America.	la lusis se krasi lo mergu'e
 Madonna is able to sing.	la madonas kakne lo nu sanga	
 Madonna is able to sing.	la madonas pu'i sanga	
 Mike and Ken are friends.	la maik cu pendo la ken soi vo'a	
-Michael Jackson was a whisky expert.	la maik,l djaks,n uiski certu	
 Mayuko eats bread for breakfast.	la maiukos cu citka lo nanba poi cerni se sanmi	
 Maria has long hair.	la mariias cu se kerfa lo clani	
 Marika helps me in English.	la marikas cu sidju mi tu'a lo glico bangu	
@@ -4490,10 +4462,7 @@ He's a bread junkie.	la nakni cu nanba tcubi'a
 Bread's in the oven.	la nanba cu zvati lo toknu	
 The man ate the bread.	la nanmu pu citka lo nanba	
 Nancy is a capable nurse.	la nansis kakne kujmikce	
-Naoko is a fast runner.	la naokos pu'i sutra bajra	
 Nicholas and Maria love each other.	la nikolas la marias cu simxu lo ka prami	
-Newton saw an apple fall off a tree.	la niut,n viska lo nu lo plise cu farlu fi lo tricu	
-Newton saw an pear fall off a tree.	la niut,n viska lo nu lo perli cu farlu fi lo tricu	
 Obama said that Romney is forgetting what his own positions are — 'and he's betting that you will too'.	la obamas pu xusra lo du'u la romni cu tolmo'i tu'a lo se jinvi be ri i je cu'u o boi r kanpe lo nu do'o si'a tolmo'i	
 Paris is the capital of France.	la paris tcutca la fasygu'e	
 Pakistan is a Muslim country.	la pakistan muslo gugde	
@@ -4507,8 +4476,6 @@ Rome wasn't built in a day.	la rom pu se zbasu ze'a lo djedi be li su'e nai pa
 Samantha has arrived.	la samantas mo'u tsuku	
 Sarah sings a happy song, a happy song Sarah sings.	la saras cu sanga lo se gleki ije fe lo se gleki fa la saras cu sanga	
 Susan likes cats.	la suzan cu nelci lo mlatu	
-Only Takeuchi didn't accept the invitation.	la takeutcis po'o pu na zanru lo nu cpedu lo nu vitke	
-Only Takeuchi didn't accept the invitation.	la takeutcis po'o pu na zanru lo nu cpedu lo nu vo'a vitke	
 Tom wanted me to come.	la tam djica lo nu mi klama	
 Alice wanted me to come.	la alis djica lo nu mi klama	
 Mary wanted me to come.	la maris djica lo nu mi klama	
@@ -4919,9 +4886,6 @@ Mary and Mary were sitting together.	la maris jo'u la maris pu ca'o zutse co kan
 Tom can eat just about anything.	la tom kakne lo nu citka roda	
 Alice can eat just about anything.	la alis kakne lo nu citka roda	
 Mary can eat just about anything.	la maris kakne lo nu citka roda	
-Tom goes from Boston to Chicago with his car via the usual route.	la tom klama la'o gyc'icagogy la'o gybostongy zu'i lo karce po vo'a	
-Alice goes from Boston to Chicago with his car via the usual route.	la alis klama la'o gyc'icagogy la'o gybostongy zu'i lo karce po vo'a	
-Mary goes from Boston to Chicago with his car via the usual route.	la maris klama la'o gyc'icagogy la'o gybostongy zu'i lo karce po vo'a	
 Where is Tom going?	la tom klama ma	
 Where is Alice going?	la alis klama ma	
 Where is Mary going?	la maris klama ma	
@@ -5014,7 +4978,6 @@ Alice wasn't wearing a belt.	la alis na pu ca'o dasni lo karli
 Mary wasn't wearing a belt.	la maris na pu ca'o dasni lo karli	
 Tom did not cry.	la tom na pu klaku	
 Alice did not cry.	la alis na pu klaku	
-Mary did not cry.	la maris na pu klaku	
 Tom didn't move.	la tom na pu muvdu	
 Alice didn't move.	la alis na pu muvdu	
 Mary didn't move.	la maris na pu muvdu	
@@ -5369,9 +5332,6 @@ Mary was tired and in a bad mood.	la maris pu tatpi gi'e xlali se cnitcini
 Tom tried to protect me.	la tom pu troci lo ka bandu mi	
 Alice tried to protect me.	la alis pu troci lo ka bandu mi	
 Mary tried to protect me.	la maris pu troci lo ka bandu mi	
-Tom tried to save me.	la tom pu troci lo ka nurxrugau mi	
-Alice tried to save me.	la alis pu troci lo ka nurxrugau mi	
-Mary tried to save me.	la maris pu troci lo ka nurxrugau mi	
 Tom was brave.	la tom pu virnu	
 Alice was brave.	la alis pu virnu	
 Mary was brave.	la maris pu virnu	
@@ -5396,9 +5356,9 @@ Mary did something very stupid.	la maris pu zukte da poi mutce se bebna
 Tom took a look at the pictures.	la tom pu zukte lo ka catlu lo za'u pixra	
 Alice took a look at the pictures.	la alis pu zukte lo ka catlu lo za'u pixra	
 Mary took a look at the pictures.	la maris pu zukte lo ka catlu lo za'u pixra	
-Tom broke into our conversation.	la tom pu zunti lo mi'ai se casnu	
-Alice broke into our conversation.	la alis pu zunti lo mi'ai se casnu	
-Mary broke into our conversation.	la maris pu zunti lo mi'ai se casnu	
+Tom broke into our conversation.	la tom pu gasnu lo zunti be lo nu mi'ai casnu	B
+Alice broke into our conversation.	la alis pu gasnu lo zunti be lo nu mi'ai casnu	B
+Mary broke into our conversation.	la maris pu gasnu lo zunti be lo nu mi'ai casnu	B
 Was Tom there?	la tom pu zvati	
 Was Alice there?	la alis pu zvati	
 Was Mary there?	la maris pu zvati	
@@ -5545,7 +5505,6 @@ The Voodoo religion is associated with Haiti.	la vudus poi lijda cu me la xaitis
 Happy Halloween!	la xalouin di'ai	
 Eve plucked fruit from the tree of knowledge.	la xavax pu crepu lo grute lo tricu pe lo se djuno	
 Hokaido is pretty far, isn't it?	la xokaidos cu darno mutce ienaipei	
-Huizi asked Zhuangzi: 'If you're not a fish, how do you know what fish enjoy?'	la xueizis pu retsku fi lo djuanzis fe 'lu fau da'inai lo nu do na'e finpe vau ta'i ma do facki lo nu fe makau fa lo finpe cu nelci li'u'	
 It will probably rain.	la'a ba carvi	G+
 It may snow.	la'a ba si'ercarvi	
 It will probably rain.	la'a carvi	
@@ -5608,31 +5567,17 @@ This is the easy part.	la'edo'i frili pagbu
 This is the hard part.	la'edo'i nandu pagbu	
 That's a great story.	la'edo'i xamgu lisri	
 Klabaster and Gizmo are cats.	la'o cy klabaster cy e la'o cy gizmo cy mlatu	
-Aix-la-Chapelle' is Aachen in German.	la'o fyaixlac'apellefy se fanva fu la'o dyaac'engy fo la dotybau	
-Abraham Lincoln is a famous person.	la'o gyabra'am lincolngy misno prenu	
 Aoi is a very good dancer.	la'o gyaoigy mutce xamgu dansu	
 Aoi is a good dancer.	la'o gyaoigy xamgu dansu	
 Emi is a good girl.	la'o gyemigy xamgu nixli	
-Funny Kittens International is a US 501(c)(3) non-profit organisation dedicated to the development of cat videos.	la'o gyfunny kittens internationalgy me la'o gyus c nonprofitgy poi ke'a zukte fi lo nu finti lo mlatu skina	
-Lee Leffingwell is the head of the Austin City Council.	la'o gylee leffingwellgy jatna la'o gyaustin city councilgy	
 Mrs. Parker greeted him with a smile.	la'o gymrs parkergy pu rinsa ko'a lonu cisma	
-Pharamp cut the cake in half.	la'o gyp'arampgy pu ka'argau lo titnanba re da	
-Pinocchio says: 'Now my nose will grow.'	la'o gypinocc'iogy cusku lu lo nazbi be mi ca banro li'u	
-Russell is not the only author of Principia Mathematica.	la'o gyrussellgy na se steci lo ka ce'u finti la'o gyprincipia mat'ematicagy	
 Steins;Gate is a very enjoyable anime.	la'o gysteinsgategy kinrxanime gi'e mutce lo ka ce'u se nelci	
 Jiro wants to drink Coke.	la'o myjirogy djica lo nu pinxe loi me la'o gycokegy	
 Mrs. Parker greeted him with a smile.	la'oi parker rinsa ko'a lonu cisma	
-Aix-la-Chapelle' is Aachen in German.	la'oi aixlac'apelle se fanva fu la'oi aac'en fo la doitc	
-Aix-la-Chapelle' is Aachen in German.	la'oi aixlac'apelle se fanva fu la'oi aac'en fo lo bandu'e'u	
 Aoi is a very good dancer.	la'oi aoi mutce xamgu dansu	
 Aoi is a good dancer.	la'oi aoi xamgu dansu	
 Emi is a good girl.	la'oi emi xamgu nixli	
 Jiro wants to drink Coke.	la'oi jiro djica lo ka pinxe la'oi coke	
-Pharamp cut the cake in half.	la'oi p'aramp ka'argau lo titnanba re da	
-Junko is a beautiful girl.	la'oi djunko melbi nixli	
-A googol is ten to the power of one hundred.	la'oi googol du li pano te'a panono	
-Pinocchio says: 'Now my nose will grow.'	la'oi pinocc'io cusku lu lo mi nazbi ca banro li'u	
-Brian left for New York.	la brai,n pu cliva se ka'a la nu,iork	
 Basho was the greatest poet.	labacos pemci'a traji	
 Betty is a dance teacher.	labetis dansu ctuca	
 Betty is a dancing teacher.	labetis dansu ctuca	
@@ -5648,7 +5593,6 @@ Kentaro is staying with his friend in Kyoto.	lakentaron cu stali lakioton fi'o k
 Klabaster and Gizmo are cats.	laklabastr e lagizmos cu mlatu	
 Kumi is the girl whose father likes dogs.	lakumin nixli poi lo nelci be lo gerku cu patfu	
 Mary can swim.	lameris cu kakne lo ka limna	
-McClellan decided to wait.	lamiklel,n jdice lo nu denpa	
 Pablo and María were here.	lapablos joi lamari,as pu zvati ti	
 The Devil made me do it.	lapacrid gasnu lo nu mi co'e	
 Satoru is the fastest runner out of the five of us.	lasatorun cu bajra sutra traji fi mu mi'a	
@@ -5663,8 +5607,6 @@ Mary doesn't understand how to use a computer.	latam na jimpe lo du'u ta'i ma ka
 Tom is always watching television.	latam ro roi zgana lo veltivni	
 Alice is always watching television.	latam ro roi zgana lo veltivni	
 Mary is always watching television.	latam ro roi zgana lo veltivni	
-Tatoeba is a language dictionary.	latatoebas bangu vlacku	
-Tatoeba: Because a language is more than the sum of its words.	latatoebas zo'u se krinu lo nu lo bangu cu zmadu lo sumji be lo valsi	
 Ted loves his wife Elizabeth.	lated cu prami laylizabet noi speni vo'a	
 Who does Toshio like?	latoci,on nelci ma poi prenu	
 Tokyo is the capital of Japan.	latokion raltca lo gugdejupu	
@@ -5841,7 +5783,6 @@ My father is taking a walk in the park.	lo mi patfu ca'o cadzu lo panka
 My friend is bilingual.	lo mi pendo reda se bangu	
 My seat is near the door.	lo mi stizu cu jibni lo vorme	
 The medicine cured him of his illness.	lo micyxu'i cu galfi ko'a lo ka kanro	
-The famous building, the Taj Mahal, is in India.	lo misno dinju no'u la taj,ma'al cu selstu la indias	
 The cat is wet.	lo mlatu ca cilmo	
 The cat sleeps next to the couch.	lo mlatu ca sipna re'o lo sfofa	
 The dog is dead.	lo mlatu cu morsi	
@@ -6013,7 +5954,6 @@ Her skin is white like snow.	lo skapi po'u ko'a lo snime cu simsa lo ka blabi
 The sun was shining brightly.	lo solri pu te gusni fi lo carmi	
 The soldiers are dead.	lo za'u sonci ca morsi	G
 My wife isn't beautiful. Yours is.	lo speni be mi nae do cu melbi	
-The arrow missed its target.	lo strekla pu fliba lo ka darxi lo farna	
 The arrow indicates the way to go.	lo strelka cu sinxa lo pluta	
 The arrow hit the target.	lo strelka pu darxi lo farna	
 The towel is wet.	lo sudgaubu'u cu cilmo	
@@ -6100,7 +6040,6 @@ The last house was Alice's residence.	lo zdani poi romoi se xabju la alis
 The last house was Mary's residence.	lo zdani poi romoi se xabju la maris	
 The house stank.	lo zdani pu se ke xlali panci	
 The person on the left ruins the balance of the picture.	lo zu'a prenu cu daspo lo pixra kamcnici	
-The users of Tatoeba are kind.	lo'e cmima be la tatoebas cu xendo	
 Americans are very friendly people.	lo'e merko ku pendo tarti	
 Japanese people in general are polite.	lo'e se gugdejupunu cu clite	
 Teenagers love playing video games.	lo'e verntineidja cu nelci lo nu samyzilkeikei	
@@ -6527,7 +6466,6 @@ A crocodile has eaten Mary.	pa krokodilo pu citka pa gerku
 A crocodile ate a dog.	lo krokodilo pu mo'u citka lo gerku	
 Your room is a mess.	lo kumfa pe do cu kalsa	
 Children filled the room.	lo kumfa pu co'a culno lo verba	
-The room was hot.	lo kumfa pu glare	
 Camels are the ships of the deserts.	lo kumte cu cantu'a bloti pe'a	
 And if the vacuum explodes, it is called a black hole.	lo kunti be roda ganai spoja gi se cmene lu xekri kevna li'u	
 Tom's younger brother is dumb as a brick.	lo la tam citmau bruna cu mutce tolmencre	
@@ -6625,7 +6563,6 @@ My father lives and works in Tokyo.	lo mi patfu cu xabju gi'e gunka vau bu'u la 
 My father is in the garden.	lo mi patfu cu zvati lo purdi	
 My father won't allow me to keep a dog.	lo mi patfu ku na curmi lo nu mi ralte lo gerku	
 My father has gone to the United States.	lo mi patfu pu klama lo mergu'e	
-My friends say I'm a prolific writer, but I haven't written anything for months.	lo mi pendo cu cusku lo sedu'u mi fintce ci'apre i ku'i mi na'e ciska ze'u so'o selma'i	
 My friend called me a coward.	lo mi pendo cu skicu mi fo lo ka tolvri	
 Where is my newspaper?	lo mi plekarni ma zvati	
 My bike is stolen.	lo mi relxilma'e ku se zerle'a	
@@ -6685,13 +6622,11 @@ He was not far behind.	lo nakni pu ti'a na'e darno
 Blind people sometimes develop a compensatory ability to sense the proximity of objects around them.	lo nalvi'a va'o se jmina ka'erbi'o lo nu ganse lo nu vi dacti	
 Bread is made from wheat.	lo nanba cu se zbasu fi lo maxri	
 Bread is made from flour.	lo nanba cu se zbasu fi lo purmo	
-The bread is fresh.	lo nanba cu vifne	
 Bread and games.	lo nanba e loi nu kelci	
 Ten years is a long time to wait.	lo nanca be li dau cu poi'i lo nu denpa ze'a ke'a cu ditybra	
 It's been ten years since we last met.	lo nanca be li dau cu temci lo prula'i nu mi'o pensi'u	
 A year has twelve months.	lo nanca cu masti li pare	
 A baby boy was born to them.	lo nanla cifnu cu jbena ko'a	
-The boy eats bread.	lo nanla cu citka lo nanba	
 The boy clasped the puppy to his chest.	lo nanla cu jgari lo verba gerku fo lo cutne	
 The boy talks as if he were a girl.	lo nanla cu tavla simlu lo ka nixli	
 Where is the boy?	lo nanla ma zvati	
@@ -6810,7 +6745,6 @@ My not going to the market is because the car is broken.	lo nu mi na klama lo za
 The fact that I said farewell to someone in the past doesn't necessarily mean I won't greet them in the future.	lo nu mi pu tolrinsa da na naka'enai rinka lo nu mi na ba rinsa da	
 My life is boring.	lo nu mi renvi cu to'e zdile	
 Thanks to your help, I could succeed.	lo nu mi sadyka'e cu pu terdju fi do	
-I read The Age of Spiritual Machines by Ray Kurzweil in Amsterdam on September 7, 2006.	lo nu mi tcidu la'o gyt'e age of spiritual mac'inesgy fi'e la'o gyray kurzweilgy kei cu se detri li ze pi'e no pi'e renonoxa la'o gyamsterdamgy	
 It's important that I hear this.	lo nu mi te cusku cu vajni	
 We walked about five miles.	lo nu mi'a pu cadzu cu minli li ji'i mu	
 His name is very difficult to remember.	lo nu morji lo cmene be ra cu nandu	
@@ -6972,7 +6906,6 @@ It costs 2 euros.	lo ronru'u be li re cu jdima
 The only pear left on the tree is rotten.	lo ropa perli poi stali lo tricu cu fusra	
 The Queen of Hearts' only daughter is loved by exactly three suitors.	lo ropa tixnu be la risna noltruni'u cu se prami ci spedji	
 The European likes to drink wine.	lo ropno prenu cu nelci lo ka ri pinxe lo vanju	
-Theodore owns the rose.	lo rozgu ku se ponse la teodoros	
 We bought the goods at $3 a dozen.	lo rupnu be li ci cu jdima gai selve'u mi'a	
 There is no word for liberty in the Russian language.	lo rusko bangu cu te valsi fi no da fe lo se zifre	
 Russian girls love Icelanders.	lo rusko nixli cu nelci lo islant se zdani	
@@ -7346,7 +7279,6 @@ Bike sheds are useful.	lo'e pudydi'u be loi relxilma'e bei zi'o cu plixau
 Rabbits have long ears.	lo'e ractu cu se kerlo lo clani	
 The rich are getting richer.	lo'e ricfu ru'i zenba lo ka ricfu	
 Squirrels eat hazelnuts.	lo'e ricyratcu cu citka lo xazlenu narge	
-Europeans call soccer football.	lo'e ropno cu te cmene la fudbolo la'o gy football gy	
 Sugar is sweet.	lo'e sakta cu titla	
 Iron is hard.	lo'e tirse cu jdari	
 To translate is to betray.	lo'e traduki cu traide	
@@ -7444,7 +7376,6 @@ What kind of feeling?' the shopkeeper asked.	lu mo cinmo li'u pu te preti fa lo 
 One way or round trip?' - 'One way, please.'	lu pamei je'i remei farna li'u co'e i lu e'o jenai li'u co'e	
 One way or round trip?' 'Um... let me think. Round trip.'	lu pamei je'i remei farna li'u co'e i lu y naje li'u co'e	
 This looks pretty interesting,' Hiroshi says.	lu simlu lo ka cinri li'u se cusku la xirocis	
-Here's the Robert's reply.' 'You mean Robert's?' 'No, it's the Robert. There's only one.'	lu ti te spuda fi lo me larab,rt li'u lu do skudji lu fi larab,rt li'u vau xu li'u lu na go'i i go'i lu lo me larab,rt li'u i pa da me ra li'u	
 How old is she?' 'She is twelve years old.'	lu tu'a ra nanca li xo li'u lu pare li'u	
 Can somebody help me?' 'I will.'	lu xu da ka'e sidju mi li'u i lu mi co'e li'u	
 Have you eaten?' 'Yes, I have.'	lu xu do ba'o citka li'u i zo go'i	
@@ -7485,8 +7416,6 @@ What is the exchange rate of the euro against the rupnu?	ma canja parbi lo ronru
 Who's in charge here?	ma catni	G-
 Who painted that?	ma cintypu'i ta	
 Who painted this?	ma cintypu'i ti	
-What is your name?	ma cmene do	G
-What's your name?	ma cmene do	G
 What is his name?	ma cmene lo bi'u nai nakni	G-
 What's his name?	ma cmene lo bi'u nai nakni	G-
 What is your father's name?	ma cmene lo patfu be do	G
@@ -7555,7 +7484,6 @@ Who goes where?	ma klama ma	G
 Who goes there?	ma klama ta	
 What's this used for?	ma kosmu ti	
 Where's that sound coming from?	ma krasi lo me ta sance	
-What's the reason?	ma krinu	G
 Why did you come to see me today?	ma krinu lo nu do ca lo cabdei ku penmi mi	
 What made you change your mind?	ma krinu lo nu do pu cenba lo ka jinvi	
 Who took care of the dog while you were away?	ma kurji lo gerku ca lo nu do nalzvati	
@@ -7750,10 +7678,6 @@ What does this sentence mean?	ma smuni la'e dei
 What does this word mean?	ma smuni lo valsi	
 What's the meaning of this sentence?	ma smuni lo bi'u nai jufra	
 What does PTA stand for?	ma smuni zo'oi pta	
-What does 'Tatoeba' mean?	ma smuni zo'oi tatoeba	
-What does TATOEBA mean?	ma smuni zo'oi tatoeba	
-What does 'Tatoeba' mean?	ma smuni zotatoebas	
-What does TATOEBA mean?	ma smuni zotatoebas	
 Who got married?	ma spebi'o	
 Who's getting married?	ma spebi'o	
 Where is the school?	ma stuzi lo ckule	
@@ -7983,7 +7907,6 @@ I received your letter.	mi ba'o terbe'i lo do xatra
 I received your letter.	mi ba'o terbe'i lo xatra be fi do	
 I've heard about you.	mi ba'o tirna zo'ei do	
 I'm no longer hungry.	mi ba'o xagji	
-I have seen at least one Kurosawa film.	mi ba'o zgana su'o skina po la kurosa,uan	
 I'm sad.	mi badri	
 I'm sick and tired of being sick and tired.	mi badri tatpi lo nu badri tatpi	
 I run.	mi bajra	
@@ -8296,7 +8219,6 @@ I want to give you my heart for ever.	mi djica lo nu do mi ze'e selpa'i
 You can't leave.	mi djica lo nu do na cliva	
 I want you to sing.	mi djica lo nu do sanga	
 I want you to tell me the truth.	mi djica lo nu do stace cusku	
-I'd like to add a new language in Tatoeba, what do I have to do?	mi djica lo nu jmina latatoebas lo cnino bangu i ei mi zukte ma	
 I want to go to Seattle.	mi djica lo nu klama lasiatl	
 I want to go to the city.	mi djica lo nu klama lo tcadu	
 I would like to go to Japan.	mi djica lo nu klama lo ponjo gugde	
@@ -8311,7 +8233,6 @@ I want to be a teacher.	mi djica lo nu mi ctuca
 I want to know who is coming with us.	mi djica lo nu mi djuno lo du'u ma kau ma'a kansa lo ka klama	
 I have so many things I want you to know.	mi djica lo nu mi djuno so'i u'e da	
 I want to know how many will make me happy.	mi djica lo nu mi djuno so'i u'e da	
-I wish I could figure out how to delete my Facebook account.	mi djica lo nu mi kakne lo nu mi djuno fi lo nu vimcu la'o gy facebook account gy pe mi	
 I want to marry her.	mi djica lo nu mi spebi'o ko'a	
 I want to learn English.	mi djica lo nu mi tadni lo glibau	
 I want to see them all.	mi djica lo nu mi viska ro ko'a	
@@ -8593,8 +8514,6 @@ Health is all I want.	mi kanro aupo'o
 I am this kid's companion.	mi kansa ti poi verba	
 I compared this picture with that one.	mi karbi ti poi pixra ku'o ta poi pixra	
 I caught three fish yesterday.	mi kavbu ci finpe ca lo prulamdei	
-I'm playing SpaceChem.	mi kelci la'o gyspacec'emgy	
-I'm playing SpaceChem.	mi kelci la'oi spacec'em	
 I'm kind of tired.	mi kinda lo ka tatpi	
 Every time I listen to this song, I cry.	mi klaku ca lo ro nu sanga ti mi	
 I cry every time I listen to this song.	mi klaku ca lo ro nu sanga ti mi	
@@ -8731,7 +8650,6 @@ I am very happy to see you.	mi mutce co gleki lo nu viska do
 I want to see her very much.	mi mutce djica lo ka viska ra	
 I am very sensitive to the cold.	mi mutce ganse lo ka lenku	
 I'm very happy now.	mi mutce gleki	
-I am very happy in Georgia.	mi mutce gleki bu'u la georgias	
 I'm very glad to see you.	mi mutce gleki lo nu mi viska do	
 I have an intense 'burning' pain in my eyes.	mi mutce ke jelca pe'a cortu lo kanla	
 I'm very happy you'll be visiting Tokyo next month.	mi mutce lo ka gleki lo nu do vitke la tokios ca lo bavla'i masti	
@@ -8804,7 +8722,6 @@ I don't want to drink anything cold.	mi na djica lonu mi pinxe lo lenku
 I don't want to have a baby, ever.	mi na djica tu'a lo cifnu ku roroi	
 I do not want any sandwiches.	mi na djica tu'a lo snuji	
 I don't want tea.	mi na djica tu'a lo tcati	
-I don't know.	mi na djuno	
 I don't know where it is.	mi na djuno fi lo se zvati	
 I don't know where it is.	mi na djuno fi lo se zvati be ra	
 I don't know. What do you think?	mi na djuno i do jinvi ma	
@@ -8976,7 +8893,7 @@ I didn't like it.	mi na pu nelci
 I didn't need to take an umbrella with me.	mi na pu nitcu lo ka lebna lo santa sei ri mi ja'e kansa	
 I wasn't alone.	mi na pu nonkansa	
 I wasn't sold on their plan at first, but their conviction won me over.	mi na pu pare'u se bitygau sera'a lo ko'a selpla i ku'i lo ko'a ka krici cu bitmu'i mi	
-I couldn't sleep because of the heat.	mi na pu sipna ki'u lenu glare	
+I couldn't sleep because of the heat.	pu ku ki'u lo nu glare vau mi fliba lo ka sipna	B
 I didn't tell him you were coming.	mi na pu skicu fi lo nakni fe lo nu do ca'o klama	
 I didn't mean that.	mi na pu te smuni ra	
 I didn't buy them.	mi na pu te vecnu lo za'u mei	
@@ -9263,7 +9180,6 @@ I'm so fat.	mi mutce plana	E
 I'm going to read some other books.	mi platu fi lo nu tcidu so'o drata cukta	
 I plan to try reading some other books.	mi platu lo nu troci lo nu tcidu lo drata cukta	
 I paid her five dollars.	mi pleji mu rupnu ko'a	
-I'm going to buy a dog tomorrow.	mi pltu lo ka te vecnu lo pa gerku ca lo bavlamdei	
 I said a complex tanru.	mi pluja tanru cusku	
 I want a beer.	mi po'edji loi birje	
 I'm Japanese, but I don't live in Japan.	mi ponjo gi'e ku'i na xabju lo pongu'e	
@@ -9744,7 +9660,6 @@ I can speak both English and Spanish.	mi se bangu lo glibau e lo sanbau
 I speak Lojban.	mi se bangu lo jbobau	
 I know only French and English.	mi se bangu no na me lo fraso jo'u lo glico	
 I have a son.	mi se bersa	
-I have a son and a daughter. He is in New York, and she is in London.	mi se bersa je se tixnu i lo bersa cu zvati la nu,iork i lo tixnu cu zvati la lyndyn	
 I have one brother.	mi se bruna pa da	
 I am confused.	mi se cfipu	
 I'm confused.	mi se cfipu	
@@ -10147,7 +10062,6 @@ I've come to save Mary.	mi zvati mu'i lo nu nurgau la maris
 I've come to save the princess.	mi zvati mu'i lo nu nurgau lo noltruti'u	
 I'm here to save you.	mi zvati ti tezu'e lo ka snurygau do	
 I'm by the train station.	mi zvati vi lo trenytcana	
-We can't see anything.	mi''a na ka'e viska su'o da	
 We'll come and visit you.	mi'a ba klama vitke do	
 We banished him from the country.	mi'a pu jai gau cliva fai ra lo te gugde	B+
 We are the Borg.	mi'a me la borg	E
@@ -10311,7 +10225,6 @@ My name is Farshad.	mi'e la farcad
 This is Tom calling.	mi'e la tom	
 This is Alice calling.	mi'e la alis	
 This is Mary calling.	mi'e la maris	
-My name is Noelia, and you are?	mi'e la'o gynoeliagy i ma do cmene	
 Your loving friend.	mi'e lo pedypa'i be do	
 Who am I?	mi'e ma	
 It's me.	mi'e mi	
@@ -10518,7 +10431,6 @@ It is not the correct solution.	na drani danfu	G
 This'll be different.	ba drata	B
 It's not us.	na du mi'a	G
 This is unusual.	na fadni	
-If it isn't on Tatoeba, it isn't a sentence.	na go nai da na zvati latatoebas gi da na jufra	
 No.	na go'i	A
 No, I am not married.	na go'i i mi na speni	
 No, I agree.	na go'i i mi tugni	
@@ -10879,7 +10791,6 @@ How are you, Alice?	do cinmo ma doi la alis	G-
 How are you, Mary?	do cinmo ma doi la maris	G-
 What shall we play?	mi'ai ci'erkei ma au dai	G-
 It is very hot in this room, isn't it?	pei glare ne'i lo vi kumfa	
-It is very hot in this room, isn't it?	pei glare ne'i lo vi kumfa	
 How about a cup of coffee?	pei kabri lo ckafi	
 Is Tom alone now?	xu la tom ca na'o kansa no da	A
 Is Alice alone now?	xu la alis ca na'o kansa no da	A
@@ -10970,7 +10881,7 @@ It was a lot of fun.	pu mutce zdile
 He had no idea what to expect.	pu na djuno lo du'u ei vo'a kanpe ma kau	
 It wasn't easy to convince her.	pu na frili fa lo ka jai gau birti fai lo fetsi	
 That was not necessary.	pu na sarcu	
-He could not sleep because of the heat.	pu na sipna ri'a lo du'u glare	
+He could not sleep because of the heat.	ra pu ku ri'a lo nu glare vau na ku sipna	
 It wasn't a joke.	pu na xajmi selsku	
 It was hard at first.	pu nandu ca lo tolfa'o	
 It was night.	pu nicte	
@@ -11256,7 +11167,6 @@ She died of stomach cancer.	ra pu mrobi'o lo djaruntyrango kenra
 He was very poor.	ra pu mutce pindi	
 She moved to America.	ra pu muvdu la amerikas	
 She moved to Germany.	ra pu muvdu la dotco gugde	
-He moved to Europe.	ra pu muvdu la europas	
 He moved to Canada.	ra pu muvdu la kanadas	
 She didn't display any type of emotion.	ra pu na jarco lo ka cinmo su'o da	
 He was alone.	ra pu nonkansa	
@@ -11402,7 +11312,7 @@ They had to go to the hospital.	ri pu nitcu lo ka klama lo spita
 They didn't see anything.	ri pu viska no da	
 Why?	ri'a ma	
 Why doesn't he come back?	ri'a ma ra na se'ixru	
-I could not sleep because of the noise.	ri'a tu'a lo savru mi pu na kakne lo ka sipna	
+I could not sleep because of the noise.	pu ku ri'a tu'a lo savru mi na ku kakne lo ka sipna	
 She's asking for the impossible.	ri'oi ninmu cu cpedu su'o se kakne be no da	
 You really stink.	rigypanci do	
 There is a river beside the house.	rirxe va lo zdani	
@@ -11454,7 +11364,6 @@ Everyone talks about her.	ro da tavla fi ko'a
 Everybody tends to be lazy.	ro da tende lo ka lazni	
 Everything is fine.	ro da xamgu	
 Time destroys everything.	ro da ze'a lo ditcu co'a spofu	
-Everyone is free to contribute.	ro da zifre lo nu mindju	
 You may kiss anybody.	ro da zo'u e'a do da cinba	
 Anything can happen.	ro da zo'u ka'e ku da fasnu	
 I am ready to do anything for you.	ro da zo'u mi bredi tu'a da lu'u ne se va'u do	
@@ -11512,7 +11421,6 @@ Death is the fate of all people.	ro prenu cu mrodimna
 Man is mortal.	ro prenu cu mrodimna	
 Everyone speaks a language.	ro prenu cu se bangu	
 Everyone has strengths and weaknesses.	ro prenu cu tsali da gi'e ruble de	
-Everyone is free to contribute.	ro prenu cu zifre lo nu mindju	
 Everyone can feed the database to illustrate new vocabulary.	ro prenu ka'e jmina fi lo datnyci'e te zu'e lo nu jarco lo cnino valsi	
 Everyone can help ensure that sentences sound correct, and are correctly spelled.	ro prenu ka'e zukte fi lo nu lo'i jufra cu simlu lo ka drani ku kei e lo nu jy ciska drani	
 Everyone laughs at someone who makes a mistake.	ro prenu mi'afra lo ko'a srera	
@@ -11589,7 +11497,6 @@ Have a nice weekend!	sai pluka jeftyfanmo di'ai
 How intuitive!	sai racli	
 Faster!	sai sutra zmadu	
 You should stand up to speak.	sanli ei sezu'e lo nu tavla	
-Obviously, this cannot be the work of one person. This is why Tatoeba is collaborative.	sapselga'e fa lo nu ra na ka'e se finti pa prenu i la'e di'u krinu lo nu latatoebas cu se grisazri	
 It is necessary.	sarcu	
 Somebody has to talk.	sarcu fa lo nu da tavla	
 It is necessary for you to start now.	sarcu fa lo nu do jai cfari	
@@ -11852,7 +11759,6 @@ He proved to be honest.	ta pu jarco lo du'u lo du'u vo'a stace ku jetnu
 He proved to be honest.	ta pu jarco lo du'u vo'a stace	
 She left for Paris.	ta pu klama la paris	
 That was an evil bunny.	ta pu palci ractu	
-That was written by Taro Akagawa.	ta pu se ciska la tarosakaga,uas	
 That's exactly what I wanted to see.	ta satci lo ka mi pu djica lo nu mi viska ce'u	
 That belongs to me.	ta se ponse mi	
 She is living in the village.	ta se zdani lo cmatca	
@@ -12098,7 +12004,6 @@ This is a secret.	ti sivni
 This is an old book.	ti slabu cukta	
 This is a quiet street.	ti smaji klaji	
 What kind of monkeys are those?	ti smani ma	
-This is a plant of the species Schlumbergera truncata.	ti spati la'o lysc'lumbergera truncataly	
 This is a hospital.	ti spita	
 This is the place where she works as a secretary.	ti te briju fi'o ci'arse'u ko'a	
 What a dump.	ti tolzdi	
@@ -12411,8 +12316,6 @@ Are you sure you've never met him?	xu do birti lo du'u do pu noroi penmi ra
 Are you sure you haven't forgotten anything?	xu do birti lo du'u na tolmo'i	
 Do you play soccer?	xu do boltipyjvi	
 Are you ready?	xu do ca bredi	G+
-Are you ready for Halloween?	xu do bredi la'oi 'alloween	
-Are you ready for Halloween?	xu do bredi lo me la'o gy'alloweengy	
 Are you a Buddhist?	xu do budjo	G
 Have you ever traveled in a plane?	xu do ca da klama de fo su'o vinji	
 Have you ever driven a sports car?	xu do ca da pu sazri lo esporte karce	
@@ -12432,7 +12335,6 @@ Do you cry often?	xu do cafne klaku
 Did you miss me?	xu do caucni mi	
 Are you awake?	xu do cikna	
 Are you writing a letter?	xu do ciska finti lo xatra	
-Do you eat enchiladas?	xu do citka la'o sy enc'iladas sy	
 Do you eat meat?	xu do citka lo rectu	
 Are you new here?	xu do citno vi	
 Do you participate in the marathon?	xu do clabajykla	
@@ -12522,7 +12424,6 @@ Can you come at ten on May second?	xu do ka'e zvati de'i li cy pano ly mu dy re
 Are you able to speak Mandarin?	xu do kakne lo ka tavla fo lo bancumunu	
 Can you make yourself understood in English?	xu do kakne lo nu jai gau se jimpe bau lo glibau	
 Are you healthy?	xu do kanro	
-Did you accompany Peter to Munich?	xu do kansa lapitr lo nu klama laminx,n	
 Are you coming to the store with me?	xu do kansa mi lo nu klama lo zarci	
 Are you crying?	xu do klaku	
 Will you go by train?	xu do klama fu lo trene	
@@ -12550,7 +12451,6 @@ Are you not tired?	xu do na tatpi	G
 Aren't you sleepy?	xu do na tatpi	
 Aren't you tired?	xu do na tatpi	
 Do you eat rice every day?	xu do na'o citka lo rismi de'i roldei	
-Do you like New York?	xu do nelci la niu,iork	G
 Do you like spicy food?	xu do nelci lo crovu'i cidja	
 Do you like white chocolate?	xu do nelci lo blabi cakla	
 Do you like your brother?	xu do nelci lo bruna be do	
@@ -12717,7 +12617,6 @@ Did you try it?	xu do troci
 Do you see any policeman over there?	xu do viska da poi vu pulji	
 Do you see the raccoon?	xu do viska lo arxokuna	
 Do you live alone?	xu do xabju ka'ai no da	
-Do you live in Sasayama?	xu do xabju lasasa,iaman	
 Are you staying at this hotel?	xu do xabju lo vi xotli	
 Do you live in this area?	xu do xabju su'o zvajbi be ti	
 Are you hungry?	xu do xagji	
@@ -12817,7 +12716,6 @@ Could I get a discount if I pay in cash?	xu lo jdima cu jdika seja'e lo nu mi pl
 Is Mary a common name in your country?	xu lo ka se cmene zo maris cu zilfadni lo xabju be lo gugde pe do	
 Does a Roman cat have a Roman meow?	xu lo'e mlatu po la rom ta'e latcmo	W
 Is mercury really a metal?	lo'e margu cu jinme pe'a nai pei	B-
-Does a Roman cat have a Roman meow?	xu lo'e mlatu po la rom ta'e latcmo	W
 Is it necessary to expand human knowledge with space exploration?	xu lo nu ba'orgau lo'i remselju'o ta'i loi nunkesfakli'u cu sarcu	
 Do you eat rice every day?	xu lo nu do citka lo rismi cu roldei	
 Have you finished your work?	xu lo nu do gunka cu mulno	
@@ -13030,7 +12928,6 @@ The train is leaving soon.	lo trene ba zi cliva	B-
 It will be spring soon.	zi vensa	G-
 Spring will be here soon.	zi vensa	G-
 Faster, higher, stronger!	zmadu fi lo ka sutra gi'e galtu gi'e tsali	B-
-His long-haired, blond, Teddy Bear hamster was called Jabberwocky.	zo djaberuakis cmene lo kriceto be la'o ly teddy bear ly be'o dalpe'o be ko'a be'o noi clani je sloska se kerfa	
 My name is John.	zo djan cmene mi	G+
 The word 'ba'e' emphasizes the word that follows it, rather than what precedes it.	zo ba'e basna lo valsi poi se lidne je nai lidne zo ba'e	
 The word 'cidjrpitsa' is a loan word.	zo cidjrpitsa fu'ivla	G
@@ -13057,7 +12954,6 @@ Just kidding!	zo'o	A
 Seriously, I postulate that I am, right after my ex-girlfriend leaves my house, going to talk to myself in Lojban.	zo'o cu'i ru'a mi ca lo nu lo ba'o pampe'o cu cliva lo zdani be mi cu tavla vo'a fo la lojban	
 No. I don't find that very funny.	zo'o nai na xajmi mi	G-
 Steve is an American name.	zo'oi steve merko cmene	A
-Tatoeba' means 'for example' in Japanese.	zo'oi tatoeba se smuni zo mu'a gi'e valsi fi lo ponbau	B-
 I am not kidding.	zo'onai	G-
 I'm serious! OK, I'm kidding.	zo'onai toi'e zo'o	
 On the one hand it is dangerous. On the other hand it is interesting. From both points of view it is necessary.	ma'i lo pa moi cu ckape i ma'i lo ro moi cu cinri i ma'i lo re da sarcu	GE
@@ -13203,7 +13099,6 @@ I don't believe any of it.	mi krici no la'e do'i
 Tom is looking forward to it.	la tom ca'o djica ja kanpe	
 Alice is looking forward to it.	la alis ca'o djica ja kanpe	
 Mary is looking forward to it.	la maris ca'o djica ja kanpe	
-Mary is looking forward to it.	la maris ca'o djica ja kanpe	
 We visited St. Petersburg and Moscow.	mi'ai pu zvati la saint peterzburg e la moskov	
 Tom got that right.	la tom pu co'i drani	
 Alice got that right.	la alis pu co'i drani	
@@ -13344,7 +13239,6 @@ Tom drove to work.	la tom pu klama lo stuzi be lo nu ri se jibri vau ta'i lo ka 
 Alice drove to work.	la alis pu klama lo stuzi be lo nu ri se jibri vau ta'i lo ka sazri lo karce	
 Mary drove to work.	la maris pu klama lo stuzi be lo nu ri se jibri vau ta'i lo ka sazri lo karce	
 I don't use Facebook.	mi na pilno la faisybuk	
-Tatoeba: English	tatoeba lojban	
 This is a book.	ti cukta	
 This is not a book.	ti na cukta	
 Is this a book?	xu ti cukta	
@@ -13421,7 +13315,6 @@ It's near my home.	jibni lo zdani be mi
 It's on the sea.	gapru je lamji lo xamsi	
 It's on the left of TV.	zunle lo ve tivni	
 It's on the left.	zvati lo zunle	
-It's on the right.	zvati lo prity	
 It's behind her.	trixe lo fetsi	
 It's in front of TV.	crane lo ve tivni	
 It's by desk.	lamji lo jubme	
@@ -13473,7 +13366,6 @@ What are there in your box	ma nenri lo tanxe pe do
 There are seven days in a week.	lo jeftu cu djedi li ze	
 How much rice is there?	lo rismi poi zvati tu cu klani ma ma	
 Here is a few letters for you to learn.	ti du lo lerfu so'i mei noi ei do cilre fi ke'a	
-Is there a Miss Lee staying here?	xu la'oi lee noi se sinma nixli ca'o zvati ti	
 I open the door.	mi jai gau kalri fai lo vorme	
 I don't open the door.	mi na jai gau kalri fai lo vorme	
 Do you open the door?	xu do jai gau kalri fai lo vorme	
@@ -13519,7 +13411,6 @@ Have you seen him?	do ca ma viska lo nanmu
 Where did you see him?	do bu'u ma viska lo nanmu	
 Have you spoken to him?	xu do pu'i tavla lo nanmu	
 What did he tell you?	ma ckaji lo ka lo nanmu pu skicu fi do	
-I have lived in Shanghai for a long time.	mi pu xabju la'o gys'ang'aigy ze'a lo barda	
 I have bought the car.	mi co'i te vecnu lo karce	
 Has your brother come from Paris?	xu lo bruna be do cu klama fi la paris	
 I can't get this lift to work.	mi fliba lo ka jai gau akti fai lo se sabnu be lo muvdu	
@@ -13811,7 +13702,6 @@ It's raining.	ca ca'o carvi
 It was snowing hard onto the lake from a large cloud.	lo snime pu carmi carvi lo lalxu pa barda dilnu	
 She and I discussed a piece of art.	lo fetsi joi mi pu casnu pa arte	
 Dial 911!	ko jikca la'e me'o so pa pa	
-Dial 911!	ko jikca la'e me'o so pa pa	
 The girl pushed the boy on his head.	lo nixli pu catke lo nanla re'o lo stedu be ri	
 Look at me.	ko catlu mi	
 The authority to be a farmer on this land has been given to me by my father.	mi co'a catni lo ka cange ti ce'u vau lo du'u lo patfu be mi cu e'ande mi lo se nei	
@@ -13826,7 +13716,6 @@ This city is in the center of the country.	ti noi tcadu cu centero lo te gugde
 The insect is 1 centimeter long.	lo insekto cu centi lo ka mitre vau lo ka clani	
 I inherited the house from my father according to his will.	mi cerda lo ka ponse lo dinju vau lo patfu be mi su'o se djica be ri	
 I will go to forest tomorrow at dawn at this place.	mi ba klama lo boske ca lo cermurse be lo bavlamdei bei ti	
-Good morning!	cerni coi	
 It is now the morning of a new day in Japan.	ca cerni pa cnino la nipon	
 I cannot but wonder at his skill in swimming.	fau ei ro da mi se zu'e se marvele lo nu lo prenu se la'u li xo kau certu lo ka limna	
 You are a god of rain for me.	do cevni mi lo nu carvi	
@@ -14238,9 +14127,6 @@ That he is a criminal is the information about the man collected by monitoring h
 I am interested in studying insects.	mi se cinri lo ka tadni lo insekto	
 Playing music is the initial part of the performance.	lo nu zgipli cu krasi lo se tigni	
 The ability to determine who is right is the sign of high intellect of my child.	lo ka facki lo du'u ma kau drani cu intele lo panzi be mi	
-Tom chats in IRC channel #lojban of freenode network.	la tom cu irci la'o netlojbannet la'o gyfreenodegy	
-Alice chats in IRC channel #lojban of freenode network.	la alis cu irci la'o netlojbannet la'o gyfreenodegy	
-Mary chats in IRC channel #lojban of freenode network.	la maris cu irci la'o netlojbannet la'o gyfreenodegy	
 You slow my work down by your constant talk.	do jabre lo nu mi gunka vau lo ka ru'i tavla	
 Stars decorate the sky.	lo tarci cu jadni lo tsani	
 The rocket will go from the Earth to the Moon.	lo jakne ba klama fi lo terdi fe lo lunra	
@@ -15612,7 +15498,6 @@ Does Alice keep her words?	xu la alis cu zukte lo se nupre be lo no'a
 I'm happy because I'm happy.	mi gleki lo nu no'a	
 If there is something you want to happen, make it happen.	fau lo nu do djica lo nu bu'a cu bu'a gau ko	
 There is an event X, an event Y and event Z such that X can lead to Y during Z.	su'o bu'a su'o bu'e su'o bu'i zo'u lo nu bu'a cu ka'e se jalge lo nu bu'e ca lo nu bu'i	
-There is an event X, an event Y and event Z such that X can lead to Y during Z.	su'o bu'a su'o bu'e su'o bu'i zo'u lo nu bu'a cu ka'e se jalge lo nu bu'e ca lo nu bu'i	
 Okay, so there is a house, let's call it {ko'a} from now on.	i'a da goi ko'a dinju	
 ko'a looks like a store, many people go in and out. In addition, it's interesting that there is a window in ko'a that is broken.	ko'a simlu lo ka zarci i je so'i prenu ta'e klama lo nenri jo'u lo bartu i ji'a cinri fa lo nu pa canko be ko'a cu spofu	
 I said nothing about the problem.	mi pu cusku no da pe lo nabmi	
@@ -15648,7 +15533,6 @@ Those who are women and teachers, please, enter.	e'o doi lo ninmu ku'a lo ctuca 
 The Cartesian product of mangoes, apples and pears that are either red or yellow has 6 members.	lo mango o nai bo lo plise o nai bo lo perli pi'u lo xunre a bo lo pelxu cu vo mei	
 The Cartesian product of mangoes, pears and pears that are either red or yellow has 6 members.	lo mango o nai bo lo perli o nai bo lo perli pi'u lo xunre a bo lo pelxu cu vo mei	
 Look at the big beauty-with-eyes.	ko catlu lo barda ke se kanla melbi	
-Look at the beauty with big eyes.	ko catlu lo barda se kanla melbi	
 Alice and either Kevin or Eduard will visit the meeting.	la alis e ke la kevin a la edvard ba vitke lo nu penmi	
 Either Alice and Kevin or Eduard will visit the meeting.	la alis e la kevin a la edvard ba vitke lo nu penmi	
 I wish you cooked the bread and either cleaned the room or walked with the dog.	au do jukpa lo nanba gi'e ke lumci lo kumfa gi'o nai cadzu ka'ai lo gerku	
@@ -16230,11 +16114,9 @@ Alice is a prima donna.	la alis cu mu'oi gyprima donnagy
 &quot;Again&quot; is translated as {za'u re'u}.	zo'oi again se traduki fi lu za'u re'u li'u	
 As for animals, I like cats.	lo danlu zo'u mi nelci lo mlatu	
 There are four {da} (that are dogs) and there are two {de} (that are men) such that each dog ({da}) bites the two men ({de}).	vo da poi gerku vau re de poi prenu zo'u da batci de	
-&quot;The wild bears&quot; is an interesting movie.	la'o gyt'e wild bearsgy jai cinri skina	
 I do want to study. But it's difficult to me.	mi je'a djica lo ka tadni i ku'i ka bu nandu mi	
 {di'ai} is a grammatical particle of class &quot;COI&quot; (vocative).	zo di'ai cmavo ma'oi coi	
 I want you to accompany me. Is this possible?	mi djica lo nu do kansa mi i xu nu bu cumki	
-{kla} is an affix from the full verb {klama}.	ra'oi kla rafsi zo klama	
 Peace to you! (as a greeting).	panpi ze'ei coi	
 I tested the car.	mi pu gasnu lo cipra be tu'a lo karce	
 I will have a test soon.	ba zi ku mi jai se cipra	
@@ -16376,8 +16258,8 @@ I will talk to you before you leave.	mi ba tavla do pu lo nu do cliva
 I tried to find out whether Alice had been to Paris.	mi pu troci lo ka facki lo jei la alis pu zvati la paris	
 I found out who had lived in the house long before.	mi pu facki fi su'o da lo jei da pu zu xabju lo dinju	
 I found out who as seen from a long time ago could be characterized as living in the house at that time.	mi pu facki fi su'o da lo pu zu jei da xabju lo dinju	
-I know who is here.	mi djuno lo jei je ka zvati ti	
-I know that someone is here and I know who it is.	mi djuno fi da fe lo jei je ka zvati ti	
+I know who is here.	mi djuno lo du'u ma kau zvati ti	
+I know that someone is here and I know who it is.	mi djuno lo du'u da zvati ti	
 I don't know how many cats are there.	mi na djuno lo jei je ka se klani lo mlatu poi zvati tu	
 I learned a lot from watching birds.	mi so'i da pu'i cilre fo lo nu mi pu zgana lo cipni	
 Smart people can do nice things. But they represent a too small fraction of citizens.	lo stati prenu cu kakne lo ka zukte lo zabna i ku'i lo stati cu mo'a si'e loi se gugde prenu	
