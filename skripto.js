@@ -93,50 +93,43 @@ function processRows(rows) {
     };
 
     if ((tags.indexOf("B") >= 0 && j.target === r['Tatoeba: Lojban']) || (r['Tatoeba: Lojban'] || '') === '' || (r['Tatoeba: English'] || '') === '') continue;
-
+    j.target = lojban.preprocessing(j.target)
+    
     try {
-      j.target_opt = lojban.ilmentufa_off(lojban.zeizei(j.target.replace(/ĭ/g, "i")
-        .replace(/ŭ/g, "u")), 'T').kampu;
+      j.target_opt = lojban.romoi_lahi_cmaxes(lojban.zeizei(j.target.replace(/ĭ/g, "i")
+        .replace(/ŭ/g, "u")), 'T').kampu.filter(i => i[0] !== 'drata').map(i => i[1]).join(" ").replace(/-/g, '');
     } catch (error) {
-      console.log(error);
+      continue;
     }
 
-    j.target = (j.target || "")
-      .toLowerCase().replace(/[^a-z ,'\.]/g, '')
-      .replace(/h/g, "'")
-      .replace(/\./g, "")
-      .replace(/^i\b/g, "")
-      .replace(/ {2,}/g, " ")
-      .replace(/[\r\n]/g, "")
-      .trim();
-    j.target_opt = (j.target_opt || "")
-      .toLowerCase().replace(/[^a-z ,'\.]/g, '')
-      .replace(/h/g, "'")
-      .replace(/\./g, "")
-      .replace(/^i\b/g, "")
-      .replace(/ {2,}/g, " ")
-      .replace(/[\r\n]/g, "")
-      .trim();
     j.source = j.source
       .replace(/ {2,}/g, " ")
       .replace(/[\r\n]/g, "")
       .replace(/’/g, "'")
       .trim();
-    if (j.target_opt.indexOf("syntaxerror") >= 0) delete j.target_opt
     if (
       j.source !== "" &&
       j.target !== "" &&
       j.target.search(/\bzoi\b/) === -1
     ) {
+      try {
+        const parsed = lojban.romoi_lahi_cmaxes(j.target)
+        if (parsed.tcini == 'fliba') continue
+        j.target = parsed.kampu.filter(i => i[0] !== 'drata').map(i => i[1]).join(" ").replace(/-/g, '')
+        if (!j.target.split(" ").includes("zei")) j.target_opt = j.target_opt.split(" ").filter(i=>i!=='zei').join(" ")
+      } catch (error) {
+        console.log(error);
+      }
       n = duplicator({ n, j });
     }
   }
 
-  const en2jb = n.map(r => {
+  let en2jb = n.map(r => {
     const outRow = { source: r.source, target: r.target, tags: r.tags }
     return outRow;
   });
-  const jb2en = n.map(r => {
+  en2jb = [...new Set(en2jb.map(el => JSON.stringify(el)))].map(el => JSON.parse(el))
+  let jb2en = n.map(r => {
     // Or this is what la Ilmen uses: G (good), G− (a little good, not so good), G+ (very good), A (acceptable), B[−+] ([a little / very] bad), N (neologism, containing an undocumented Lojban word), E (experimental grammar), P (non-conventional punctuation), C - CLL style, X - xorlo. W - play on words and thus poorly translatable to/from Lojban
     r.tags = r.tags.replace(/ /g, '').split(/[A-Z][\+\-]?/).filter(i => i !== '').map(i => {
       i = i
@@ -158,6 +151,8 @@ function processRows(rows) {
     const outRow = { source: r.target, source_opt: r.target_opt, target: r.source, tags: r.tags }
     return outRow;
   });
+  jb2en = [...new Set(jb2en.map(el => JSON.stringify(el)))].map(el => JSON.parse(el))
+
   return { jb2en, en2jb };
 }
 
@@ -213,10 +208,9 @@ function splitToChunks(array, parts) {
 
 function splitOutput(arr) {
   const tegerna = 'muplis'
-  const { compress } = require('compress-json')
   const hash = require('object-hash')(arr)
 
-  splitToChunks(arr, 10).forEach((chunk, index) => {
+  splitToChunks(arr, 5).forEach((chunk, index) => {
     const outp = {
       formatName: 'dexie',
       formatVersion: 1,
@@ -226,7 +220,7 @@ function splitOutput(arr) {
         tables: [
           {
             name: 'valsi',
-            schema: '++id, bangu, w, d, n, t, *s, g, *r, *cache, [r+bangu]',
+            schema: '++id, bangu, w, y, d, n, t, *s, g, *r, *cache, [r+bangu]',
             rowCount: chunk.length,
           },
         ],
@@ -243,10 +237,14 @@ function splitOutput(arr) {
     dir = fs.existsSync(dir) ? dir : './dist'
     let t = path.join(
       dir,
-      `parsed-${tegerna}-${index}.blob.json`
+      `parsed-${tegerna}-${index}.bin`
     )
-    fs.writeFileSync(t, JSON.stringify(outp))
-    fs.writeFileSync(t + ".z", JSON.stringify(compress(outp)))
+    fs.writeFileSync(path.join(
+      dir,
+      `parsed-${tegerna}-${index}.json`
+    ), JSON.stringify(outp))
+    const brotli = require('brotli-wasm');
+    fs.writeFileSync(t, brotli.compress(Buffer.from(JSON.stringify(outp))))
   })
   const versio = '/livla/build/sutysisku/data/versio.json'
   let jsonTimes = {}
