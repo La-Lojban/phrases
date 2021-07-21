@@ -7,7 +7,7 @@
     "dotenv": "^8.2.0",
     "fs": "^0.0.1-security",
     "google-spreadsheet": "^3.0.13",
-    "lojban": "^1.1.10",
+    "lojban": "^2.0.10",
     "object-hash": "^2.2.0",
     "path-extra": "^4.3.0"
   },
