@@ -7,18 +7,20 @@ const { GoogleSpreadsheet } = require("google-spreadsheet");
 const doc = new GoogleSpreadsheet(
   "1Md0pojdcO3EVf3LQPHXFB7uOThNvTWszkWd5T4YhvKs"
 );
+if (!process.env.KEY) console.log('muplis update cancelled, no KEY specified');
 doc.useApiKey(process.env.KEY);
 (async () => {
   await doc.loadInfo();
-  const sheet = doc.sheetsByIndex[0];
-
+  const sheet = doc.sheetsById[551499663];
+  
+  
   let output = {
     en2jb: [],
     jb2en: []
   };
-
+  
   const limit = 10000;
-  for (let offset = 0; offset < 190000; offset += limit) {
+  for (let offset = 0; offset < 92000; offset += limit) {
     try {
       const rows = await sheet.getRows(
         {
@@ -29,6 +31,7 @@ doc.useApiKey(process.env.KEY);
       output.jb2en = output.jb2en.concat(jb2en);
       output.en2jb = output.en2jb.concat(en2jb);
     } catch (error) {
+      console.log(error.response.data); 
       continue
     }
   }
@@ -43,14 +46,14 @@ doc.useApiKey(process.env.KEY);
     .map(i => `${i.source}\t${i.target}\t${i.tags}`)
     .join("\n")
     .replace(/[\r\n]{2,}/g, "\n");
-  fs.writeFileSync("./dist/jb2en.tsv", output.jb2en);
-  fs.writeFileSync("./dist/en2jb.tsv", output.en2jb);
+  fs.writeFileSync(path.join(__dirname, "./dist/jb2en.tsv"), output.jb2en);
+  fs.writeFileSync(path.join(__dirname, "./dist/en2jb.tsv"), output.en2jb);
 
 })()
 
 function createDexieCacheFile(arr) {
   const a = arr.map(i => {
-    let cache = `${i.source};${i.source.replace(/h/g, "'")};${i.source_opt};${(i.source_opt || '').replace(/h/g, "'")};${i.target.replace(/[\.,!?\/\\]/g, '')};`
+    let cache = `${i.source};${i.source.replace(/h/g, "'")};${i.source_opt};${(i.source_opt || '').replace(/h/g, "'")};${i.target.replace(/[\.,!?\/\\]/g, '').replace(/[h‘]/g, "'")};`
     const cache1 = cache
       .toLowerCase()
       .replace(/ /g, ';')
@@ -74,6 +77,14 @@ function createDexieCacheFile(arr) {
   })
   splitOutput(a)
 }
+
+function canonicalizeValsi(valsi) {
+  if (/^[aeiouy]/.test(valsi)) valsi = "." + valsi
+  if (/y$/.test(valsi) && valsi.indexOf(".") !== 0) valsi = valsi + "."
+  if (/[^aeiouy]$/.test(valsi)) valsi = "." + valsi + "."  
+  return valsi.replace(/\.\./g,'.')
+}
+
 function processRows(rows) {
   let n = [];
   for (const r of rows) {
@@ -93,8 +104,8 @@ function processRows(rows) {
     };
 
     if ((tags.indexOf("B") >= 0 && j.target === r['Tatoeba: Lojban']) || (r['Tatoeba: Lojban'] || '') === '' || (r['Tatoeba: English'] || '') === '') continue;
-    j.target = lojban.preprocessing(j.target)
-    
+    j.target = lojban.preprocessing(j.target.toLowerCase())
+
     try {
       j.target_opt = lojban.romoi_lahi_cmaxes(lojban.zeizei(j.target.replace(/ĭ/g, "i")
         .replace(/ŭ/g, "u")), 'T').kampu.filter(i => i[0] !== 'drata').map(i => i[1]).join(" ").replace(/-/g, '');
@@ -115,8 +126,8 @@ function processRows(rows) {
       try {
         const parsed = lojban.romoi_lahi_cmaxes(j.target)
         if (parsed.tcini == 'fliba') continue
-        j.target = parsed.kampu.filter(i => i[0] !== 'drata').map(i => i[1]).join(" ").replace(/-/g, '')
-        if (!j.target.split(" ").includes("zei")) j.target_opt = j.target_opt.split(" ").filter(i=>i!=='zei').join(" ")
+        j.target = parsed.kampu.filter(i => i[0] !== 'drata').map(i => canonicalizeValsi(i[1])).join(" ").replace(/-/g, '')
+        if (!j.target.split(" ").includes("zei")) j.target_opt = j.target_opt.split(" ").filter(i => i !== 'zei').join(" ")
       } catch (error) {
         console.log(error);
       }
@@ -216,11 +227,11 @@ function splitOutput(arr) {
       formatVersion: 1,
       data: {
         databaseName: 'sorcu1',
-        databaseVersion: 1,
+        databaseVersion: 2,
         tables: [
           {
             name: 'valsi',
-            schema: '++id, bangu, w, y, d, n, t, *s, g, *r, *cache, [r+bangu]',
+            schema: '++id, bangu, w, d, n, t, *s, g, *r, *cache, [r+bangu]',
             rowCount: chunk.length,
           },
         ],
@@ -235,7 +246,7 @@ function splitOutput(arr) {
     }
     let dir = '/livla/build/sutysisku/data'
     dir = fs.existsSync(dir) ? dir : './dist'
-    let t = path.join(
+    let pathBinDump = path.join(
       dir,
       `parsed-${tegerna}-${index}.bin`
     )
@@ -244,7 +255,7 @@ function splitOutput(arr) {
       `parsed-${tegerna}-${index}.json`
     ), JSON.stringify(outp))
     const brotli = require('brotli-wasm');
-    fs.writeFileSync(t, brotli.compress(Buffer.from(JSON.stringify(outp))))
+    fs.writeFileSync(pathBinDump, brotli.compress(Buffer.from(JSON.stringify(outp))))
   })
   const versio = '/livla/build/sutysisku/data/versio.json'
   let jsonTimes = {}
