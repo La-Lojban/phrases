@@ -7,18 +7,18 @@ const { GoogleSpreadsheet } = require("google-spreadsheet");
 const doc = new GoogleSpreadsheet(
   "1Md0pojdcO3EVf3LQPHXFB7uOThNvTWszkWd5T4YhvKs"
 );
-if (!process.env.KEY) console.log('muplis update cancelled, no KEY specified');
+if (!process.env.KEY) { console.log('muplis update cancelled, no KEY specified'); process.exit() }
 doc.useApiKey(process.env.KEY);
 (async () => {
   await doc.loadInfo();
   const sheet = doc.sheetsById[551499663];
-  
-  
+
+
   let output = {
     en2jb: [],
     jb2en: []
   };
-  
+
   const limit = 10000;
   for (let offset = 0; offset < 92000; offset += limit) {
     try {
@@ -31,7 +31,7 @@ doc.useApiKey(process.env.KEY);
       output.jb2en = output.jb2en.concat(jb2en);
       output.en2jb = output.en2jb.concat(en2jb);
     } catch (error) {
-      console.log(error.response.data); 
+      console.log(error.response.data);
       continue
     }
   }
@@ -81,8 +81,8 @@ function createDexieCacheFile(arr) {
 function canonicalizeValsi(valsi) {
   if (/^[aeiouy]/.test(valsi)) valsi = "." + valsi
   if (/y$/.test(valsi) && valsi.indexOf(".") !== 0) valsi = valsi + "."
-  if (/[^aeiouy]$/.test(valsi)) valsi = "." + valsi + "."  
-  return valsi.replace(/\.\./g,'.')
+  if (/[^aeiouy]$/.test(valsi)) valsi = "." + valsi + "."
+  return valsi.replace(/\.\./g, '.')
 }
 
 function processRows(rows) {
