@@ -1,7 +1,6 @@
 .i .a'a sei ko di'a co'e ma ba la'e do'i fasnu	Aha, go on, what happened next?	
 .a'a cu'i ko denpa lo nu mi mulgau ti	Eh, just a second, let me finish this.	
 .a'a nai mi na tinju'i	La, la, la, I'm not listening.	
-.i .a'e pu'o tsunami	There's going to be a tsunami!	
 .a'e ba vilxasybo'a	There's going to be a tsunami!	
 .a'e ba vlile tcima	It's going to be violent weather!	
 .a'e lo cabdei ba xamgu djedi	Today is going to be a good day!	
@@ -725,7 +724,6 @@ ta mutce lo ka cortu lo moklu	Her mouth hurt a lot.
 .u'u nai mi pu zi stapa lo do jamfu .i do ba zukte ma	Yeah, I just stepped on your foot. What are you going to do about it?	
 .u'u no da zifre kumfa tu'a mi	I'm sorry, we have no vacancies.	
 .u'u srera	Sorry for any mistakes.	
-.u'u xu do ka'e jukpa lo cidjrsuci se cau lo stanruasabi	Excuse me, can you make the sushi without wasabi?	
 .u'u cai	I am so sorry.	
 .u'u cai	I'm utterly sorry!	
 .u'u nai	I'm washing my hands of the guilt.	
@@ -1308,7 +1306,6 @@ da perli je cpana be lo jubme	It's an pear and it's on the table.
 .i su'o jmive ca bartu	There's someone outside.	
 .i su'o jmive ca zvati ti	There's someone here.	
 .i su'o jmive ca nenri	There's someone inside.	
-da poi ke'a ridrxobi zo'u la .zauron. djica lo nu ro da terpa tu'a .zy.	Sauron wants every hobbit to fear him.	
 da poi micyxu'i zaisle zo'u xu vi stuzi da	Is there a pharmacy nearby?	
 da poi se sajysne zo'u da se senva zo'e poi ke'a ca'a sanji lo du'u ke'a senva	A lucid dream is any dream in which one is aware that one is dreaming.	
 da poi zvati lo vorme zo'u .e'o ko cpedu lo nu denpa	Whoever is at the door, please ask him to wait.	
@@ -1489,7 +1486,6 @@ do ciksi fi mi ba .e'o	Please explain it to me later.
 do ciksi la'e di'u fo ma	How do you explain that?	
 do cinmo ma	How do you feel?	
 do cinmo ma la .nuiork.	How do you like New York?	
-do cionmau	You are a panda.	
 do cirko lo ciblu	You're bleeding.	
 do citka ma	What are you eating?	
 do citnyme'a la .tom.	You're not as young as Tom.	
@@ -1735,7 +1731,6 @@ do nelci lo carvi vau je'u pei	You like rain, don't you?
 do nelci lo grute	You like fruit.	
 do nelci lo gunkansa pe do xu	Do you like your coworkers?	
 do nelci lo jungo cidja xu	Do you like Chinese food?	
-do nelci lo kulnrxanguke cidja xu	Do you like Korean food?	
 do nelci lo mlatu vau xu nai	You like cats, don't you?	
 do nelci lo mo stuzi	What kind of places do you like?	
 do nelci ma	What are you fond of?	
@@ -1749,7 +1744,6 @@ do nitcu fi ma	Why do you need it?
 .i do nitcu lo nu do sipna	You need sleep.	
 do nitcu lo ka sipna ze'a lo cacra be li xo	How many hours of sleep do you need?	
 do nitcu lo kardyckiku lo nu kargau	You need a keycard to open the door.	
-do nitcu lo nu crenzue se mau ku	You need to exercise more.	
 do nitcu ti	You need this.	
 do nitcu xu .a cu'i lo ka reisku ku lo ka co'a djuno	Do you really need to ask the question to know the answer?	
 do nixli gi'i nanla	Are you a girl or a boy?	
@@ -1809,9 +1803,7 @@ do pu zukte ma ca lo lamji nicte	What did you do last night?
 do pu zukte ma ca sai ra	What did you do at that moment?	
 do pu .ancu lo ka jungau fi lo jetnu	You should have told him the truth.	
 do pu'i se zgana	You've been spotted.	
-do pu'o verntineidja	You're not a teenager yet.	
 do pu zi je cu'e sombo lo gurni	You sowed the grain a little while ago; when else do you sow it?	
-do pu zu ba'o verntineidja	You were a teenager then.	
 do ra djuno fo ma	How do you know that?	
 do ra xo roi ba'o klama	How many times have you gone?	
 do ralte lo so'i vi cukta	You have all these books!	
@@ -1855,7 +1847,6 @@ do sutra gi'o nai jai lerci	Hurry up, or you will be late.
 do ta pukfri xu ru'e	You enjoyed that, didn't you?	
 do tadni je'i gunka	Are you studying or working?	
 do tatpi je'u nai pei	You are tired, aren't you?	
-do tavla bau lo bangrklingo .i na ja nai mi jimpe	If you speak Klingon, I won't understand.	
 do tavla ma	Who are you talking with?	
 do tavla mi ta	You talk to me about that.	
 do tcexau larfi'i	You are a very good artist.	
@@ -2285,7 +2276,6 @@ frili lo fetsi fa lo nu pedbi'o	It's easy for her to make friends.
 frili lo nakni fa lo nu pedbi'o	It's easy for him to make friends.	
 frili sei pu simlu	It sounded easy.	
 frili sei simlu	It sounds easy.	
-.fy. .ry. poi lingua cu mutce cinri	French is a very interesting language.	
 ga nai broda gi brode .i jo se ni'i bo ga na broda gi brode	If P, then Q' is logically equivalent to '(Not P) and/or Q'.	
 ga nai broda gi brode .i jo se ni'i bo ga nai na brode gi na broda	If P, then Q' is logically equivalent to 'If not Q, then not P'.	
 .ai ga nai mi xabju su'o drata gugde gi mi xabju lo ritygu'e	If I were to live abroad, I would live in Britain.	
@@ -2610,7 +2600,6 @@ ke'o	Excuse me?
 ke'o	I beg your pardon?	
 ke'o do'u mi na pu tirna	What did you say? I didn't hear.	
 ke'o nai do mi'ai pu tirna ca lo krefu be fi li pa	All right, we heard you the first time.	
-ke'u la .lojban. cu ralju lo se lifri larcu be lo remna .i je li'a lo go'i cu rinka lo nu lo nu larcu cu jdika lo ni sutra .i tai bo lo tsunami co'a mo'u klama lo xamsi korbi	Once again, Lojban is at the forefront of human creative experience - which, of course, will slow it down even as it strengthens it, like a tsunami as it approaches a shoreline.	
 ki'a	Excuse me?	
 ki'a	Pardon me?	
 ki'a cai	I don't understand a word of what you're saying.	
@@ -3006,15 +2995,15 @@ ko na pencu mi	Don't touch me!
 ko na pencu ta	Don't touch that.	
 ko na prami se pi'o lo valsi .a lo bangu .i ku'i ko prami ta'i lo se zukte .e lo jetnu	Don't love using words or language, but love by actions and truth.	
 ko na punji lo verba lo dakli	Do not put child into bag!	
-ko na radycru	Don't give up.	
+ko na co'u troci	Don't give up.	
 ko na renro lo jemna vi lo xarju	Do not cast pearls before swine.	
 ko na renro lo rokci lo gerku	Don't throw a stone at the dog.	
 ko na rivbi tu'a lo preti	Don't avoid the question!	
 ko na sigja vasxu bu'u lo vi kumfa	Don't smoke in this room.	
-ko na sigva'u	No smoking!	
+.ei na sigva'u	No smoking!	
 ko na skicu fi mi fe lo nu mi simsa ma kau	Don't tell me who I like.	
-ko na spuda	Don't ask any questions.	
-ko na tavla no da no de	Don't say anything to anybody.	
+ko na retsku	Don't ask any questions.	
+ko na ku tavla su'o da ce'e su'o de	Don't say anything to anybody.	
 ko na tcidu dei	Don't read this sentence.	
 ko na terpa	Don't be afraid.	
 ko na terpa mi	You're not afraid of me.	
@@ -3026,11 +3015,10 @@ ko na tolmo'i lo nu fonta'a mi'a ca lo nu do mulkla la .kioton.	Don't forget to 
 ko na tolmo'i tu'a lo do jdini	Don't forget your money.	
 ko na tolmorji lo nu do bevri lo santa	Don't forget to take an umbrella with you.	
 ko na troci co dukce carmi	Don't try too hard!	
-ko na viska	Don't look at this!	
-ko na viska ko'a	Don't look at her!	
-ko na viska ko'a	Don't look at him!	
-ko na viska mi	Don't look at me!	
-ko na xajmi	Don't be silly.	
+ko na catlu ti	Don't look at this!	
+ko na catlu lo pa ninmu	Don't look at her!	
+ko na catlu lo pa nanmu	Don't look at him!	
+ko na catlu mi	Don't look at me!	
 ko na xalni	Don't panic.	
 ko na xanka	Don't worry.	
 ko na xanka .i mi na'e xrani ko'a	Don't worry. I won't hurt her.	
@@ -3136,7 +3124,6 @@ ko tadni	Study!
 ko tadni lo bangu fi'o se pleji no da	Learn a language for free.	
 ko tankomo lo ka sutra kei lo ka kakne	Be as quick as possible.	
 ko tavla fo ja fi lo jbobau	Speak in Lojban or about Lojban.	
-ko tcidu .i ba'a nai do pante vu'e lo za'i lo banrglico cu bangu lo jboskepre	Read it. I recall, you protested quite virtuously the fact that the lojbanologists had discussions in English.	
 ko te cmene mi zo .icmail.	Call me Ishmael.	
 ko te lisri fi tu'a lo ckana mi	Tell me a bedtime story.	
 ko te preti fi lo preti poi vasru zo xu ku'o ku po'o	Ask only questions that can be answered with yes or no.	
@@ -3355,8 +3342,8 @@ ko'a na djica	He doesn't want it.
 ko'a na kakne lo nu ciska lo ko'a cmene	He cannot write his own name.	
 ko'a na kakne lo nu drani gunka	He doesn't have the ability to do the work properly.	
 ko'a na kakne lo nu ze'u stali	He can't stay long.	
-ko'a na pu djica lo nu ce'u se cuntu	She didn't want to get involved.	
-ko'a na xamgu lo ka morji fi lo cmene	He's not very good at remembering names.	
+lo ninmu na pu djica lo ka se cuntu	She didn't want to get involved.	
+ra na certu lo ka morji fi lo'e cmene	He's not very good at remembering names.	
 ko'a na xendo ko'e .i ju'o ko'a na xendo lo prenu	She isn't kind to him. In fact, she's not kind to anyone.	
 ko'a na ze'e ba cikybi'o	He never woke up.	
 ko'a na'e ro roi tinbe fi lo rirni be ko'a	They don't always obey their parents.	
@@ -3480,7 +3467,6 @@ ko'a ro roi litru	He's away on a trip.
 ko'a sanli ti'a lo matma be ko'a	He's standing behind his mother.	
 ko'a sanli ti'a lo stizu	He stood behind the chair.	
 ko'a se ba'i lo nu klama lo ckule pu stali lo zdani	Instead of going to school, he stayed at home.	
-ko'a se bangrpolska	She speaks Polish.	
 .i ra na se bangu lo bangu be mi	He doesn't speak my language.	
 .i ra voi fetsi cu se bangu lo dotco	She speaks German.	
 ko'a se frili lo nu binxo jibri ri	It was easy for her to find a job.	
@@ -4005,7 +3991,6 @@ la .tcyn. ctuca	Chen is a teacher.
 la .tcyn. na balcu'e tadni	Chen is not a university student.	
 la .tcyn. na cu'upre	Chen is not a businessperson.	
 la .tcyn. na merko	Chen is not American.	
-la .tcyn. na natmrxanguke	Chen is not Korean.	
 la .tokios. cu barda tcadu	Tokyo is a big city.	
 la .tokpisin. no'e bangu mi	I can't speak Tok Pisin well.	
 la .tom. ba na jinga	Tom won't win.	
@@ -5375,9 +5360,6 @@ la .maris. pu'o dunda lo steci	Mary has a special gift.
 la .tom. pu'o tsuku	Tom hasn't arrived yet.	
 la .alis. pu'o tsuku	Alice hasn't arrived yet.	
 la .maris. pu'o tsuku	Mary hasn't arrived yet.	
-la .tom. pu ba'o verntineidja	Tom isn't a teenager anymore.	
-la .alis. pu ba'o verntineidja	Alice isn't a teenager anymore.	
-la .maris. pu ba'o verntineidja	Mary isn't a teenager anymore.	
 la .tom. pu je ca stace la .maris.	Tom has been honest with Mary.	
 la .alis. pu je ca stace la .maris.	Alice has been honest with Mary.	
 la .maris. pu je ca stace la .maris.	Mary has been honest with Mary.	
@@ -5423,9 +5405,6 @@ la .maris. troci lo nu cpare lo rajycla tricu	Mary tried to climb the tall tree.
 la .tom. .u la .maris. klama lo zarci	Tom goes to the market, no matter if Mary goes to the market.	
 la .alis. .u la .maris. klama lo zarci	Alice goes to the market, no matter if Mary goes to the market.	
 la .maris. .u la .maris. klama lo zarci	Mary goes to the market, no matter if Mary goes to the market.	
-la .tom. verntineidja	Tom is a teenager.	
-la .alis. verntineidja	Alice is a teenager.	
-la .maris. verntineidja	Mary is a teenager.	
 la .tom. xi pa tavla la .tom. xi re	Tom talks to Tom (the other one).	
 la .alis. xi pa tavla la .alis. xi re	Alice talks to Alice (the other one).	
 la .maris. xi pa tavla la .maris. xi re	Mary talks to Mary (the other one).	
@@ -5435,9 +5414,6 @@ la .maris. xusra lo du'u pa cevni cu zasti	Mary claims one and only one god exis
 la .tom. xusra lo du'u pa cevni cu zasti	Tom claims one god exists.	
 la .alis. xusra lo du'u pa cevni cu zasti	Alice claims one god exists.	
 la .maris. xusra lo du'u pa cevni cu zasti	Mary claims one god exists.	
-la .tom. za'o verntineidja	Tom is still a teenager.	
-la .alis. za'o verntineidja	Alice is still a teenager.	
-la .maris. za'o verntineidja	Mary is still a teenager.	
 la .tom. za'o zvati lo ckana	Tom is still in bed.	
 la .alis. za'o zvati lo ckana	Alice is still in bed.	
 la .maris. za'o zvati lo ckana	Mary is still in bed.	
@@ -5514,7 +5490,6 @@ la'a ba si'ercarvi	It may snow.
 la'a carvi	It will probably rain.	
 la'a do jitro ko'a	Maybe you control it.	
 la'a do jitro ko'a	You probably control it.	
-la'a do xabju lo jecrsautkarolaina	You probably live in South Carolina.	
 la'a ko'a ba fliba	He will probably fail.	
 la'a la .tom. cu troci ra	Tom probably tried it.	
 la'a la .alis. cu troci ra	Alice probably tried it.	
@@ -5573,7 +5548,6 @@ la'e do'i xamgu lisri	That's a great story.
 la'o .cy. .klabaster. .cy. .e la'o .cy. gizmo .cy. mlatu	Klabaster and Gizmo are cats.	
 la'o .gy. .e mi .gy. xamgu nixli	Emi is a good girl.	
 la'o .gy. .mrs. .parker. .gy. pu rinsa ko'a lo nu cisma	Mrs. Parker greeted him with a smile.	
-la'o .gy. .steins. ga te .gy. kinrxanime gi'e mutce lo ka ce'u se nelci	Steins;Gate is a very enjoyable anime.	
 la'o .my. ji ro .gy. djica lo nu pinxe loi me la'o .gy. co ke .gy.	Jiro wants to drink Coke.	
 la'oi .parker. rinsa ko'a lo nu cisma	Mrs. Parker greeted him with a smile.	
 la'oi .e mi xamgu nixli	Emi is a good girl.	
@@ -5672,7 +5646,7 @@ lo do se pesti'i cu jetnu	Your hypothesis is correct.
 .i lo dinju pe do barda	Your house is big.	
 lo .elkotero ca'o fulta lo vacri ga'u lo stedu	The helicopter is hovering overhead.	
 lo fetsi ba jai sarcu fai lo ka denpa tu'a lo nakni	She'll have to wait for him.	
-.i lo fetsi ba zi di'a zvati	She'll return very soon.	
+.i ra voi ninmu cu ba zi di'a zvati	She'll return very soon.	
 lo fetsi ca cimlu lo ka badri	She looks sad.	
 lo fetsi ca kansa la .piter.	She is with Peter.	
 lo fetsi ca'o citka da	She's eating something.	
@@ -5687,17 +5661,17 @@ lo fetsi cu ralte lo so'o nanba	She has a little bread.
 lo fetsi cu se bangu lo rusko	She speaks Russian.	
 lo fetsi cu se mensi re da	She has two sisters.	
 lo fetsi cu se panzi xo da	How many kids does she have?	
-lo fetsi cu to'e certu lo ka smusku lo jitfa	She's a bad liar.	
-lo fetsi na na drani	She is not wrong.	
+lo ninmu na certu lo ka xusra lo jitfa poi simlu lo ka jetnu	She's a bad liar.	
+lo ninmu na na'e drani	She is not wrong.	
 lo fetsi na se klesi lo ta'e smusku be lo jitfa	She's not the lying type.	
-lo fetsi no roi se .urja	She's never in a hurry.	
+lo ninmu no roi se .urja	She's never in a hurry.	
 lo fetsi pu benji lo be ri bersa te zu'e tu'a lo mikce	She sent her son for a doctor.	
 lo fetsi pu ciska finti lo cnino cukta	She wrote a new book.	
-lo fetsi pu citka lo pa plise	She ate one apple.	
-lo fetsi pu citka lo pa perli	She ate one pear.	
-lo fetsi pu co'a gleki	She became happy.	
-lo fetsi pu dasni loi lenjo	She wore glasses.	
-lo fetsi pu jukpa lo nanba	She baked bread.	
+lo ninmu pu citka pa lo plise	She ate one apple.	
+lo ninmu pu citka pa lo perli	She ate one pear.	
+lo ninmu pu co'a gleki	She became happy.	
+lo ninmu pu ta'e dasni loi lenjo	She wore glasses.	
+lo ninmu pu jukpa lo nanba	She baked bread.	
 lo fetsi pu katna lo torta lo re mei	She cut the cake in two.	
 lo fetsi pu ku carna gi'e co'a klaku	She turned and began to cry.	
 lo fetsi pu na tinju'i	She did not listen.	
@@ -5716,19 +5690,19 @@ lo gerku cu zasti lo cipni	To the bird, the dog exists.
 lo gerku ku cu melbi	The dog is beautiful.	
 lo gerku pe lo lamji cu ckape	The dog next door is dangerous.	
 lo gerku pe lo pa la'izda cu ckape	The dog next door is dangerous.	
-lo gerku pu citka lo mi cutci	The dog ate my shoe.	
+lo pa gerku pu mo'u citka lo pa cutci ku ne mi	The dog ate my shoe.	
 lo gerku pu nenri lo tanxe poi cnita lo jubme	The dog was in the box under the table.	
 lo glico gugyka'i cu pu camcpe lo nu ri tolka'i penmi lo gugja'a	The English ambassador demanded to meet with the President directly.	
-lo gusni ca crino	The light is green.	
+lo gusni cu crino	The light is green.	
 lo jalge be lo nu cipra cu spaji .oi mi'a	The results of the experiment were not as we had hoped.	
-lo jalge no'e xamgu	The result won't really be good.	
-lo jamfu be ko'a cmalu	He has small feet.	
+loi jalge na ku ba ku zabna	The result won't really be good.	
+ra se jamfu za'u cmalu	He has small feet.	
 lo jitro cu livbai la .tom. lo barja	The bartender kicked Tom out of the bar.	
 lo jitro cu livbai la .alis. lo barja	The bartender kicked Alice out of the bar.	
 lo jitro cu livbai la .maris. lo barja	The bartender kicked Mary out of the bar.	
 lo jmive pe pu cu du ma	Who was it?	
-lo ju'a cu'i nanmu poi do pu viska ke'a cu je'u ninmu	The 'man' that you saw is actually a woman.	
-lo jubme pe ne'i lo va kumfa cu mutce pluka	The table in that room is very nice.	
+lo ju'a cu'i nanmu poi do pu viska ke'a cu ninmu sa'e	The 'man' that you saw is actually a woman.	
+lo jubme pe ne'i lo va kumfa cu mutce lo ka pluka	The table in that room is very nice.	
 lo jukpa cu zutse ne'i lo jupku'a	The cook is sitting in the kitchen.	
 lo junla cu julbaco	The clock is fast.	
 lo junla cu julpuco lo mentu be li pa no	The clock is ten minutes slow.	
@@ -5739,18 +5713,18 @@ lo kagni pe mi'a ca lo nu ri cfari pu lo'ipli xa po'o lo seljibri	When we starte
 lo kamni cu dau mei	The committee has ten members.	
 lo kamni cu pa no mei	The committee has ten members.	
 lo karce cu bredi	The car is ready.	
-lo karce cu se ponse lo nakni	This car is his.	
+lo karce cu se ponse lo nanmu	This car is his.	
 lo karce na klama co sutra	The car doesn't run fast.	
 lo karce pe la .mark. lu lidyfru bracrida li'u se cmene	Mark's car is called 'Thunder Giant'.	
 lo karce pu darxi su'o tricu	The car hit a tree.	
-lo karcyckiku ma zvati	Where are the car keys?	
+loi ckiku be tu'a lo karce ma zvati	Where are the car keys?	
 lo kibjo'e cu tcesno	Internet is very slow.	
 lo ko flalu zo'u tu'e logji pensi .i panpi menli .i vrude zukte tu'u	Make it your law: logical thought, peaceful mind, virtuous action.	
 lo ko'a runkre ku tamsmi fi lo morsi mlatu	His toupee looks like a dead cat.	
 lo kumfa pu glare	The room was hot.	
-lo la .djan. xance cu jinsa	John's hand is clean.	
-lo la .sen. .micel. renytcana cu zvati ma	Where is the metro St. Michel?	
-lo laldo nanmu cu ponse lo rau jdini	The old man has enough money.	
+lo pa xance ba la .djan. cu jinsa	John's hand is clean.	
+lo renytcana be me'e lu .sen. .micel. cu zvati ma	Where is the metro St. Michel?	
+lo laldo nanmu cu ponse lo rupnu be li rau	The old man has enough money.	
 lo lanzu ca mo	How is the family doing?	
 lo lekmi'i na kunti .i ja lo cikre prenu pu lebna lo ro moi birje	The fridge is not empty, unless the repairman took the last beer.	
 lo loldi pu cilmo lo djacu	The floor was wet with water.	
@@ -5774,7 +5748,6 @@ lo mi junla cu julbaco lo mentu be li re	My clock is two minutes fast.
 lo mi kanla cu na viska ri'a lo solri	My eyes are dazzled by the sun.	
 lo mi kanla cu xekri	I have black eyes.	
 lo mi kerfa cu cilmo	My hair is wet.	
-lo mi lanzu cu pu klama lo mivdalmuzga mu'i lo ka viska lo cionmau kei ca lo prulamkemyzeldei	My family went to the zoo to see pandas last Sunday.	
 lo mi mamta pi so'u roi catlu lo tivni ca lo nicte	My mother seldom watches TV at night.	
 lo mi mensi cu certu batkyci'a	My sister is a very good typist.	
 lo mi mensi cu di'i merli lo vo'a junta	My sister is always weighing herself.	
@@ -5875,7 +5848,6 @@ lo nobli be lo .elfe ba pagre lo xamsi .i na ja lo nobli be la .mordor. cu se ji
 lo nolnau pu sanli ca'u lo banxa	The gentleman stood in front of the bank.	
 lo nolraitruni'u be la gligu'e cu tamne lo nolraitrunau be la .sferies.	The Queen of England is related to the King of Sweden.	
 lo nu ko'a xandegda'i cu simlu lo ka lidysna kei lo la .alisi,ys. kerlo noi tcega'e	The drumming of his fingers was thunderous to Alicia's sensitive ears.	
-lo nu mi pa moi citka loi cidjrsuci cu mutce pluka	The first time I had Sushi was fantastic.	
 lo nu mi xlali bilma la .zukam. cu jeftu	I had a bad cold for a week.	
 lo nu tankyva'u cu galfi lo kamka'o	Smoking affects our health.	
 lo pa cipni ca morsi	The bird is dead.	
@@ -5963,7 +5935,6 @@ lo tcatypatxu cu siclu	The teapot is whistling.
 lo tcatypatxu pu pofybi'o	The teapot broke.	
 lo tcima cu xlali ca lo cabdei	The weather is bad today.	
 lo tcini pu simlu lo ka se pacna be fi li no	The situation seemed hopeless.	
-lo terdi cu malfu'a ki'u lo du'u se me'a ro da cu citka lo cidjrsuci	Earth has bad luck as not everyone eats sushi.	
 lo terdi ze'e ca ru'i binxo	The world changes a lot.	
 lo tirxu pu pifli'a lo mivdalmuzga	The tiger escaped from the zoo.	
 .i lo tixnu be lo bi'u nai fetsi cu mutce melbi	Her daughter is very pretty.	
@@ -5998,7 +5969,6 @@ lo vi relxilma'e mi se srana	This bicycle is mine.
 lo vorme cu ca'o ganlo	The door remains closed.	
 lo vrogai cu suksa binxo kalri .i lo nanmu cu nerkla lo kumfa	All of a sudden, the door opened and a man entered the room.	
 lo vrusi be lo nu pa roi cinba cu se morji mi	The taste of the first kiss remains vivid in my memory.	
-lo xalkrvotka cu zvati ma	Where is the vodka?	
 lo xatra pu selxru	The letter returned.	
 lo xilckabu pe lo mi relxilma'e cu plita	The tire on my bicycle is flat.	
 lo xirma poi bajra fe'e ba'o lo cange dinju co'i farlu	The horse raced past the barn fell.	
@@ -6042,8 +6012,6 @@ lo zdani pu se ke xlali panci	The house stank.
 lo zu'a prenu cu daspo lo pixra kamcnici	The person on the left ruins the balance of the picture.	
 lo'e merko ku pendo tarti	Americans are very friendly people.	
 lo'e se gugdejupunu cu clite	Japanese people in general are polite.	
-lo'e verntineidja cu nelci lo nu samyzilkeikei	Teenagers love playing video games.	
-lo'e verntineidja nanla cu nelci lo nu samyzilkeikei	Teenage boys love playing video games.	
 lo'e xelso merko cu gusta ponse	Lots of Greek-Americans own restaurants.	
 lo'o go ko mrilu lo se citka gi nai mi catra pa lo pinfu	Send in something to eat or I'll kill a hostage.	
 lo'o ko cliva	Get lost!	
@@ -6080,7 +6048,6 @@ li ci no pilji li ci li pa no	30 is the product of 3 times 10.
 li du'e cu jdima	It is too expensive.	
 li du'e cu jdima	It's too expensive!	
 li ki'o ki'o lo'i prenu cu nilxa'ugri la'o .gy. .auckland. .gy.	There are a million people in Auckland.	
-li mo'e namcrgogolo du li pa no te'a pa no no	A googol is ten to the power of one hundred.	
 li mu ca tcika fo lo gugdeburu	It's 5:00 a.m. here in Brazil.	
 li mu se likydekpu lo cnano vau .e'o	Five gallons of regular, please.	
 li mu su'i ci du li bi	Five plus three is eight.	
@@ -6105,10 +6072,8 @@ li pi so'u nilyla'e lo nu la .tom. se sfasa	The probability of Tom being punishe
 li pi so'u nilyla'e lo nu la .alis. se sfasa	The probability of Alice being punished is very small.	
 li pi so'u nilyla'e lo nu la .maris. se sfasa	The probability of Mary being punished is very small.	
 li pi so'u nilyla'e lo nu tugni	There is very little probability of an agreement being reached.	
-li re du lo ro pa namcrprimu poi lamli'e lo namcrprimu	Two is the only prime whose successor is prime.	
 li re mu kacna'u	25 is a natural number.	
 li re pi'i ze pi'i pa pa pi'i pa ci su'i vo du li re no no xa	2 · 7 · 11 · 13 + 4 = 2006	
-li re se steci lo ka namcrprimu gi'e lamli'e su'o namcrprimu	Two is the only prime whose successor is prime.	
 li re su'i re du li mu	Two plus two equals five.	
 li re su'i re du li vo	Two plus two equals four.	
 li re su'i re du li xo	What is 2 + 2?	
@@ -6129,15 +6094,11 @@ li'a sai toldra	Something's obviously wrong.
 lo .deiksas. mensi lo fetspe be mi	Dayxa is my wife's sister.	
 lo .aksiptrina cu katcpi	Hawks are birds of prey.	
 lo .alminiu cu jinme	Aluminum is a metal.	
-lo .arduarko cu .ekselenta kakpa	Aardvarks are excellent diggers.	
-lo .arduarko cu nicte danlu	Aardvarks are nocturnal animals.	
 lo badna ku kukte	Bananas are delicious.	
 lo badna poi crino na ca ba'o banzu lo ka makcu kei lo nu citka	A green banana isn't ripe enough to eat.	
 lo bai selfu pu se pilno bu'u lo gugde'usu co'u lo pa bi xa mu moi nanca	Slavery in the United States was not abolished until 1865.	
 lo bakni cu bakcmo .i je lo mlatu cu latcmo	A cow goes moo, a cat goes meow.	
 lo bakni cu citka lo srasu	Cows eat grass.	
-lo bakrbisoni pe la .bufalos. noi ke'a se cfipu lo bakrbisoni pe la .bufalos. ku'o cfipu lo bakrbisoni pe la .bufalos.	Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo.	
-lo bakrbisoni pe la .bufylos. ge'u poi lo bakrbisoni pe la .bufylos. cu cfipu ku'o cu cfipu lo bakrbisoni pe la .bufylos.	Buffalo buffalo Buffalo buffalo buffalo buffalo Buffalo buffalo.	
 lo balnema cu simsa lo finpe lo ka tarmi	Whales are similar to fish in shape.	
 lo balnema cu tarmi simsa lo finpe	Whales are similar to fish in shape.	
 lo balre be lo dakfu cu kinli lo jipno	The tip of the knife blade is sharp.	
@@ -6156,7 +6117,6 @@ lo be mi mamta ca ca'o ciska lo xatra	My mother is writing a letter now.
 lo be mi patfu cu tinzga lo klasika zgike	My father listens to classical music.	
 lo bebna cu gleki	The fool is happy.	
 lo bekpi be mi za'o se cortu	My back still hurts.	
-lo bersa be mi cu fapro verntineidja	My son is a rebellious teenager.	
 lo bersa be mi cu flapro citnau	My son is a rebellious teenager.	
 lo betka zei genja pu se friti fi la .apolon. bu'u lo malsi be ri bei la .delfis.	Beetroot was offered to Apollo in his temple at Delphi.	
 lo bi'u nai danfu pu gasnu lo nu ko'a co'a fengu	This answer made him angry.	
@@ -6165,7 +6125,6 @@ lo bifce cu vofli vi loi xrula	Bees are flying among the flowers.
 lo bifce mo'u volkla lo xrula	The bee landed on a flower.	
 lo bifce nu tunta ka'e jai ri'a nu carmi cortu	A bee sting can be very painful.	
 lo bifce pu vofli cliva fi lo canko	A bee flew out of the window.	
-lo biorka pezli mo'u pelxu	The birch leaves have already turned yellow.	
 lo bolci pe lo verba cu pu farlu ne'i lo cmari'e	The child's ball fell into the creek.	
 lo bolci pu gunro mo'i ne'i lo cmari'e	The ball rolled into the stream.	
 lo botpi be lo birje cu marji lo blaci	Bottles of beer are made of glass.	
@@ -6367,8 +6326,6 @@ lo gunja'a pu cadzu lo balni be lo brilu se ga'a loi gunka	The boss strolled aro
 lo gunkansa pe do merko xu	Is your coworker an American?	
 lo gunma pu mo'ifli lo nu telgau lo vorme	They forgot to lock the door.	
 lo gusta be lo broselcru cu zvati ma	Where is a kosher restaurant?	
-lo gusta be lo cidjrkacera cu zvati ma	Where is a kosher restaurant?	
-lo gusta be lo cidjrxalalu cu zvati ma	Where is a halal restaurant?	
 lo gusta be lo jungo cu zvati ma	Where is a Chinese restaurant?	
 lo gusta be lo merko cu zvati ma	Where is an American restaurant?	
 lo gusta be lo musyselcru cu zvati ma	Where is a halal restaurant?	
@@ -6442,7 +6399,6 @@ lo karce pe lo famti be mi cu sutra zmadu lo mi co'e	My uncle's car is faster th
 lo karce pe mi cu se gacri lo kalci be lo merpati	My car is covered with pigeon poop.	
 lo karce pu ca'o carna fi lo zunle ma'i lo galtu fe'e mo'u lo pritu	The car was rotating counterclockwise (when viewed from above) until it faced to the right.	
 .i loi tapla poi farlu fi lo drudi pu co'a porpi loi so'i ve'i spisa	The tiles that fell from the roof broke into very small pieces.	
-lo karni cu karni fo lo'e verntineidja	The magazine is aimed at teenagers.	
 lo kaspulji pu tsuku lo jai vi fasnu	The riot police arrived on the scene.	
 lo kenka cu kukte mutce	The cake is delicious.	
 lo kerfa be mi cu kalsa	My hair is a mess.	
@@ -6511,7 +6467,6 @@ lo me mi verba ku je'a nelci lo danlu	My children really like animals.
 lo me mi verba ku zvati lo ckule	My children are in school.	
 lo me ta bruni ku mutce carmi cilre	His brother studies very hard.	
 lo melbi cu lisri fi ko lo citno pendo be mi	Tell a beautiful story to my young friend.	
-lo melbi dansrtinikli cu kulnrfilipino	The beautiful Tinikling dance is Filipino.	
 lo mensi be do cu ca mo	What is your sister doing now?	
 lo mensi be mi cu misno	My sister is famous.	
 lo mensi be mi ku se jibri	My sister has a job.	
@@ -6777,7 +6732,6 @@ lo nu snuti cu jalge lo nu ko'a narviska'e	The accident happened because they co
 lo nu sonci cu jibri mi se ca'i lo jbama	Being a soldier is my job, where I have authority over bombs.	
 lo nu su'o da sidju pu dukse lo ka lerci	Help came too late.	
 lo nu sutydu'e cu na sarcu	There's no need to rush.	
-lo nu tadni lo baurnuludu na nandu	It's not difficult to learn Dutch.	
 lo nu te vecnu ku se gleki mi	Shopping makes me happy!	
 lo nu tirna lo zgike kei mi'a pluka	We enjoyed listening to the music.	
 lo nu troci cu xamgu	Trying is good.	
@@ -6835,8 +6789,6 @@ lo pe mi jdini ba'o se zerlebna	My money was stolen.
 lo pe mi tuple cu ca'o sipna	My leg is still asleep.	
 lo pe mi xance fonxa cu spofu	My mobile phone is broken.	
 lo pendo be mi cu bebna	My friend is stupid.	
-lo pendo be mi cu tadni lo bangrgogurio	My friend is studying Korean.	
-lo pendo be mi cu tadni lo bangrgogurio	My friend studies Korean.	
 lo pendo be mi pu klama la .kanadas.	My friend went to Canada.	
 lo pendo lo tarci cu simsa lo ka ro roi viska na je ku'i zasti	Good friends are like stars. You don't always see them, but you know they are always are there.	
 lo pi'ai mitre fei'u snidu cu gradu lo sornairauci'e lo ni muvysutra .i lo go'i cu se sinxa me'o .my. fi'u bu .sy.	The meter per second is the SI unit for velocity. Its symbol is m/s.	
@@ -6860,12 +6812,10 @@ lo'e remna cu frica lo'e danlu lo ka kakne lo ka pensi gi'e tavla	Human beings a
 lo prenu ku krici lo du'u lo cevni ku zasti kei ku	People believe that god exists.	
 lo prenu pe bu'u lo tcadu pu klama mu'i lo ka sidju lo nakni	People in the town came to help him.	
 lo prenu poi ke'a catra la .jyfykys. cu te pleji fi la .cy'ibu'abus.	The person who shot JFK worked for the CIA.	
-lo prenu poi ke'a catra la'oi .jyfk. cu te pleji fi la'oi cia	The person who shot JFK worked for the CIA.	
 lo prenu poi ko'a ca'o tavla ke'a me la .alyn.	The person she's talking to is Allan.	
 lo prenu poi lo ke'a speni cu morsi ku'o mrospe	A man whose wife is dead is called a widower.	
 lo prenu ro roi te preti di'u mi	People ask me that all the time.	
 lo prilio cu vo moi masti lo'e nanca	April is the fourth month of the year.	
-lo proletari cu .ei cirko lo po'o linsi pe lo nei	The proletarians have nothing to lose but their chains.	
 lo pruxi po ra cu panpi surla di'ai	May his soul rest in peace.	
 lo pu jatna be la mergu'e cu du lo ro merko poi se slabu ro jatna be lo gugde	The former president of the United States is the only American who knows the president of every country.	
 lo pu nu la .tom. cu jukpa kei ja'a na'e xlali	Tom's cooking was actually not so bad.	
@@ -7129,7 +7079,6 @@ lo verba cu se pluka lo ka tinzu'e tu'a lo lisri	The children love listening to 
 lo verba cu se pluka lo ka tinzu'e tu'a lo ranmi	The children love listening to fairy tales.	
 lo verba ku nitcu lo nu se prami	A child needs love.	
 lo verba ku zgana lo makcu	Children watch adults.	
-lo verntineidja cu pu ba'o cliva	The teenagers left.	
 lo vi cradi cu spofu	This radio is out of order.	
 lo vi cukta cu me mi moi .i lo me do moi ma zvati	This book is mine. Where is yours?	
 lo vi cukta cu me mi nai moi	This book isn't mine.	
@@ -7185,7 +7134,6 @@ lo vorme na ganlo	The door was not closed.
 lo vorme na ka'e ganlo	The door won't close.	
 lo vorme pu ganlo	The door was closed.	
 lo vrusi be ti noi grute cu mabla	This fruit tastes bad.	
-lo vu tadni natmrxanguke	Those students are Korean.	
 lo xabju be lo bi'u nai cmatca cu ta'e kansi'u lo nu bevri lo narge me lo vo xance be lo re prenu be'o poi se tarmi lo julne mei li so'o	The people living in that village habitually carry together several heaps of nuts, each heap being of the size of a net that is formed by two people's four hands.	
 lo xagji cityge'u ca ca'o gercmo vi lo klaji	Hungry puppies are barking on the street.	
 lo xagji cribe cu citka lo cinki ku ji'a sai	A hungry bear will eat even insects.	
@@ -7252,9 +7200,7 @@ lo zvati be lo kensa la terdi cu terselmlu lo ka cmalu	Seen from space, Earth se
 lo'e bakni cu citka loi srasu	Cows eat grass.	
 lo'e bebna poi ke'a ponse lo tutci cu ba'e bebna	A fool with a tool is still a fool.	
 lo'e cipni cu vofli	Birds fly.	
-lo'e cipnrkorvo cu xekri	Crows are black.	
 lo'e cribe cu ka'e cpare lo'e tricu	A bear can climb a tree.	
-lo'e djacu cu dunja lo kelvrfarenxaito be li ci re	Water freezes at 32 degrees Fahrenheit.	
 lo'e fasnu na jalge no da	Things don't just happen.	
 lo'e jbonei cu mo ca'i do	As an authority on such things, how can you describe the typical Lojban-enthusiast?	
 lo'e krokodilo ku se ke kinli denci	Crocodiles have sharp teeth.	
@@ -7631,8 +7577,8 @@ ma se zvati la .paris.	Where is Paris?
 ma se zvati la .tom. .i ta'i ma mi djuno da'i	Where's Tom?' 'How would I know?'	
 ma se zvati la .alis. .i ta'i ma mi djuno da'i	Where's Alice?' 'How would I know?'	
 ma se zvati la .maris. .i ta'i ma mi djuno da'i	Where's Mary?' 'How would I know?'	
-ma se zvati la'o .gy. lau rie .gy.	Where is Laurie?	
-ma se zvati la'oi lau rie	Where is Laurie?	
+ma se zvati la'o .gy. laurie .gy.	Where is Laurie?	
+ma se zvati la'oi laurie	Where is Laurie?	
 ma se zvati lo ckiku	Where's the key?	
 ma se zvati lo fonxa	Where's the phone?	
 ma se zvati lo gerku	Where's the dog?	
@@ -8638,7 +8584,7 @@ mi mrilu lo jbesla se dunda ko'a	I sent her birthday present bу post.
 mi mrilu lo se dunda ko'a ki'u lo zi jbesla be ko'a	I sent her birthday present bу post.	
 mi mulgau	I have done it.	
 mi mulkla la .tokios. ca lo prulamdei	I arrived in Tokyo yesterday.	
-mi mulno lo ka ce'u na'e kakne lo nu ce'u tavla fo lo fraso	I can't speak French at all.	
+mi mulno lo ka ce'u na'e kakne lo ka tavla fo lo fraso	I can't speak French at all.	
 mi mulno nalmorji tu'a la .tom.	I forgot all about Tom.	
 mi mulno nalmorji tu'a la .alis.	I forgot all about Alice.	
 mi mulno nalmorji tu'a la .maris.	I forgot all about Mary.	
@@ -8946,7 +8892,6 @@ mi na tugni	I do not agree.
 mi na tugni do la'e do'i	I disagree with you on this.	
 mi na tugni ko'a	I don't agree with him.	
 mi na verba	I'm not a child.	
-mi na verntineidja	I'm not a teenager.	
 mi na viska da	I don't see anything.	
 mi na viska su'o prenu	I didn't see anybody.	
 mi na viska ta	I don't see it.	
@@ -8955,7 +8900,7 @@ mi na xadgu'a	I don't go in for sports.
 mi na za'o djica lo nu mi gletu lo na slabu be mi	I don't want to sleep with just anybody anymore.	
 mi na za'o se zdani	I no longer have a home.	
 mi na zifre lo ka cuxna	I have no choice.	
-mi na zmiku	I'm not a robot.	
+mi na gasnu lo zmiku	I'm not a robot.	
 mi na zukte	I didn't mean to!	
 mi na'e djuno fi lo tadji be ko'a	I don't know how to do it.	
 mi na'e djuno fi lo tadji be ti	I don't know how to do this.	
@@ -8985,8 +8930,6 @@ mi nalre'ucti	I am a vegetarian.
 mi nanca li pa bi	I am eighteen years old.	
 mi nanmu	I am a man.	
 mi na ru'e se slabu do	I hardly know you.	
-mi natmrxanguke	I am Korean.	
-mi natmrxanguke	I'm Korean.	
 mi ne tai do pu na'o ckape litru .i ba bo lo tuple cidni be mi cu se xrani pa cecla grana	I used to be an adventurer like you, then I took an arrow in the knee.	
 mi nei sanji	I am aware, and aware that I am aware, and aware that I am aware that I am aware ...	
 mi nelci ba'e lo pavdei	I love Monday!	
@@ -9010,7 +8953,6 @@ mi nelci lo brazo porto	I like Brazilian Portuguese.
 mi nelci lo cakla	I like chocolate.	
 mi nelci lo cakyrespa	I like turtles.	
 mi nelci lo caxmati	I enjoy chess.	
-mi nelci lo cidjrsuci .i'e	I like sushi.	
 mi nelci lo ctuca	I like the teacher.	
 mi nelci lo dja'aza	I like jazz.	
 mi nelci lo do karce	I like your car.	
@@ -9093,7 +9035,6 @@ mi nitcu lo ka djuno lo du'u xu kau mi ka'e sidju	I need to know if you can help
 mi nitcu lo ka ralte lo karce poi cnino	I need a new car.	
 mi nitcu lo ka ralte lo skami poi cnino	I need a new computer.	
 mi nitcu lo ka tavla do	I need to talk with you.	
-mi nitcu lo kansa poi se bangrxangu	I need an assistant who speaks Korean.	
 mi nitcu lo nanba je lo ladru	I need some bread and milk.	
 mi nitcu lo nu cusku da do	There's something I have to tell you.	
 mi nitcu lo nu do gasnu si'u nai	I need you to do it yourself.	
@@ -9210,7 +9151,6 @@ mi prami la .tom. si .maris.	I love Tom, err, I mean Mary.
 mi prami la .alis. si .maris.	I love Alice, err, I mean Mary.	
 mi prami la .maris. si .maris.	I love Mary, err, I mean Mary.	
 mi prami lo bangu	I love this language.	
-mi prami lo djalazani	I love lasagna.	
 mi prami lo gerku	I love dogs.	
 mi prami lo ka bajra ne se mau ro drata be vo'e	I love to jog more than anything else in the world.	
 mi prami lo melbi	I am a lover of the beautiful.	
@@ -9573,7 +9513,7 @@ mi pu zi mo'u citka lo dormijysai	I've just finished lunch.
 mi pu zi terve'u pa relxima	I just bought a bike.	
 mi pu zi ve nuzba	I just saw the news.	
 mi pu zi viska la .djeimyz.	I have recently seen James.	
-mi pu zi vitke lo kagni nunpenmi be se zau lo cnino kagni platu	I was just at the company meating, where the new business plan was approved.	
+mi pu zi vitke lo kagni nunpenmi be se zau lo cnino kagni platu	I was just at the company meeting, where the new business plan was approved.	
 mi pu zi xruti	I have just returned.	
 mi pu zu'edji lo ka te vecnu lo cnino santa	I decided to buy a new umbrella.	
 mi pu zukte da poi drani	I did what was right.	
@@ -9679,7 +9619,6 @@ mi se krasi la .boston.	I come from Boston.
 mi se mansa da	I'm satisfied.	
 mi se mansa lo se jerna be mi	I'm satisfied with my salary.	
 mi se nandu lo ka spusku fi lo do preti	Your question is hard for me to answer.	
-mi se panzi lo ci verntineidja	I have three teenagers.	
 mi se pluka lo ka ciska finti lo pemci	I like to write poems.	
 mi se pluka lo ka citka lo titla	I like to eat sweets.	
 mi se pluka lo nu viska do	I am pleased to see you.	
@@ -9709,7 +9648,6 @@ mi se zdani la .xiogos. poi vipsi gugde	I live in Hyogo Prefecture.
 mi se zdani lo barda	I have a big house.	
 mi se zdani lo laldo dinju	I live in an old house.	
 mi se zdile lo si'o minde soi se cusku lu ko cakcurnu li'u	I am amused by the idea of commanding by saying 'Be a snail!'.	
-mi se zgica'a lo violni	I play the violin.	
 mi se zukte'obi lo ka limna kansa lo delfinu	My hobby is swimming with dolphins.	
 mi se ba'i do da'i tu'a de'u toljundi	If I were you, I'd ignore it.	
 mi selcme zo .xopkins.	My name is Hopkins	
@@ -10196,7 +10134,7 @@ mi'ai pu dansu ze'a ro pagbu be lo nicte	We danced all night long.
 mi'ai pu jinvi lo du'u xajmi	We thought it was hilarious.	
 mi'ai pu na terpa	We were not afraid.	
 mi'ai pu pu'i viska lo snuti	We actually saw the accident.	
-mi'ai pu snada lo nu ce'u limna be mo'i pa'o lo rirxe	We managed to swim across the river.	
+mi'ai pu snada lo ka limna mo'i pa'o lo rirxe	We managed to swim across the river.	
 mi'ai pu tavla zu'ai ca lo prulamdei	We spoke yesterday.	
 mi'ai pu viska lo nu ko'a co'i klama lo nenri be lo kumfa	We saw her enter the room.	
 mi'ai pu za'o mo'u tsuku lo cmana jipno	We finally reached the top of the mountain.	
@@ -10254,7 +10192,6 @@ mi'o ba mo	What'll we do?
 mi'o ba zi sei .incala cu zvati lo zdani	Inshallah, soon we'll be home.	
 mi'o ca ca'o jai fanza lo ctuca	We are annoying the teacher.	
 mi'o casnu ma	What were we talking about?	
-mi'o citka lo cirlrmontereidjaki	We eat Monterey Jack cheese.	
 mi'o dansu	We'll dance.	
 mi'o denpa	We'll wait.	
 mi'o denpa ma	What are we waiting for?	
@@ -10378,7 +10315,6 @@ mu'i ma ra fengu	Why is she angry?
 mu'i ma ra na se'ixru	Why doesn't he come back?	
 mu'i ma do pinxe loi djacu	What is the motivation for you to drink water?	
 mu'i ma do zukte	Why do you do it?	
-mu'i ma lo ta verntineidja cu cmila	Why are these teenagers laughing?	
 mu'o pei	Have you finished?	
 mukti lo nu mi te nuzba	That's why I share this news.	
 mutce carvi	It's raining cats and dogs.	
@@ -10447,7 +10383,6 @@ na ka'e ku jmive se cau lo djacu	There is no life without water.
 na ka'e se gugle	It's not googleable.	
 na kakne fa lo gerku lo ka cpare lo bitmu	A dog can't climb up a wall.	
 na krici kakne	It's unbelievable.	
-na ku ro blondino cu mentolcre	Not all blondes are dumb.	
 na nei	This sentence is false.	
 na nitcu lo ka terpa	There's no need to be afraid.	
 na nu pamli'u	It's not a date.	
@@ -10643,7 +10578,6 @@ pa da zo'u mi fityzau .i ja nai da fasnu	I accept, but only under one condition.
 pa kabri cu cpana lo jubme	There's one cup on the table.	
 pa lo gerku .e re lo prenu ca'o plipe	One dog and two people are jumping.	
 pa lo tirxu pu pifli'a lo mivdalmuzga	One of the tigers has escaped from the zoo.	
-pa lo verntineidja cu pu krixa	One of the teenagers screamed.	
 lo cmima be ra cu djica lo nu ri pamjai do	Someone among them wants to hug you.	
 pa me la .alis. jo'u la .bob. jo'u la .kevin. na nelci lo mlatu	Out of Alice, Bob and Kevin, only one doesn't like cats.	
 pa pagbu cu stali	There's one piece left.	
@@ -10658,8 +10592,8 @@ pacna fa mi lo nu ctuca	My dream is to become a teacher.
 .i bu'u palci munje	It's a cruel world.	
 pa mei je'i re mei farna .e'o je nai	One way or round trip?' - 'One way, please.'	
 pa mei je'i re mei farna .e'o pa mei po'o	One way or round trip?' - 'One way, please.'	
-pa no da zo'u ko'a kakne lo nu ce'u se bangu da	He can speak ten languages.	
-pa no da zo'u ko'a kakne lo nu ce'u se bangu da	He is able to speak ten languages.	
+pa no da zo'u ra kakne lo ka tavla fo da	He can speak ten languages.	
+pa no da zo'u ra kakne lo ka tavla fo da	He is able to speak ten languages.	
 pa no ma poi skina cu traji co se nelci do	What are your top ten favorite movies?	
 papri .au	I want some paper.	
 pa re'u lo nu mi lo'ipli lo jukpa cu cabna	This is the first time I've ever recruited a cook.	
@@ -10836,7 +10770,6 @@ preti lo snuti mi ra	I asked him about the accident.
 pu ba'o cnemu fe ko'a lo ka xendo no da	She got nothing in reward for her kindness.	
 pu ba'o si'ercarvi	It had snowed.	
 pu bapli fe lo nu lo brito vonmoija'a cu randa	The British commander was forced to surrender.	
-pu brilugi .i loi sliti tovzi ja'a zarna carna zi lo blixa .i pu ku se mimsi lo brogovzi .i je loi zdaraxa pu ku krixa	Twas brillig, and the slithy toves did gyre and gimble in the wabe; All mimsy were the borogoves, and the mome raths outgrabe.	
 pu carmi carvi ze'e lo donri	She is the one who took care of his wound.	
 pu carmi je lenku donri ca lo vonmasti .i snasni lo junla la .pacicac.	It was a bright cold day in April, and the clocks were striking thirteen.	
 .i pu ca'o carvi	It was raining.	
@@ -10919,10 +10852,6 @@ pu'i se bangu lo banjupunu	He can speak Japanese.
 pu gi mi klama lo zarci gi mi citka	I'll go to the store after I eat.	
 pu ku ca lo nu ra verba kei ra xabju lo cmalu tcadu	When he was a child, he lived in a small town.	
 pu ku za'u da renvi	There were survivors.	
-pu zi ki citka lo cidjrsuci .i je pinxe lo xribirje	He just ate sushi and drank beer.	
-pu zi ki citka lo cidjrsuci .i je pinxe lo xribirje	I just ate sushi and drank beer.	
-pu zi ki citka lo cidjrsuci .i je pinxe lo xribirje	She just ate sushi and drank beer.	
-pu zi ki citka lo cidjrsuci .i je pinxe lo xribirje	We just ate sushi and drank beer.	
 ra ba kelci lo fudbolo ca lo bavlamdei	He will play soccer tomorrow.	
 ra ba troci za'u re'u	She'll try it once more.	
 ra ba'o nonkansa	He isn't alone anymore.	
@@ -11297,7 +11226,6 @@ re bruna be ko'a cu se jibri lo gundi be lo skami	She has two brothers, who work
 re crida cu xebni ro termakfa	There are exactly two goblins who each hate every wizard.	
 re da kerlo ma'a	We have two ears.	
 re do mi se rai pendo	You two are my best friends.	
-re namcrprimu cu jbini li pa no bi'i li pa vo	There are only two primes between 10 and 14.	
 re nanla pu bajli'a lo nenri be lo kumfa	Two boys came running out of the room.	
 re ninmu cu simxu lo ka slabu	The two women know each other.	
 re ra jmive	Both are alive.	
@@ -11689,7 +11617,6 @@ ta barda zdani	That house is big.
 ta blanu zdani	That's a blue house.	
 ta bloti	That is a boat.	
 ta bloti xo lo prenu	How many people were aboard that ship?	
-ta blotrskunri	That is a schooner.	
 ta brablo	That is a ship.	
 ta cadzu klama lo ckule	He walks to school.	
 ta cilmo	That is wet.	
@@ -11707,7 +11634,6 @@ ta jo'a melbi	That is beautiful.
 ta jo'a melbi	That is indeed beautiful.	
 ta ka'e jelca	That is flammable.	
 ta karce gi'e selpo'e ra	That is his car.	
-ta karni fo lo'e verntineidja	That magazine is aimed at teenagers.	
 ta lisri tu'a lo nanla .e lo nixli .e lo mlatu	It's the story of a boy, a girl, and a cat.	
 ta me lai .kraislr. me'u karce	That is a Chrysler car.	
 ta me lo cukta pe mi	That's my book.	
@@ -11811,8 +11737,6 @@ ta'o nai .e'u do klama ti po'u la .tokios.	In any case, you should come up to To
 tabno ja tarla	It's carbon or soot.	
 tadji ko'a fa zo'e .ua nai	I don't know how to do it.	
 tadni lo jbobau ta'i lo ka tcidu fi lo saske brafi'a	He's studying the Lojban language by reading science novels.	
-tai ku transite fa lo gloriia co munje	Thus passes the glory of the world.	
-tai lo nu lo cinfo cu nolraitru lo danlu kei lo .atkuila cu nolraitru lo cipni	As the lion is king of beasts, so is the eagle king of birds.	
 tai no da	No way.	
 tai sai kukte	How delicious!	
 tamkai noi kutkai .i kutkai noi tamkai	Form is emptiness; emptiness is form.	
@@ -11845,7 +11769,6 @@ ti ckule fo la .maris.	This is Mary's school.
 ti cmalu cukta	This is a small book.	
 ti cnino	This is new.	
 ti cnino karce	This is a new type of car.	
-ti cu djarspageti	This is spaghetti.	
 ti cu pluka mi	This pleases me.	
 ti cukmirvelvei	This is a DVD.	
 ti cukta fi ma	Who wrote this book?	
@@ -11864,7 +11787,6 @@ ti dukse cmalu	This is too small.
 ti fanmo	This is the end.	
 ti fanri loi keltci	They make toys at this factory.	
 ti fasnu za'u re roi ro jeftu	This happens more than two times per week.	
-ti fu'ivla fu lo baurgurucu	The word comes from Greek.	
 ti gerku	This is a dog.	
 ti gerku ma	What kind of dog is that?	
 ti .i'u xotli .i ta .i'u nai xotli si'a	This is an hotel I know of. That one is also some hotel.	
@@ -12018,7 +11940,7 @@ ti tu'urki tcaci	This is a Turkish tradition.
 ti xamgu la .tom.	This is for Tom.	
 ti xamgu la .alis.	This is for Alice.	
 ti xamgu la .maris.	This is for Mary.	
-ti xamgu lo ka cilre vanbi	This is a good learning environment.	
+vanbi co xamgu be lo ka cilre	This is a good learning environment.	
 ti xamgu zdani	This is a good house.	
 ti xirma	This is a horse.	
 ti xlali	This is bad.	
@@ -12171,7 +12093,6 @@ va zasti fa lo pelxu rozgu	There is a yellow rose.
 va'i bilga lo nu senpi lo kaurselju'o	In other words, you should doubt common sense.	
 va'i do tugni mi xu	In other words, you agree with *me*?	
 va'i so'i tcana cu ru'i benji lo zgike vreji se ta'i lo nu mi na kakne lo nu fukpi gasnu	In other words, many nodes continuously stream music files as a method of preventing me from copying them.	
-va'o lo balcu'e be bu'u lo razgu'e mi se co'arsau lo melbi ke gugdrpolska ninmu gi'e ji'a penmi lo xe'otce poi se bangrpolska	I became acquainted with beautiful Polish women at the university in Brazil, and I also met there some very friendly people who could speak Polish.	
 va'o lo banli lisri pe fi'e la .kristian. .anasn. zi'e pe me'e lu lo cnino taxfu be lo balnoltru li'u lo re tcica cu nupre fi lo balnoltru fe tu'a lo cnino taxfu poi na ka'e se viska da poi ke'a na mapti lo ke'a jibri gi'a nalvu'e gi'a bebna	In Hans Christian Andersen's classic fairy tale, 'The Emperor's New Clothes,' two swindlers promise an emperor beautiful new clothes that are invisible to anyone who is unfit for their position, unjust or stupid.	
 va'o lo kensa no da su'o mu'ei tirna lo nu krixa	In space, no one can hear you scream.	
 va'o lo nu da'i do mibypre cu zukte da'i ma fa do	What would you do in my place?	
@@ -12202,7 +12123,6 @@ vi bifcau	There is no breeze here.
 vi ckusro lo me'i mu no ki'o mei	There are more than 50,000 books in this library.	
 vi djacu	Here's some water.	
 vi ku da pe do ckiku	Here are your keys.	
-vi lo mi zdani ku ckafrspreso mi'izba	At home I have a Espresso maker.	
 zvati ma	Where is it?	
 vi ma ka'e fonpli	Where can we make a phone call?	
 vi ma la .tonis. cu kelci	Where was Tony playing then?	
@@ -12219,7 +12139,6 @@ viska do ba zi	See you soon.
 vobmipri ne'i lo sroku'a	He's hiding in the closet.	
 vobmipri ne'i lo sroku'a	She's hiding in the closet.	
 vobmipri ne'i lo sroku'a	They're hiding in the closet.	
-vofli cipnrxigli ne'i lo tsani	There are flying birds in the sky.	
 vo no lo prenu pu zvati	Forty people attended.	
 vrude prenu	They are good people.	
 vu bu'u do mi sipna	Far away from you, I sleep.	
@@ -12470,7 +12389,6 @@ xu do nelci lo nu xabju lo gugde	Do you like to live in the country?
 xu do nelci lo nu xabju lo nurma	Do you like to live in the country?	
 xu do nelci lo pendo pe mi	Do you like my friend?	
 xu do nelci lo ponjo cidja	Do you like Japanese food?	
-xu do nelci lo rismrsuci	Do you like sushi?	
 xu do nelci lo snime	Do you like snow?	
 xu do nelci lo tadni kansa pe do	Do you like your classmates?	
 xu do nelci lo tcati	Do you like tea?	
@@ -12572,7 +12490,6 @@ xu do se bangu la .uigur.	Can you speak Uyghur?
 xu do se bangu lo bancumunu	Can you speak Mandarin?	
 xu do se bangu lo bangenugu	Can you speak English?	
 xu do se bangu lo bangenugu	Do you speak English?	
-xu do se bangu lo bangrklingo	Do you speak Klingon?	
 xu do se bangu lo bantu'uru	Do you speak Turkish?	
 xu do se bangu lo bantuluxe	Do you speak Klingon?	
 xu do se bangu lo bantuzulu	Do you speak Talossan?	
@@ -12725,7 +12642,6 @@ xu lo panka cu stuzi so'i tricu	Are there many trees in the park?
 .i xu lo patfu be re poi nanmu cu certu lo ka mikce	Is her father a doctor?	
 .i xu lo patfu be do cu se kagni	Is your father a businessperson?	
 .i xu lo pendo be do ta'e nelci lo'e tcati	Does your friend like tea?	
-xu lo plinici'u kampu cu vimcu lo diklo malsorgle	Does globalisation mean the disappearance of local sluts?	
 xu lo ponjo prenu cu mutce citka lo finpe	Do Japanese eat a lot of fish?	
 xu lo se jinvi be lo drata bei do do vajni	Do you care what other people think about you?	
 xu lo vi finpe cu ca ca'o jmive	Is this fish still alive?	
@@ -12806,7 +12722,6 @@ xu ta djuno lo du'u do prami vo'a	Does he know that you love him?
 xu ta du ro da	Is that all?	
 xu ta fraso	Is that French?	
 xu ta noi karce du'e va'ei cmalu	Is that car too small?	
-xu ta'o do zgiterca'a lo violni	By the way, do you play the violin?	
 xu ta'o do zifre ca lo cabynicte	By the way, are you free tonight?	
 xu ta'o do zifre ca lo lecydo'i	By the way, are you free this afternoon?	
 xu ti banzu	Is this enough?	
@@ -12923,7 +12838,6 @@ zerfuzyxu'a ko'a lo nu zerle'a loi jdini	He was accused of stealing money.
 zerle'a lo mi dinvau	Someone stole my wallet.	
 zerle'a lo kanjunla mi ca lo prulamcte	I had my watch stolen last night.	
 zerle'a lo mi karce ca lo prulamcte	My car was stolen last night.	
-zgikrxumpa ko	Play the Humppa!	
 .i lo trene ba zi tolyli'a	The train is arriving soon.	
 .i lo trene ba zi cliva	The train is leaving soon.	
 zi vensa	It will be spring soon.	
@@ -12931,7 +12845,6 @@ zi vensa	Spring will be here soon.
 .i zmadu fi lo ka sutra gi'e galtu gi'e tsali	Faster, higher, stronger!	
 zo .djan. cmene mi	My name is John.	
 zo ba'e basna lo valsi poi se lidne je nai lidne zo ba'e	The word 'ba'e' emphasizes the word that follows it, rather than what precedes it.	
-zo cidjrpitsa fu'ivla	The word 'cidjrpitsa' is a loan word.	
 zo .djak. cmene mi	My name is Jack.	
 zo .lutsiferas. cmene ko'a	Her name is Lucifera.	
 zo mu se cusku la .aleks.	Five!' says Alex.	
@@ -13035,7 +12948,6 @@ ca lo nu mi verba ku mi ta'e ze'a lo cacra be li so'o cu tcidu ne'i lo mi kumfa 
 ko kaikla lo ka tavla lo mi jibykansa	Go and speak to my colleague.	
 .i .e'u mi'o na jai zu'e se .urja	Let's not be in too much of a hurry.	
 .i mi ca'o surla cadzu bu'u pa panka	I'm taking a walk in a park.	
-lo ckuliki tunta banra cu zvati ro diklo be lo mi birka	I've got mosquito bites all over my arm.	
 lu xu do se tunba su'o da li'u ce'o lu na go'i .i mi po'o panzi li'u	Do you have any siblings? "No, I'm an only child."	
 .i xu do pu'i penmi lo fetsi	Did you meet her?	
 .i xu do sanji lo barda jei lo fetsi ca prami do	Are you aware of how much she loves you?	
@@ -13369,6 +13281,7 @@ lo jeftu cu djedi li ze	There are seven days in a week.
 .i lo rismi poi zvati tu cu klani ma ma	How much rice is there?	
 ti du lo lerfu so'i mei noi .ei do cilre fi ke'a	Here is a few letters for you to learn.	
 .i mi jai gau kalri fai lo vorme	I open the door.	
+lo ka vifne gi'e grute gi'a bo stagi cu ka mutce gasnu lo nu kanro	Fresh fruits and vegetables are good for your health.	
 .i mi na jai gau kalri fai lo vorme	I don't open the door.	
 .i xu do jai gau kalri fai lo vorme	Do you open the door?	
 .i ca ma do jai gau kalri fai lo vorme	When do you open the door?	
@@ -13622,7 +13535,6 @@ mi ckaji lo ka pa taksi ca'o se jai se denpa bu'u lo bartu	I've got a taxi waiti
 .i mi bilga lo ka bevri ti noi cukta vau lo ponse ca lo cabdei vau lo pu se nupre be mi	I must take this book to the owner today fulfilling my earlier promise.	
 .i ra pu terpa lo nu vo'a co'a bilma fi la .zukam.	She was afraid to catch a cold.	
 .i mi bilma lo ka cortu lo denci vau lo .influ'enza	I've got the flu and my teeth hurt.	
-.i lo kagni cu binra lo sportivo lo'e xrani lo ka pleji lo jdini	The company insures the sportsman against injuries by paying money as an insurance.	
 .i lo tsiju ba zi binxo lo tricu	The seed soon will turn into a tree.	
 .i .e'o do smaji	Please, be quiet.	
 .i lo pezli be lo bi'orka co'a pelxu	The birch leaves have turned yellow.	
@@ -13639,8 +13551,6 @@ mi ckaji lo ka pa taksi ca'o se jai se denpa bu'u lo bartu	I've got a taxi waiti
 .i lo tsani cu blanu ca lo cabdei	The sky is blue today.	
 .i lo'e blato cu mipri lo nei ca lo'e donri	Cockroaches hide themselves during daytime.	
 .i lo dinju cu te zbasu lo rokci bliku	The house is built of stone blocks.	
-.i pa blondine nixli pu mo'u klama te zu'e lo nu vo'a penmi do	A girl with blond hair arrived to meet you.	
-.i doi la .alis. ma traji lo ka do nelci vau fo lo'e blondine ce lo'e brunete	Alice, whom do you like more, blondes or brunets?	
 .i mi pu se marce pa bloti be lo'e prenu bei pa te falnu	I was a passenger on a sailboat for carrying people.	
 .i lo bolci pu gunro fe'e co'u lo flu'ente	The ball rolled into the stream.	
 .i lo bombila cu spofu	The light bulb is broken.	
@@ -13978,7 +13888,6 @@ ro da poi mokca lo xislu zo'u da go nai carna lo jendu lo pritu be ri bei mi gi'
 .i .au mi vitke lo dzipo tumla	I want to visit the Antarctica.	
 .i lo patfu be mi pu .enge ti noi dinju	My father was an architect of this building.	
 .i la .kevin. cu mutce lo ka .entuzi lo ka co'a se jibri lo cnino	Kevin is very enthusiastic about getting a new job.	
-.i mi sportivo la .tenis.	I practice tennis.	
 .i mi facki lo jitfa lo pu se cusku be la .alis.	I discovered false statements in what Alice said.	
 .i mi facki lo du'u lo tcadu cu jibni	I found that the city is near.	
 .i mi pu facki lo du'u lo lisri cu xajmi	I found the story funny.	
@@ -14002,7 +13911,6 @@ ro da poi mokca lo xislu zo'u da go nai carna lo jendu lo pritu be ri bei mi gi'
 .i do fanza mi	You annoy me.	
 .i mi pu fliba lo ka fapro lo nu do cisma	I couldn't resist your smile.	
 .i xu do fapro fi lo ka sidju mi	Do you refuse to help me?	
-.i mi pu farlu fi pa skalera fe lo dertu	I fell down from the stairs onto the ground.	
 .i la .alis. pu jai gau farlu fai lo dakli lo jubme	Alice dropped the bag on the table.	
 .i lo canko cu farna lo nu la .alis. pu catlu vau mi	From my viewpoint, Alice was looking at the direction of the window.	
 .i lo'e nanba cu farvi lo bredi lo te zbasu lo nu co'a mixre lo purmo jo'u lo matne jo'u lo sovda jo'u lo sakta vau jo'u ba bo lo nu glare jo'u ba bo lo nu satre vo'a lo matne	One makes a standard cake from raw materials by mixing flour, butter, eggs and sugar together, then heating, then greasing the cake with butter, and after that, it is ready.	
@@ -14563,7 +14471,6 @@ ro da poi mokca lo xislu zo'u da go nai carna lo jendu lo pritu be ri bei mi gi'
 .i mi nanca li re mu	I am 25 years old.	
 .i mi se zdani ti ze'a lo nanca be li vo	I have been living here for 4 years.	
 .i nandu mi fa lo ka cadzu ti voi ricfoi	It's hard for me to wade through this forest.	
-.i xu do pu'i smaka lo sanso be lo tcilokoiotli	Have you ever tasted pumpkin sauce?	
 .i tu noi nanla cu mo	Who is that boy?	
 .i .o'i lo nanmu cu jgari pa xarci	Careful, the man is holding a gun!	
 .i lo jgalu cu nanvi lo mitre lo ka zenba lo ka clani vau ca ro snidu	One nanometer is the length that a fingernail grows in one second.	
@@ -14684,7 +14591,6 @@ ro da poi mokca lo xislu zo'u da go nai carna lo jendu lo pritu be ri bei mi gi'
 .i xu do zgipli lo pipno	Do you play the piano?	
 .i ti pixra pa zbani mi poi pu zvati la .nipon.	This is a picture of the coast that I made when I was in Japan.	
 .i lo nanla cu plana lo ka se betfu	The boy is fat with his belly.	
-.i lo terdi cu melbi planeta	The Earth is a beautiful planet.	
 .i mi .aidji lo ka klama la .nipon.	I am going to go to Japan.	
 .i mi platu lo ka klama la .nipon. vau lo ka surla	I'm planning to go to Japan to take rest.	
 .i mi pu pleji lo se jerna lo bersa be mi lo ka sidju mi	I paid my son for what he earned for helping me.	
@@ -14807,7 +14713,6 @@ ro da poi mokca lo xislu zo'u da go nai carna lo jendu lo pritu be ri bei mi gi'
 .i ko jai gau jelca fai pa sacki	Light up a match.	
 .i me'o re pi mu saclu li mu fe'i re li pa no	2.5 is the decimal equivalent of the fraction 5/2 in base 10.	
 .i lo prenu pu sakci lo danmo pe ra'i lo fagri lo fepni	He inhaled some smoke from the fire into his lungs.	
-.i pa sportivo pu sakli lo bisli	A sportsperson was gliding on the ice.	
 .i .o'i lo loldi cu se sakli	Warning! The floor is slippery.	
 .i mi djica tu'a lo tcati be se cau lo sakta	I want some tea without sugar.	
 .i mi pu salci lo nu mi jai nanca li pa no vau lo ka litru la .nipon.	I celebrated my 10th birthday by travelling to Japan.	
@@ -14890,7 +14795,6 @@ ro da poi mokca lo xislu zo'u da go nai carna lo jendu lo pritu be ri bei mi gi'
 .i mi cusku lo sitna be la .alis. bei lo du'u lo mamta nau nu'o mo'u klama lo zdani	I quoted Alice referring to the fact that the mother is not yet at home .	
 .i lo tadji be lo nu zbasu lo poi tai kukte vau stasu cu sivni mi	How to make such a tasty soup is a secret to me.	
 .i mi pu te vecnu pa tordu skaci	I bought a short skirt.	
-.i ti skalera lo ci jarki	These are stairs with three narrow steps.	
 .i lo skami pe mi cu spofu	My computer is broken.	
 .i lo skapi be lo cnebo be mi cu xunre	The skin on my neck is red.	
 .i lo dacti cu skari lo xunre	It is colored red.	
@@ -14941,7 +14845,6 @@ ro da poi mokca lo xislu zo'u da go nai carna lo jendu lo pritu be ri bei mi gi'
 .i mi pu pinxe lo sodva be lo bisli kruji	I was drinking an ice cream soda.	
 .i lo solji cu kargu	Gold is expensive.	
 .i lo letri te jorne poi lo solji cu sefta cu xe benji se la'u li rau	Electrical junctions with gold surfaces are good transmitters.	
-.i ti solri so'o barda planeta	This is a home star of several big planets.	
 .i xu do mo'u sombo lo tsiju lo dertu	Have you sown the seeds in the ground?	
 .i ti se sonci pa ki'o ji'i da	This is an army of approximately 1000 soldiers.	
 .i .ei mi klama lo sorcu be lo cidja	I should go to a food store.	
@@ -15138,8 +15041,6 @@ ro da poi mokca lo xislu zo'u da go nai carna lo jendu lo pritu be ri bei mi gi'
 .i vanci coi	Good evening!	
 .i ca vanci	It's evening now.	
 .i .ai ca lo vanci be lo bavlamdei bei vo'e mi vitke lo mamta be mi	I'm going to visit my mother tomorrow evening.	
-.i tu vasru lo plise .e lo vanjba .e lo tcilokoiotli .e lo drata grute	It contains apples, grapes, pumpkin and other fruits.	
-.i tu vasru lo perli .e lo vanjba .e lo tcilokoiotli .e lo drata grute	It contains pears, grapes, pumpkin and other fruits.	
 .i ti vanju lo xunre vanjba	This is wine from red grapes.	
 .i lo tanxe pu vasru so'i cukta	The box was full of books.	
 .i .e'u mi'o vasxu lo so'o vifne vacri	Let's breathe some fresh air.	
@@ -15558,7 +15459,6 @@ fi'i lo vitke be lo zdani be mi'a	Welcome to our house.
 .i ko sisti	Stop it!	
 .i kukte ko	Enjoy your meal.	
 .i ko dasni lo taxfu	Get dressed.	
-.i ma'a se zdani lo bu'u planeta	We inhabit this planet.	
 .i lo rarna munje cu vajni ca lo nu ma'a se lifri	Nature plays an important role in our lives.	
 .i mi gleki	I'm happy.	
 .i mi'a pu casnu do	We were discussing you.	
@@ -15685,7 +15585,6 @@ ti voi cukte cu se ponse mi	This book is mine.
 .i ci delfinu ca limna vi lo korbi	There are three dolphins swimming near the shore.	
 .i mu bakni pu zvati lo purdi	There were 5 cows in the garden.	
 .i no bramlatu ca zvati lo boske	There are no big cats in the forest.	
-.i pa planeta cu xamgu loi remna	There is one planet for humanity.	
 .i re cribe ca cpana lo bisli	There are two bears on the ice.	
 .i bi penbi cu se pilno mi	There are 8 pens that I use.	
 .i vo manti ca plipe lo tricu	There are 4 ants climbing the tree.	
@@ -16037,7 +15936,6 @@ ti voi cukte cu se ponse mi	This book is mine.
 .i mi kakne lo ka plipe fi lo ve'i cmana vau zo'o cu'i	I might be able to jump from the hill.	
 .i zo'o nai do jai fanza	Seriously, you are annoying.	
 .i ge'e lo mlatu pe mi mo'u se jbena pa no da	Well, my cat has given birth to ten kittens.	
-.i lu mi pu te vecnu pa granate li'u lu granate ki'a li'u	&quot;I bought granate.&quot; &quot;Huh, granate?&quot;	
 .i lu sa'u lo verba cu mutce lo ka tatpi li'u lu ki'a nai li'u	&quot;The child is just very tired.&quot; &quot;I understand.&quot;	
 .i do .o nai ko'oi mi co'a morsi	Either you or I die!	
 .i ko'oi mi'o klama	Let's go!	
@@ -16110,7 +16008,6 @@ xu do pensi lo vi'e pixra	Are you thinking of the whole picture?
 .i mi ba volta za lo djedi be li ci	I will return in three days.	
 .i mi ba volta ba zi lo cacra be li pa	I will return soon, in an hour.	
 .i la .alis. pu cliva zu lo nanca be li pa no	Alice left ten years ago (a long time).	
-.i lo prenu poi pu tavla do zi'e noi blondine cu bruna mi vau .ue pei	The man that talked to you and who is blond is my brother, surprised?	
 .i zo gleki cmene mi	Gleki is my name.	
 .i xu do se zdani la'oi virginia	Do you live in Virginia?	
 .i la .alis. cu mu'oi .gy. prima donna .gy.	Alice is a prima donna.	
