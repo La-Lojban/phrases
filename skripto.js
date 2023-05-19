@@ -1,114 +1,135 @@
-require('dotenv').config()
+require("dotenv").config();
 const fs = require("fs");
 const path = require("path");
 const lojban = require("lojban");
 const { GoogleSpreadsheet } = require("google-spreadsheet");
 
-const doc = new GoogleSpreadsheet(
-  "1Md0pojdcO3EVf3LQPHXFB7uOThNvTWszkWd5T4YhvKs"
-);
-if (!process.env.KEY) { console.log('muplis update cancelled, no KEY specified'); process.exit() }
-doc.useApiKey(process.env.KEY);
+if (!process.env.GOOGLE_READONLY_API_KEY || !process.env.GOOGLE_CORPUS_DOC_ID) {
+  console.log("muplis update cancelled, no GOOGLE_READONLY_API_KEY or GOOGLE_CORPUS_DOC_ID specified");
+  process.exit();
+}
+const doc = new GoogleSpreadsheet(process.env.GOOGLE_CORPUS_DOC_ID);
+doc.useApiKey(process.env.GOOGLE_READONLY_API_KEY);
 (async () => {
   await doc.loadInfo();
   const sheet = doc.sheetsById[551499663];
 
-
   let output = {
     en2jb: [],
-    jb2en: []
+    jb2en: [],
   };
 
   const limit = 10000;
   for (let offset = 0; offset < 92000; offset += limit) {
     try {
-      const rows = await sheet.getRows(
-        {
-          offset,
-          limit
-        })
+      const rows = await sheet.getRows({
+        offset,
+        limit,
+      });
       const { jb2en, en2jb } = processRows(rows);
       output.jb2en = output.jb2en.concat(jb2en);
       output.en2jb = output.en2jb.concat(en2jb);
     } catch (error) {
       console.log(error.response.data);
-      continue
+      continue;
     }
   }
 
   console.log(`writing to output...`);
-  createDexieCacheFile(output.jb2en)
+  createDexieCacheFile(output.jb2en);
   output.jb2en = output.jb2en
-    .map(i => `${i.source}\t${i.target}\t${i.tags.join(" ")}`)
+    .map((i) => `${i.source}\t${i.target}\t${i.tags.join(" ")}`)
     .join("\n")
     .replace(/[\r\n]{2,}/g, "\n");
   output.en2jb = output.en2jb
-    .map(i => `${i.source}\t${i.target}\t${i.tags}`)
+    .map((i) => `${i.source}\t${i.target}\t${i.tags}`)
     .join("\n")
     .replace(/[\r\n]{2,}/g, "\n");
   fs.writeFileSync(path.join(__dirname, "./dist/jb2en.tsv"), output.jb2en);
   fs.writeFileSync(path.join(__dirname, "./dist/en2jb.tsv"), output.en2jb);
-
-})()
+})();
 
 function createDexieCacheFile(arr) {
-  const a = arr.map(i => {
-    let cache = `${i.source};${i.source.replace(/h/g, "'")};${i.source_opt};${(i.source_opt || '').replace(/h/g, "'")};${i.target.replace(/[\.,!?\/\\]/g, '').replace(/[h‘]/g, "'")};`
+  const a = arr.map((i) => {
+    let cache = `${i.source};${i.source.replace(/h/g, "'")};${i.source_opt};${(
+      i.source_opt || ""
+    ).replace(/h/g, "'")};${i.target
+      .replace(/[\.,!?\/\\]/g, "")
+      .replace(/[h‘]/g, "'")};`;
     const cache1 = cache
       .toLowerCase()
-      .replace(/ /g, ';')
-      .split(';')
+      .replace(/ /g, ";")
+      .split(";")
       .map((i) => i.trim())
-      .filter((i) => i !== '')
+      .filter((i) => i !== "");
     let cache2 = cache
       .toLowerCase()
       .replace(
         /[ \u2000-\u206F\u2E00-\u2E7F\\!"#$%&()*+,\-.\/:<=>?@\[\]^`{|}~：？。，《》「」『』－（）]/g,
-        ';'
+        ";"
       )
-      .split(';')
+      .split(";")
       .map((i) => i.trim())
-      .filter((i) => i !== '')
-    cache = cache1.concat(cache2)
-    cache = [...new Set(cache)]
-    const outRow = { w: i.source, bangu: 'muplis', d: i.target, cache }
-    if (i.tags.length > 0) outRow.s = i.tags
-    return outRow
-  })
-  splitOutput(a)
+      .filter((i) => i !== "");
+    cache = cache1.concat(cache2);
+    cache = [...new Set(cache)];
+    const outRow = { w: i.source, bangu: "muplis", d: i.target, cache };
+    if (i.tags.length > 0) outRow.s = i.tags;
+    return outRow;
+  });
+  splitOutput(a);
 }
 
 function canonicalizeValsi(valsi) {
-  if (/^[aeiouy]/.test(valsi)) valsi = "." + valsi
-  if (/y$/.test(valsi) && valsi.indexOf(".") !== 0) valsi = valsi + "."
-  if (/[^aeiouy]$/.test(valsi)) valsi = "." + valsi + "."
-  return valsi.replace(/\.\./g, '.')
+  if (/^[aeiouy]/.test(valsi)) valsi = "." + valsi;
+  if (/y$/.test(valsi) && valsi.indexOf(".") !== 0) valsi = valsi + ".";
+  if (/[^aeiouy]$/.test(valsi)) valsi = "." + valsi + ".";
+  return valsi.replace(/\.\./g, ".");
 }
 
 function processRows(rows) {
   let n = [];
   for (const r of rows) {
-    if (r._rowNumber % 100 === 0) console.log(`processing row ${r._rowNumber}`)
+    if (r._rowNumber % 100 === 0) console.log(`processing row ${r._rowNumber}`);
     let j;
-    const tags = (r["Ilmen's tags"] || '') + (r["gleki's tags"] || '') + (r["uakci's optional new tags"] || '');
+    const tags =
+      (r["Ilmen's tags"] || "") +
+      (r["gleki's tags"] || "") +
+      (r["uakci's optional new tags"] || "");
     j = {
-      source: r['Tatoeba: English'] || "",
+      source: r["Tatoeba: English"] || "",
       target:
-        r['gleki\'s alternative proposal'] ||
-        r['Ilmen\'s alternative proposal'] ||
-        r['uakci\'s revision'] ||
-        r['jelca proposal'] ||
-        r['Tatoeba: Lojban'] ||
+        r["gleki's alternative proposal"] ||
+        r["Ilmen's alternative proposal"] ||
+        r["uakci's revision"] ||
+        r["jelca proposal"] ||
+        r["Tatoeba: Lojban"] ||
         "",
-      tags: r["gleki's tags"] || r["Ilmen's tags"] || r["uakci's optional new tags"] || ''
+      tags:
+        r["gleki's tags"] ||
+        r["Ilmen's tags"] ||
+        r["uakci's optional new tags"] ||
+        "",
     };
 
-    if ((tags.indexOf("B") >= 0 && j.target === r['Tatoeba: Lojban']) || (r['Tatoeba: Lojban'] || '') === '' || (r['Tatoeba: English'] || '') === '') continue;
-    j.target = lojban.preprocessing(j.target.toLowerCase())
+    if (
+      (tags.indexOf("B") >= 0 && j.target === r["Tatoeba: Lojban"]) ||
+      (r["Tatoeba: Lojban"] || "") === "" ||
+      (r["Tatoeba: English"] || "") === ""
+    )
+      continue;
+    j.target = lojban.preprocessing(j.target.toLowerCase());
 
     try {
-      j.target_opt = lojban.romoi_lahi_cmaxes(lojban.zeizei(j.target.replace(/ĭ/g, "i")
-        .replace(/ŭ/g, "u")), 'T').kampu.filter(i => i[0] !== 'drata').map(i => i[1]).join(" ").replace(/-/g, '');
+      j.target_opt = lojban
+        .romoi_lahi_cmaxes(
+          lojban.zeizei(j.target.replace(/ĭ/g, "i").replace(/ŭ/g, "u")),
+          "T"
+        )
+        .kampu.filter((i) => i[0] !== "drata")
+        .map((i) => i[1])
+        .join(" ")
+        .replace(/-/g, "");
     } catch (error) {
       continue;
     }
@@ -124,10 +145,18 @@ function processRows(rows) {
       j.target.search(/\bzoi\b/) === -1
     ) {
       try {
-        const parsed = lojban.romoi_lahi_cmaxes(j.target)
-        if (parsed.tcini == 'fliba') continue
-        j.target = parsed.kampu.filter(i => i[0] !== 'drata').map(i => canonicalizeValsi(i[1])).join(" ").replace(/-/g, '')
-        if (!j.target.split(" ").includes("zei")) j.target_opt = j.target_opt.split(" ").filter(i => i !== 'zei').join(" ")
+        const parsed = lojban.romoi_lahi_cmaxes(j.target);
+        if (parsed.tcini == "fliba") continue;
+        j.target = parsed.kampu
+          .filter((i) => i[0] !== "drata")
+          .map((i) => canonicalizeValsi(i[1]))
+          .join(" ")
+          .replace(/-/g, "");
+        if (!j.target.split(" ").includes("zei"))
+          j.target_opt = j.target_opt
+            .split(" ")
+            .filter((i) => i !== "zei")
+            .join(" ");
       } catch (error) {
         console.log(error);
       }
@@ -135,34 +164,47 @@ function processRows(rows) {
     }
   }
 
-  let en2jb = n.map(r => {
-    const outRow = { source: r.source, target: r.target, tags: r.tags }
+  let en2jb = n.map((r) => {
+    const outRow = { source: r.source, target: r.target, tags: r.tags };
     return outRow;
   });
-  en2jb = [...new Set(en2jb.map(el => JSON.stringify(el)))].map(el => JSON.parse(el))
-  let jb2en = n.map(r => {
+  en2jb = [...new Set(en2jb.map((el) => JSON.stringify(el)))].map((el) =>
+    JSON.parse(el)
+  );
+  let jb2en = n.map((r) => {
     // Or this is what la Ilmen uses: G (good), G− (a little good, not so good), G+ (very good), A (acceptable), B[−+] ([a little / very] bad), N (neologism, containing an undocumented Lojban word), E (experimental grammar), P (non-conventional punctuation), C - CLL style, X - xorlo. W - play on words and thus poorly translatable to/from Lojban
-    r.tags = r.tags.replace(/ /g, '').split(/[A-Z][\+\-]?/).filter(i => i !== '').map(i => {
-      i = i
-        .replace(/^G\-$/, '👍')
-        .replace(/^G$/, '👍👍')
-        .replace(/^G\+$/, '👍👍👍')
-        .replace(/^A$/, '😐')
-        .replace(/^B-$/, '👎')
-        .replace(/^B$/, '👎👎')
-        .replace(/^B\+$/, '👎👎👎')
-        .replace(/^N$/, '👒')
-        .replace(/^E$/, '🧪')
-        .replace(/^P$/, '🎗')
-        .replace(/^C$/, '📕')
-        .replace(/^X$/, 'xorlo')
-        .replace(/^W$/, 'trokadilo')
-      return i
-    })
-    const outRow = { source: r.target, source_opt: r.target_opt, target: r.source, tags: r.tags }
+    r.tags = r.tags
+      .replace(/ /g, "")
+      .split(/[A-Z][\+\-]?/)
+      .filter((i) => i !== "")
+      .map((i) => {
+        i = i
+          .replace(/^G\-$/, "👍")
+          .replace(/^G$/, "👍👍")
+          .replace(/^G\+$/, "👍👍👍")
+          .replace(/^A$/, "😐")
+          .replace(/^B-$/, "👎")
+          .replace(/^B$/, "👎👎")
+          .replace(/^B\+$/, "👎👎👎")
+          .replace(/^N$/, "👒")
+          .replace(/^E$/, "🧪")
+          .replace(/^P$/, "🎗")
+          .replace(/^C$/, "📕")
+          .replace(/^X$/, "xorlo")
+          .replace(/^W$/, "trokadilo");
+        return i;
+      });
+    const outRow = {
+      source: r.target,
+      source_opt: r.target_opt,
+      target: r.source,
+      tags: r.tags,
+    };
     return outRow;
   });
-  jb2en = [...new Set(jb2en.map(el => JSON.stringify(el)))].map(el => JSON.parse(el))
+  jb2en = [...new Set(jb2en.map((el) => JSON.stringify(el)))].map((el) =>
+    JSON.parse(el)
+  );
 
   return { jb2en, en2jb };
 }
@@ -218,52 +260,52 @@ function splitToChunks(array, parts) {
 }
 
 function splitOutput(arr) {
-  const tegerna = 'muplis'
-  const hash = require('object-hash')(arr)
+  const tegerna = "muplis";
+  const hash = require("object-hash")(arr);
 
   splitToChunks(arr, 5).forEach((chunk, index) => {
     const outp = {
-      formatName: 'dexie',
+      formatName: "dexie",
       formatVersion: 1,
       data: {
-        databaseName: 'sorcu1',
+        databaseName: "sorcu1",
         databaseVersion: 2,
         tables: [
           {
-            name: 'valsi',
-            schema: '++id, bangu, w, d, n, t, *s, g, *r, *cache, [r+bangu]',
+            name: "valsi",
+            schema: "++id, bangu, w, d, n, t, *s, g, *r, *cache, [r+bangu]",
             rowCount: chunk.length,
           },
         ],
         data: [
           {
-            tableName: 'valsi',
+            tableName: "valsi",
             inbound: true,
             rows: chunk,
           },
         ],
       },
-    }
-    let dir = '/livla/build/sutysisku/data'
-    dir = fs.existsSync(dir) ? dir : './dist'
-    let pathBinDump = path.join(
-      dir,
-      `parsed-${tegerna}-${index}.bin`
-    )
-    fs.writeFileSync(path.join(
-      dir,
-      `parsed-${tegerna}-${index}.json`
-    ), JSON.stringify(outp))
-    const brotli = require('brotli-wasm');
-    fs.writeFileSync(pathBinDump, brotli.compress(Buffer.from(JSON.stringify(outp))))
-  })
-  const versio = '/livla/build/sutysisku/data/versio.json'
-  let jsonTimes = {}
+    };
+    let dir = "/livla/build/sutysisku/data";
+    dir = fs.existsSync(dir) ? dir : "./dist";
+    let pathBinDump = path.join(dir, `parsed-${tegerna}-${index}.bin`);
+    fs.writeFileSync(
+      path.join(dir, `parsed-${tegerna}-${index}.json`),
+      JSON.stringify(outp)
+    );
+    const brotli = require("brotli-wasm");
+    fs.writeFileSync(
+      pathBinDump,
+      brotli.compress(Buffer.from(JSON.stringify(outp)))
+    );
+  });
+  const versio = "/livla/build/sutysisku/data/versio.json";
+  let jsonTimes = {};
   try {
-    jsonTimes = JSON.parse(fs.readFileSync(versio, { encoding: 'utf8' }))
-  } catch (error) { }
-  jsonTimes[tegerna] = hash
+    jsonTimes = JSON.parse(fs.readFileSync(versio, { encoding: "utf8" }));
+  } catch (error) {}
+  jsonTimes[tegerna] = hash;
   try {
-    fs.writeFileSync(versio, JSON.stringify(jsonTimes))
-  } catch (error) { }
+    fs.writeFileSync(versio, JSON.stringify(jsonTimes));
+  } catch (error) {}
 }
